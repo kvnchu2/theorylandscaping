@@ -16,31 +16,33 @@ const Navbar = () => {
   return (
     <header>
       <nav className={`nav`}>
-        <Link href={"/"}>
-          <a>
-            <h1 className="logo">CodeWithMarish</h1>
-          </a>
-        </Link>
-        <div
-          onClick={() => setNavActive(!navActive)}
-          className={`nav__menu-bar`}
-        >
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div className={`${navActive ? "active" : ""} nav__menu-list`}>
-          {MENU_LIST.map((menu, idx) => (
-            <div
-              onClick={() => {
-                setActiveIdx(idx);
-                setNavActive(false);
-              }}
-              key={menu.text}
-            >
-              <NavItem active={activeIdx === idx} {...menu} />
-            </div>
-          ))}
+        <div className="nav-div">
+          <Link href={"/"}>
+            <a>
+              <h1 className="logo">CodeWithMarish</h1>
+            </a>
+          </Link>
+          <div
+            onClick={() => setNavActive(!navActive)}
+            className={`nav__menu-bar`}
+          >
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div className={`${navActive ? "active" : ""} nav__menu-list`}>
+            {MENU_LIST.map((menu, idx) => (
+              <div
+                onClick={() => {
+                  setActiveIdx(idx);
+                  setNavActive(false);
+                }}
+                key={menu.text}
+              >
+                <NavItem active={activeIdx === idx} {...menu} />
+              </div>
+            ))}
+          </div>
         </div>
       </nav>
     </header>
