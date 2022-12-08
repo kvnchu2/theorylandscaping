@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import "../styles/globals.css";
+import "../styles/navbar.modules.css";
 import "../styles/home.modules.css";
 import "../styles/root.modules.css";
 import "../styles/about.modules.css";

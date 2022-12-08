@@ -39,5 +39,5 @@ return (
       </div>
     </footer>
   </>
-  )
+  );
 }
