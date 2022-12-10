@@ -14,7 +14,7 @@ const About = () => {
         <div className="content">
           <span className="topper">Who We Are</span>
           <h2>Headline that describes your business.  Make it two lines</h2>
-          <div aria-hidden="true" class="decoration">
+          <div aria-hidden="true" className="decoration">
             <img src="/images/leaf.svg" alt=""></img>
             <div className="line"></div>
           </div>

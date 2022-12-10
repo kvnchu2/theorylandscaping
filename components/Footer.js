@@ -3,15 +3,15 @@ export default function footer() {
 return (
   <>
     <footer id="footer">
-      <div class="container">
-          <div class="left-section">
-              <a class="logo" href="/index.html"><img loading="lazy" decoding="async" src="/images/logo-white.svg" alt="logo" width="293" height="91"></img></a>
+      <div className="container">
+          <div className="left-section">
+              <a className="logo" href="/index.html"><img loading="lazy" decoding="async" src="/images/logo-white.svg" alt="logo" width="293" height="91"></img></a>
               <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, aut. Molestias delectus rem nihil distinctio nemo assumenda laudantium. Veritatis, natus.
               </p>
           </div>
-          <div class="right-section">
-              <div class="lists">
+          <div className="right-section">
+              <div className="lists">
                   <ul>
                       <li><h2>Company</h2></li>
                       <li><a href="/index.html">Home</a></li>
@@ -30,8 +30,8 @@ return (
                   </ul>
               </div>
   
-              <div class="buttons">
-                  <a class="button-solid" href="/contact.html" >
+              <div className="buttons">
+                  <a className="button-solid" href="/contact.html" >
                       Call to action button
                   </a>
               </div>
