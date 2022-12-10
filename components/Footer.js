@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function footer() {
 
 return (
@@ -5,7 +7,7 @@ return (
     <footer id="footer">
       <div className="container">
           <div className="left-section">
-              <a className="logo" href="/index.html"><img loading="lazy" decoding="async" src="/images/logo-white.svg" alt="logo" width="293" height="91"></img></a>
+              <Link href="/"><a className="logo"><img loading="lazy" decoding="async" src="/images/logo-white.svg" alt="logo" width="293" height="91"></img></a></Link>
               <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, aut. Molestias delectus rem nihil distinctio nemo assumenda laudantium. Veritatis, natus.
               </p>
@@ -14,13 +16,13 @@ return (
               <div className="lists">
                   <ul>
                       <li><h2>Company</h2></li>
-                      <li><a href="/index.html">Home</a></li>
-                      <li><a href="/about.html">About Us</a></li>
-                      <li><a href="/contact.html">Services</a></li>
+                      <li><Link href="/"><a>Home</a></Link></li>
+                      <li><Link href="/about"><a>About Us</a></Link></li>
+                      <li><Link href="/contact"><a>Services</a></Link></li>
                   </ul>
                   <ul>
                       <li><h2>Support</h2></li>
-                      <li><a href="/contact.html">Contact Us</a></li>
+                      <li><Link href="/contact"><a>Contact Us</a></Link></li>
                   </ul>
                   <ul>
                       <li><h2>Get in Touch</h2></li>

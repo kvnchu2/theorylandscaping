@@ -15,34 +15,34 @@ const Contact = () => {
             <form id="contact" name="Contact Form" method="post" data-netlify-recaptcha="true" data-netlify="true">
                     <div className="input-group">
                         <label htmlFor="name">Full Name</label>
-                        <input id="name" aria-label="name" className="input1" name="name" placeholder="Full Name" type="text" tabindex="1" required></input>
+                        <input id="name" aria-label="name" className="input1" name="name" placeholder="Full Name" type="text" tabIndex="1" required></input>
                         <div aria-hidden="true" className="hover-box"></div>
                     </div>
 
                     <div className="input-group">
                         <label htmlFor="email">Email</label>
-                        <input id="email" aria-label="email" className="input1 right" name="email" placeholder="Email Address" type="email" tabindex="2" required></input>
+                        <input id="email" aria-label="email" className="input1 right" name="email" placeholder="Email Address" type="email" tabIndex="2" required></input>
                         <div aria-hidden="true" className="hover-box"></div>
                     </div>
 
                     <div className="input-group">
                         <label htmlFor="phone">Phone</label>
-                        <input id="phone" aria-label="phone number" className="input1" name="phone" placeholder="Phone Number" type="tel" tabindex="3" required></input>
+                        <input id="phone" aria-label="phone number" className="input1" name="phone" placeholder="Phone Number" type="tel" tabIndex="3" required></input>
                         <div aria-hidden="true" className="hover-box"></div>
                     </div>
                     <div className="input-group">
                         <label htmlFor="location">Location</label>
-                        <input id="location" aria-label="location" className="input1 right" name="location" placeholder="Your Location" type="text" tabindex="4" required></input>
+                        <input id="location" aria-label="location" className="input1 right" name="location" placeholder="Your Location" type="text" tabIndex="4" required></input>
                         <div aria-hidden="true" className="hover-box"></div>
                     </div>
                     <div className="input-group">
                         <label htmlFor="how">How did you hear about us</label>
-                        <input id="how" aria-label="how did you hear about us" name="hear" placeholder="How Did You Hear About Us" type="text" tabindex="5" required></input>
+                        <input id="how" aria-label="how did you hear about us" name="hear" placeholder="How Did You Hear About Us" type="text" tabIndex="5" required></input>
                         <div aria-hidden="true" className="hover-box"></div>
                     </div>
                     <div className="input-group textarea">
                         <label htmlFor="message">Message</label>
-                        <textarea id="message" aria-label="write your message" name="message" placeholder="Tell us about what you need help with" tabindex="6" required></textarea>
+                        <textarea id="message" aria-label="write your message" name="message" placeholder="Tell us about what you need help with" tabIndex="6" required></textarea>
                         <div aria-hidden="true" className="hover-box"></div>
                     </div>
                 <p className="form-submit">
