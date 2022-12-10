@@ -8,8 +8,8 @@ export default function Testimonials() {
         <h1 id="home-h">Testimonials</h1>
     </section>
 
-    <section id="reviews" class="review-wrapper">
-        <div class="stars">
+    <section id="reviews" className="review-wrapper">
+        <div className="stars">
             <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
             <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
             <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
@@ -19,8 +19,8 @@ export default function Testimonials() {
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis assumenda voluptatum dolor quaerat labore quis commodi impedit quod inventore reiciendis beatae, ab molestias veniam quam sequi magnam natus aut?
         </p>
-        <span class="name">Leah M</span>
-        <div class="stars">
+        <span className="name">Leah M</span>
+        <div className="stars">
             <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
             <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
             <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
@@ -30,8 +30,8 @@ export default function Testimonials() {
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis assumenda voluptatum dolor quaerat labore quis commodi impedit quod inventore reiciendis beatae, ab molestias veniam quam sequi magnam natus aut?
         </p>
-        <span class="name">Chad K.</span>
-        <div class="stars">
+        <span className="name">Chad K.</span>
+        <div className="stars">
             <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
             <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
             <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
@@ -41,8 +41,8 @@ export default function Testimonials() {
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis assumenda voluptatum dolor quaerat labore quis commodi impedit quod inventore reiciendis beatae, ab molestias veniam quam sequi magnam natus aut?
         </p>
-        <span class="name">Kaytlyn Wallin</span>
-        <div class="stars">
+        <span className="name">Kaytlyn Wallin</span>
+        <div className="stars">
             <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
             <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
             <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
@@ -52,8 +52,8 @@ export default function Testimonials() {
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis assumenda voluptatum dolor quaerat labore quis commodi impedit quod inventore reiciendis beatae, ab molestias veniam quam sequi magnam natus aut?
         </p>
-        <span class="name">Ryan P</span>
-        <div class="stars">
+        <span className="name">Ryan P</span>
+        <div className="stars">
             <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
             <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
             <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
@@ -63,7 +63,7 @@ export default function Testimonials() {
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis assumenda voluptatum dolor quaerat labore quis commodi impedit quod inventore reiciendis beatae, ab molestias veniam quam sequi magnam natus aut?
         </p>
-        <span class="name">Marco P.</span>
+        <span className="name">Marco P.</span>
     </section>
     </>
   )
