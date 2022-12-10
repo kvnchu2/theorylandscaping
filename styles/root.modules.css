@@ -103,7 +103,7 @@
     margin: 0;
     line-height: 1.2em;
     color: #292929;
-    margin-bottom: 1.5em;
+    /* margin-bottom: 1.5em; */
   }
   .container {
     padding: 0 0.5em;
