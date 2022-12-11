@@ -12,10 +12,11 @@ main {
     padding-top: 5em;
     position: relative;
     z-index: 1;
-    /* background: url("../../images/landing-mobile.jpg"); */
+    /* background: url("../public/images/infinite-wellness-background.jpg"); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #f1f1f1;
   }
   #hero:before {
     content: '';
@@ -24,7 +25,7 @@ main {
     height: 100%;
     width: 100%;
     background: #ECEFFE;
-    opacity: .9;
+    opacity: .3;
     top: 0;
     left: 0;
     z-index: -10;
@@ -109,7 +110,7 @@ main {
     padding: 6.15em 0 11.45em 0;
     z-index: 1;
     overflow: hidden;
-    /* background: url("../../images/landing.jpg"); */
+    background: url("../public/images/infinite-wellness-background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -33,9 +33,9 @@ export default function Home() {
                       </a>
                   </div>
               </div>
-              <div className="business-casual">
+              {/* <div className="business-casual">
                 <Image decoding="async" src={ryanCaselli} alt="" width="" height=""/>
-              </div>
+              </div> */}
           </div>
       </section>
 
