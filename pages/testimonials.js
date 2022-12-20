@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+import Profile from "../public/images/profile.svg";
+import Stars from "../public/images/stars.svg";
 
 export default function Testimonials() {
 
@@ -8,63 +11,94 @@ export default function Testimonials() {
         <h1 id="home-h">Testimonials</h1>
     </section>
 
-    <section id="reviews" className="review-wrapper">
-        <div className="stars">
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
+    <section id="reviews">
+    <div class="container">
+        <div class="review">
+            <picture className="profile">
+                <Image loading="lazy" decoding="async" src={Profile} alt="" width="99" height="99" />
+            </picture>
+            <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+            </p>
+            <div class="star-group">
+            <span class="name">B Miller<span class="desc">Homeowner</span></span>
+                <picture>
+                <Image aria-hidden="true" loading="lazy" decoding="async" src={Stars} alt="stars" width="91" height="15" />
+                </picture>
+            </div>
         </div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis assumenda voluptatum dolor quaerat labore quis commodi impedit quod inventore reiciendis beatae, ab molestias veniam quam sequi magnam natus aut?
-        </p>
-        <span className="name">Leah M</span>
-        <div className="stars">
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
+        <div class="review">
+            <picture>
+                <img class="profile" loading="lazy" decoding="async" src="/assets/images/profile.svg" alt="" width="99" height="99"></img>
+                </picture>
+                <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+                </p>
+                <div class="star-group">
+                <span class="name">Vincent M.<span class="desc">Homeowner</span></span>
+                    <picture>
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/stars.svg" alt="stars" width="91" height="15"></img>
+                    </picture>
+                </div>
         </div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis assumenda voluptatum dolor quaerat labore quis commodi impedit quod inventore reiciendis beatae, ab molestias veniam quam sequi magnam natus aut?
-        </p>
-        <span className="name">Chad K.</span>
-        <div className="stars">
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
+        <div class="review">
+            <picture>
+                <img class="profile" loading="lazy" decoding="async" src="/assets/images/profile.svg" alt="" width="99" height="99"></img>
+                </picture>
+                <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+                </p>
+                <div class="star-group">
+                    <span class="name">Alex L.<span class="desc">Homeowner</span></span>
+                    <picture>
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/stars.svg" alt="stars" width="91" height="15"></img>
+                    </picture>
+                </div>
         </div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis assumenda voluptatum dolor quaerat labore quis commodi impedit quod inventore reiciendis beatae, ab molestias veniam quam sequi magnam natus aut?
-        </p>
-        <span className="name">Kaytlyn Wallin</span>
-        <div className="stars">
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
+        <div class="review">
+            <picture>
+                <img class="profile" loading="lazy" decoding="async" src="/assets/images/profile-woman.svg" alt="" width="99" height="99"></img>
+                </picture>
+                <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+                </p>
+                <div class="star-group">
+                <span class="name">Arrieana M.<span class="desc">Homeowner</span></span>
+                    <picture>
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/stars.svg" alt="stars" width="91" height="15"></img>
+                    </picture>
+                </div>
         </div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis assumenda voluptatum dolor quaerat labore quis commodi impedit quod inventore reiciendis beatae, ab molestias veniam quam sequi magnam natus aut?
-        </p>
-        <span className="name">Ryan P</span>
-        <div className="stars">
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
-            <img loading="lazy" decoding="async" src="/images/star.svg" alt="" height="30" width="30"></img>
+        <div class="review">
+            <picture>
+                <img class="profile" loading="lazy" decoding="async" src="/assets/images/profile.svg" alt="" width="99" height="99"></img>
+                </picture>
+                <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+                </p>
+                <div class="star-group">
+                <span class="name">Leo N.<span class="desc">Homeowner</span></span>
+                    <picture>
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/stars.svg" alt="stars" width="91" height="15"></img>
+                    </picture>
+                </div>
         </div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis assumenda voluptatum dolor quaerat labore quis commodi impedit quod inventore reiciendis beatae, ab molestias veniam quam sequi magnam natus aut?
-        </p>
-        <span className="name">Marco P.</span>
-    </section>
+        <div class="review">
+            <picture>
+                <img class="profile" loading="lazy" decoding="async" src="/assets/images/profile.svg" alt="" width="99" height="99"></img>
+                </picture>
+                <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
+                </p>
+                <div class="star-group">
+                    <span class="name">Brian A.<span class="desc">Homeowner</span></span>
+                    <picture>
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/stars.svg" alt="stars" width="91" height="15"></img>
+                    </picture>
+                </div>
+        </div>
+    </div>
+</section>
     </>
   )
 }

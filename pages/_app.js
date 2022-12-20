@@ -6,6 +6,7 @@ import "../styles/root.modules.css";
 import "../styles/about.modules.css";
 import "../styles/contact.modules.css";
 import "../styles/testimonials.modules.css";
+import "../styles/reviews.modules.css";
 
 function MyApp({ Component, pageProps }) {
   return (

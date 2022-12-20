@@ -75,7 +75,7 @@
 <---        Testimonials        -->
 <--- -------------------------- -*/
 /* Mobile */
-@media only screen and (min-width: 0) {
+/* @media only screen and (min-width: 0) {
   #reviews {
     padding-top: 1.75em;
     padding-bottom: 7.5em;
@@ -140,9 +140,9 @@
     opacity: .2;
     z-index: -1;
   }
-}
+} */
 /* Small Desktop */
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
   #reviews {
     padding: 0px 0 5em;
   }
@@ -153,4 +153,4 @@
     width: 35em;
     margin: auto;
   }
-}
+} */
