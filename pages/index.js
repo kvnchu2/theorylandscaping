@@ -4,6 +4,11 @@ import Image from "next/image";
 import phone from '../public/images/phone.svg';
 import phoneDark from '../public/images/phone-dark.svg';
 import ryanCaselli from '../public/images/ryan-caselli.png';
+import Service1 from '../public/images/service11.svg';
+import Service2 from '../public/images/service22.svg';
+import Service3 from '../public/images/service33.svg';
+
+
 
 export default function Home() {
   return (
@@ -39,7 +44,7 @@ export default function Home() {
           </div>
       </section>
 
-    <section id="services" className="section">
+    {/* <section id="services" className="section">
         <div className="service">
             <h2>This is a main<span> service you do</span></h2>
             <p>
@@ -61,6 +66,56 @@ export default function Home() {
             </p>
             <a href="/contact.html" className="button-solid">Get in Touch</a>
         </div>
+    </section> */}
+
+
+    <section id="services" class="services">
+        
+        <div class="card">
+            <picture className="picture">
+                <Image src={Service1} alt="appliance" width="48" height="48" />
+            </picture>
+            <h2>Service 1</h2>
+            <p>
+                Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.
+            </p>
+        </div>
+        <div class="card">
+            <picture>
+                <Image aria-hidden="true" decoding="async" src={Service2} alt="appliance" width="48" height="48" />
+            </picture>
+            <h2>Service 2</h2>
+            <p>
+                Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.
+            </p>
+        </div>
+        <div class="card">
+            <picture>
+                <Image aria-hidden="true" decoding="async" src={Service3} alt="appliance" width="48" height="48" />
+            </picture>
+            <h2>Service 3</h2>
+            <p>
+                Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.
+            </p>
+        </div>
+    </section>
+    <section id="about-content" className="section">
+      <div className="container">
+        <div className="image">
+          <img decoding="async" src="/images/about-image.jpg" alt="" width="" height=""></img>
+        </div>
+        <div className="content">
+          <span className="topper">Who We Are</span>
+          <h2>Headline that describes your business.  Make it two lines</h2>
+          <div aria-hidden="true" className="decoration">
+            <img src="/images/leaf.svg" alt=""></img>
+            <div className="line"></div>
+          </div>
+          <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam laborum impedit assumenda ut doloremque, culpa dignissimos quaerat tenetur suscipit mollitia quod nobis cupiditate hic ducimus repudiandae ipsum similique iste voluptatem! Omnis velit dolorum fugit assumenda maiores tempora et molestias numquam. Dolorum, quas quisquam iure maiores a ipsam sequi quam laborum.   
+          </p>
+        </div>
+      </div>
     </section>
     </>
 
