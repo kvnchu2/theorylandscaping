@@ -37,6 +37,10 @@ nav{
   height: 5em;
 }
 
+.nav-div a{
+ max-width: 50%; 
+}
+
 .nav__menu-bar{
   display: flex;
   flex-direction: column;

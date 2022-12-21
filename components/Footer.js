@@ -9,7 +9,9 @@ return (
     <footer id="footer">
       <div className="container">
           <div className="left-section">
+              <div className="footer-logo">
               <Image src={Kinwithkevin} />
+              </div>
               <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, aut. Molestias delectus rem nihil distinctio nemo assumenda laudantium. Veritatis, natus.
               </p>

@@ -153,8 +153,13 @@
     border-radius: 0.16666667em;
     transition: width .3s;
   }
+
+  .button-solid:hover {
+    cursor: pointer;
+  }
   .button-solid:hover:before {
     width: 100%;
+    
   }
   button:hover {
     cursor: pointer;
@@ -852,6 +857,9 @@
     height: 2.94444444em;
     padding-top: 0.16666667em;
     width: 13.88888889em;
+  }
+  .footer-logo {
+    padding-bottom: 3rem;
   }
 }
 /* Tablet */

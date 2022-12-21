@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import phone from '../public/images/phone.svg';
 import phoneDark from '../public/images/phone-dark.svg';
 import ryanCaselli from '../public/images/ryan-caselli.png';
@@ -24,9 +25,13 @@ export default function Home() {
                       Offering 1-on-1 exercise programs designed to give you a head start on recovery from injury or pain. Try Kinesiology training for performance and health.
                   </p>
                   <div className="buttons">
-                      <a className="button-solid" href="/about.html" >
+                      
+                      <Link href="/contact">
+                        <div className="button-solid">
                           Book Now
-                      </a>
+                        </div>
+                      </Link>
+                      
                       <a className="call-now" href="tel:555-213-9120">
                           <div className="light">
                             <Image decoding="async" src={phone} alt="" aria-hidden="true" width="21" height="21"/>
