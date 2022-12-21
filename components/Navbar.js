@@ -20,7 +20,9 @@ const Navbar = () => {
         <div className="nav-div">
           <Link href={"/"}>
             <a>
-              <Image className="logo" src={Kinwithkevin} />
+              <div className="logo">
+                <Image src={Kinwithkevin} alt="kinesiologywithkevin"/>
+              </div>
             </a>
           </Link>
           <div
