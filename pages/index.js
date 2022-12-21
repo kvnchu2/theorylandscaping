@@ -7,7 +7,10 @@ import ryanCaselli from '../public/images/ryan-caselli.png';
 import Service1 from '../public/images/service11.svg';
 import Service2 from '../public/images/service22.svg';
 import Service3 from '../public/images/service33.svg';
-
+import Car from '../public/images/car-svgrepo-com.svg';
+import Calendar from '../public/images/calendar-svgrepo-com.svg';
+import Money from '../public/images/money-svgrepo-com.svg';
+import Fitness from '../public/images/fitness.jpg';
 
 
 export default function Home() {
@@ -16,13 +19,13 @@ export default function Home() {
       <section id="hero">
           <div className="hero-content">
               <div className="heroText">
-                  <h1 id="home-h">Main headline, put top keyword here </h1>
+                  <h1 id="home-h">Empowering you through movement</h1>
                   <p>
-                      Expand on the keyword with more keywords and add a list of related services that you do and include the city, state of your service area.  
+                      Offering 1-on-1 exercise programs designed to give you a head start on recovery from injury or pain. Try Kinesiology training for performance and health.
                   </p>
                   <div className="buttons">
                       <a className="button-solid" href="/about.html" >
-                          About Us
+                          Book Now
                       </a>
                       <a className="call-now" href="tel:555-213-9120">
                           <div className="light">
@@ -73,57 +76,59 @@ export default function Home() {
         
         <div class="card">
             <picture className="picture">
-                <Image src={Service1} alt="appliance" width="48" height="48" />
+                <Image src={Car} alt="appliance" width="48" height="48" />
             </picture>
-            <h2>Service 1</h2>
+            <h2>Mobile</h2>
             <p>
-                Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.
+                No need to visit a clinic! Sessions take place at your home, community center gym, or pool.
             </p>
         </div>
         <div class="card">
             <picture>
-                <Image aria-hidden="true" decoding="async" src={Service2} alt="appliance" width="48" height="48" />
+                <Image aria-hidden="true" decoding="async" src={Calendar} alt="appliance" width="48" height="48" />
             </picture>
-            <h2>Service 2</h2>
+            <h2>Flexible</h2>
             <p>
-                Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.
+                Scheduling is convenient to accommodate your availability.
             </p>
         </div>
         <div class="card">
             <picture>
-                <Image aria-hidden="true" decoding="async" src={Service3} alt="appliance" width="48" height="48" />
+                <Image aria-hidden="true" decoding="async" src={Money} alt="appliance" width="48" height="48" />
             </picture>
-            <h2>Service 3</h2>
+            <h2>Direct Billing</h2>
             <p>
-                Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.
+            Insurance-covered services billed directly to ICBC, WSBC, MSP and major insurance providers.
             </p>
         </div>
     </section>
-    <section id="about-content" className="section">
+    <section id="about-content-home" className="section">
       <div className="container">
         <div className="image">
-          <img decoding="async" src="/images/about-image.jpg" alt="" width="" height=""></img>
+          <Image className="fitness" decoding="async" src={Fitness} alt="" width="" height="" />
         </div>
         <div className="content">
           <span className="topper">Who We Are</span>
-          <h2>Headline that describes your business.  Make it two lines</h2>
+          <h2>Making your health a priority. Together.</h2>
           <div aria-hidden="true" className="decoration">
             <img src="/images/leaf.svg" alt=""></img>
             <div className="line"></div>
           </div>
           <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam laborum impedit assumenda ut doloremque, culpa dignissimos quaerat tenetur suscipit mollitia quod nobis cupiditate hic ducimus repudiandae ipsum similique iste voluptatem! Omnis velit dolorum fugit assumenda maiores tempora et molestias numquam. Dolorum, quas quisquam iure maiores a ipsam sequi quam laborum.   
+          Your active rehab plan is an important step in your path to recovery and ensuring your long term health and fitness. That's why we're here to support you through every step of that journey.
+
+Working with you, I will build a plan that will address rehabilitation exercise, basic strength training, stress management, lifestyle habits, and more.
           </p>
         </div>
       </div>
     </section>
 
-    <section id="reviews">
+    <section id="reviews-home">
         <div class="cs-container">
             <span class="cs-topper">Our Reviews</span>
-            <h2 class="cs-title">Words From Our Customers</h2>
+            <h2 class="cs-title">Words From Our Clients</h2>
             <p class="cs-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dolor volutpat porttitor sagittis nunc nisl. Sagittis sit pellentesque gravida viverra. Leo ut sed euismod tortor risus et. Ornare non neque, leo, ornare. Lorem ipsum dolor sit amet.
+                
             </p>
             <ul class="cs-card-group">
                

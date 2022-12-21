@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Kinwithkevin from "../public/images/kinesiology-with-kevin-high-resolution-logo-color-on-transparent-background.png";
+import Image from "next/image";
 
 export default function footer() {
 
@@ -7,7 +9,7 @@ return (
     <footer id="footer">
       <div className="container">
           <div className="left-section">
-              <Link href="/"><a className="logo"><img loading="lazy" decoding="async" src="/images/logo-white.svg" alt="logo" width="293" height="91"></img></a></Link>
+              <Image src={Kinwithkevin} />
               <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, aut. Molestias delectus rem nihil distinctio nemo assumenda laudantium. Veritatis, natus.
               </p>

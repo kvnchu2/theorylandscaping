@@ -6,7 +6,7 @@ const About = () => {
     <section id="int-hero">
       <h1 id="home-h">About Company</h1>
     </section>
-    <section id="about-content" className="section">
+    {/* <section id="about-content" className="section">
       <div className="container">
         <div className="image">
           <img decoding="async" src="/images/about-image.jpg" alt="" width="" height=""></img>
@@ -23,7 +23,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </section>
+    </section> */}
     <section id="staff">
       <span className="topper">Our Team</span>
       <h2>Meet Our Staff</h2>

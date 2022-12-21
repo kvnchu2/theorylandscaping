@@ -110,7 +110,7 @@ main {
     padding: 6.15em 0 11.45em 0;
     z-index: 1;
     overflow: hidden;
-    background: url("../public/images/infinite-wellness-background.jpg");
+    background: url("../public/images/exercise-equipment.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -140,6 +140,112 @@ main {
   }
 }
 
+/*-- -------------------------- -->
+<---           About            -->
+<--- -------------------------- -*/
+/* Mobile */
+@media only screen and (min-width: 0em) {
+  #about-content-home .container {
+    padding: 0;
+    width: 96%;
+    margin: auto;
+  }
+  #about-content-home .image {
+    position: relative;
+    width: 100%;
+    max-width: 20em;
+    height: 20em;
+    margin: auto;
+    margin-bottom: 2.5em;
+    padding-top: 2rem;
+  }
+  #about-content-home .image .fitness {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #about-content-home .content .topper {
+    font-size: 0.7em;
+    line-height: 1.35714286;
+    color: var(--primary);
+    letter-spacing: .06em;
+    margin-bottom: 0.42857143em;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  #about-content-home .content h2 {
+    font-size: 1.8em;
+    line-height: 1.16666667;
+    color: #000;
+    font-weight: 900;
+    margin-bottom: 0.66666667em;
+    position: relative;
+  }
+  #about-content-home .content h2:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 4.16666667em;
+    width: 4.16666667em;
+    background: var(--primary);
+    opacity: .05;
+    top: -1.38888889em;
+    left: -1.38888889em;
+    z-index: -1;
+  }
+  #about-content-home .content .decoration {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.9em;
+  }
+  #about-content-home .content .decoration img {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    margin-right: 0.75em;
+  }
+  #about-content-home .content .decoration .line {
+    width: 80%;
+    height: 1px;
+    background: var(--primary);
+  }
+  #about-content-home .content p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #595959;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 48em) {
+  #about-content-home {
+    padding-top: 5em;
+  }
+  #about-content-home .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 57.2em;
+  }
+  #about-content-home .image {
+    margin: 0;
+    max-width: 20em;
+  }
+  #about-content-home .content {
+    width: 27.5em;
+    margin-left: 2.5em;
+  }
+}
+/* Small Desktop */
+@media only screen and (min-width: 64em) {
+  #about-content-home .image {
+    max-width: 25em;
+  }
+}
 
 /* Large Desktop */
 /*-- -------------------------- -->
@@ -310,8 +416,8 @@ main {
   }
   .services .card picture {
     background: var(--primary);
-    width: 5.5em;
-    height: 5.5em;
+    width: 4.4em;
+    height: 4.4em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -325,7 +431,7 @@ main {
   }
   .services .card h2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.35em;
     font-weight: 700;
     color: #1a1a1a;
@@ -570,17 +676,19 @@ main {
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
-  #reviews {
+  #reviews-home {
     /* Centers the button */
     text-align: center;
     padding: var(--sectionPadding);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
-  #reviews .cs-container {
+  #reviews-home .cs-container {
     width: 100%;
     max-width: 69rem;
     margin: auto;
   }
-  #reviews .cs-topper {
+  #reviews-home .cs-topper {
     font-size: var(--topperFontSize);
     line-height: 1.2em;
     text-transform: uppercase;
@@ -591,7 +699,7 @@ main {
     margin-bottom: 1rem;
     display: block;
   }
-  #reviews .cs-title {
+  #reviews-home .cs-title {
     font-size: var(--headerFontSize);
     font-weight: 900;
     line-height: 1.2em;
@@ -601,7 +709,7 @@ main {
     color: var(--headerColor);
     position: relative;
   }
-  #reviews .cs-text {
+  #reviews-home .cs-text {
     font-size: var(--bodyFontSize);
     line-height: 1.5rem;
     text-align: center;
@@ -612,12 +720,12 @@ main {
     margin-bottom: clamp(5.5em, 10.2vw, 6.5em);
     color: var(--bodyTextColor);
   }
-  #reviews .cs-card-group {
+  #reviews-home .cs-card-group {
     padding: 0;
     /* 48px - 64px */
     margin: 0 auto clamp(3rem, 5vw, 4rem);
   }
-  #reviews .cs-item {
+  #reviews-home .cs-item {
     text-align: left;
     list-style: none;
     width: 100%;
@@ -638,16 +746,16 @@ main {
     /* Prevents padding from affecting height & width */
     box-sizing: border-box;
   }
-  #reviews .cs-item:last-of-type {
+  #reviews-home .cs-item:last-of-type {
     margin-bottom: 0;
   }
-  #reviews .cs-item-img {
+  #reviews-home .cs-item-img {
     width: 5rem;
     height: 5rem;
     position: absolute;
     top: -2.5rem;
   }
-  #reviews .cs-item-p {
+  #reviews-home .cs-item-p {
     font-size: 1rem;
     line-height: 1.5em;
     margin: 0 0 1.25rem;
@@ -655,7 +763,7 @@ main {
     color: var(--bodyTextColor);
     border-bottom: 1px solid #E8E9EC;
   }
-  #reviews .cs-reviewer {
+  #reviews-home .cs-reviewer {
     font-size: 1rem;
     line-height: 1.5em;
     font-weight: 700;
@@ -664,42 +772,42 @@ main {
     display: block;
     color: var(--headerColor);
   }
-  #reviews .cs-desc {
+  #reviews-home .cs-desc {
     font-size: 0.875rem;
     font-weight: 400;
     color: var(--label);
     display: block;
   }
-  #reviews .cs-item-stars {
+  #reviews-home .cs-item-stars {
     width: 6rem;
     height: 1rem;
   }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48em) {
-  #reviews .cs-card-group {
+  #reviews-home .cs-card-group {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
   }
-  #reviews .cs-item {
+  #reviews-home .cs-item {
     /* reset margin so it won't interfere with flexbox */
     margin: 0;
   }
 }
 /* Dark Mode */
 @media only screen and (min-width: 0em) {
-  body.dark-mode #reviews .cs-title,
-  body.dark-mode #reviews .cs-text,
-  body.dark-mode #reviews .cs-item-p,
-  body.dark-mode #reviews .cs-reviewer {
+  body.dark-mode #reviews-home .cs-title,
+  body.dark-mode #reviews-home .cs-text,
+  body.dark-mode #reviews-home .cs-item-p,
+  body.dark-mode #reviews-home .cs-reviewer {
     color: var(--bodyTextColorWhite);
   }
-  body.dark-mode #reviews .cs-item {
+  body.dark-mode #reviews-home .cs-item {
     background: var(--medium);
   }
-  body.dark-mode #reviews .cs-desc {
+  body.dark-mode #reviews-home .cs-desc {
     color: var(--primaryLight);
   }
 }

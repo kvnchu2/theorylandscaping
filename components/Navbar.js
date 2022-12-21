@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Logo from "./Logo";
 import NavItem from "./NavItem";
-
+import Kinwithkevin from "../public/images/kinesiology-with-kevin-high-resolution-logo-color-on-transparent-background.png";
 const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "About Us", href: "/about" },
@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="nav-div">
           <Link href={"/"}>
             <a>
-              <h1 className="logo">Kinesiology with Kevin</h1>
+              <Image className="logo" src={Kinwithkevin} />
             </a>
           </Link>
           <div
