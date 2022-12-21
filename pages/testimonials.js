@@ -13,86 +13,86 @@ export default function Testimonials() {
     </section>
 
     <section id="reviews">
-    <div class="container">
-        <div class="review">
+    <div className="container">
+        <div className="review">
             <picture className="profile">
                 <Image loading="lazy" decoding="async" src={Profile} alt="" width="99" height="99" />
             </picture>
             <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
             </p>
-            <div class="star-group">
-            <span class="name">B Miller<span class="desc">Homeowner</span></span>
+            <div className="star-group">
+            <span className="name">B Miller<span className="desc">Homeowner</span></span>
                 <picture>
                 <Image aria-hidden="true" loading="lazy" decoding="async" src={Stars} alt="stars" width="91" height="15" />
                 </picture>
             </div>
         </div>
-        <div class="review">
-            <picture class="profile">
+        <div className="review">
+            <picture className="profile">
                 <Image loading="lazy" decoding="async" src={Profile} alt="" width="99" height="99" />
                 </picture>
                 <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
                 </p>
-                <div class="star-group">
-                <span class="name">Vincent M.<span class="desc">Homeowner</span></span>
+                <div className="star-group">
+                <span className="name">Vincent M.<span className="desc">Homeowner</span></span>
                     <picture>
                     <Image aria-hidden="true" loading="lazy" decoding="async" src={Stars} alt="stars" width="91" height="15" />
                     </picture>
                 </div>
         </div>
-        <div class="review">
-            <picture class="profile">
+        <div className="review">
+            <picture className="profile">
                 <Image loading="lazy" decoding="async" src={Profile} alt="" width="99" height="99" />
                 </picture>
                 <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
                 </p>
-                <div class="star-group">
-                    <span class="name">Alex L.<span class="desc">Homeowner</span></span>
+                <div className="star-group">
+                    <span className="name">Alex L.<span className="desc">Homeowner</span></span>
                     <picture>
                     <Image aria-hidden="true" loading="lazy" decoding="async" src={Stars} alt="stars" width="91" height="15" />
                     </picture>
                 </div>
         </div>
-        <div class="review">
-            <picture class="profile">
+        <div className="review">
+            <picture className="profile">
                 <Image loading="lazy" decoding="async" src={ProfileWoman} alt="" width="99" height="99" />
                 </picture>
                 <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
                 </p>
-                <div class="star-group">
-                <span class="name">Arrieana M.<span class="desc">Homeowner</span></span>
+                <div className="star-group">
+                <span className="name">Arrieana M.<span className="desc">Homeowner</span></span>
                     <picture>
                     <Image aria-hidden="true" loading="lazy" decoding="async" src={Stars} alt="stars" width="91" height="15" />
                     </picture>
                 </div>
         </div>
-        <div class="review">
-            <picture class="profile">
+        <div className="review">
+            <picture className="profile">
                 <Image loading="lazy" decoding="async" src={Profile} alt="" width="99" height="99" />
                 </picture>
                 <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
                 </p>
-                <div class="star-group">
-                <span class="name">Leo N.<span class="desc">Homeowner</span></span>
+                <div className="star-group">
+                <span className="name">Leo N.<span className="desc">Homeowner</span></span>
                     <picture>
                     <Image aria-hidden="true" loading="lazy" decoding="async" src={Stars} alt="stars" width="91" height="15" />
                     </picture>
                 </div>
         </div>
-        <div class="review">
-            <picture class="profile">
+        <div className="review">
+            <picture className="profile">
                 <Image loading="lazy" decoding="async" src={Profile} alt="" width="99" height="99" />
                 </picture>
                 <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
                 </p>
-                <div class="star-group">
-                    <span class="name">Brian A.<span class="desc">Homeowner</span></span>
+                <div className="star-group">
+                    <span className="name">Brian A.<span className="desc">Homeowner</span></span>
                     <picture>
                     <Image aria-hidden="true" loading="lazy" decoding="async" src={Stars} alt="stars" width="91" height="15" />
                     </picture>
