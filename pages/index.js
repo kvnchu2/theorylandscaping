@@ -14,6 +14,8 @@ import Money from '../public/images/money-svgrepo-com.svg';
 import Fitness from '../public/images/fitness.jpg';
 
 
+
+
 export default function Home() {
   return (
     <>
@@ -77,9 +79,9 @@ export default function Home() {
     </section> */}
 
 
-    <section id="services" class="services">
+    <section id="services" className="services">
         
-        <div class="card">
+        <div className="card">
             <picture className="picture">
                 <Image src={Car} alt="appliance" width="48" height="48" />
             </picture>
@@ -88,7 +90,7 @@ export default function Home() {
                 No need to visit a clinic! Sessions take place at your home, community center gym, or pool.
             </p>
         </div>
-        <div class="card">
+        <div className="card">
             <picture>
                 <Image aria-hidden="true" decoding="async" src={Calendar} alt="appliance" width="48" height="48" />
             </picture>
@@ -97,7 +99,7 @@ export default function Home() {
                 Scheduling is convenient to accommodate your availability.
             </p>
         </div>
-        <div class="card">
+        <div className="card">
             <picture>
                 <Image aria-hidden="true" decoding="async" src={Money} alt="appliance" width="48" height="48" />
             </picture>
@@ -129,39 +131,48 @@ Working with you, I will build a plan that will address rehabilitation exercise,
     </section>
 
     <section id="reviews-home">
-        <div class="cs-container">
-            <span class="cs-topper">Our Reviews</span>
-            <h2 class="cs-title">Words From Our Clients</h2>
-            <p class="cs-text">
+        <div className="cs-container">
+            <span className="cs-topper">Our Reviews</span>
+            <h2 className="cs-title">Words From Our Clients</h2>
+            <p className="cs-text">
                 
             </p>
-            <ul class="cs-card-group">
+            <ul className="cs-card-group">
                
-                <li class="cs-item">
-                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png" alt="profile picture" width="80" height="80"></img>
-                    <p class="cs-item-p">
+                <li className="cs-item">
+                    <div className="cs-item-img">
+                        <Image className="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png" alt="profile picture" width="80" height="80"/>
+                    </div>
+                    <p className="cs-item-p">
                         Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
                     </p>
-                    <span class="cs-reviewer">
+                    <span className="cs-reviewer">
                         Jon Doe
-                        <span class="cs-desc">Homeowner</span>
+                        <span className="cs-desc">Homeowner</span>
                     </span>
-                    <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16"></img>
+                    <div className="cs-item-stars">
+                        <Image aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16"/>
+                    </div>
                 </li>
                 
-                <li class="cs-item">
-                    <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile-4.png" alt="profile picture" width="80" height="80"></img>
-                    <p class="cs-item-p">
+                <li className="cs-item">
+                    <div className="cs-item-img">
+                    <Image className="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile-4.png" alt="profile picture" width="80" height="80"/>
+                    </div>
+                    
+                    <p className="cs-item-p">
                         Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
                     </p>
-                    <span class="cs-reviewer">
+                    <span className="cs-reviewer">
                         Jane Doe
-                        <span class="cs-desc">Homeowner</span>
+                        <span className="cs-desc">Homeowner</span>
                     </span>
-                    <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16"></img>
+                    <div className="cs-item-stars">
+                        <Image aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16" />
+                    </div>
                 </li>
             </ul>
-            <a aria-label="read more reviews" href="/reviews" class="button-solid">Read More</a>
+            <a aria-label="read more reviews" href="/reviews" className="button-solid">Read More</a>
         </div>
     </section>
     
