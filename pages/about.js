@@ -1,6 +1,8 @@
 import React from "react";
+import Image from "next/image";
+import {getAllAbouts} from "../lib/contentful";
 
-const About = () => {
+const About = ({abouts}) => {
   return (
   <>
     <section id="int-hero">
@@ -31,12 +33,29 @@ const About = () => {
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, eum voluptates. Provident nesciunt aspernatur iusto ea? Ipsam eos sed culpa.
       </p>
       <div className="container">
+                {abouts.map((about) => (
+                <div className="member">
+                    <div className="image">
+                        <Image decoding="async" src={about.image} alt="" width="21" height="21" />
+                    </div>
+                    <div className="content">
+                        <div className="desc">
+                        
+                            <h3>{about.name}</h3>
+                            <span className="title">Owner/Operator</span></div>
+                        <p>
+                            {about.description}
+                        </p>
+                    </div>
+                </div>
+                ))}
           <div className="member">
               <div className="image">
-                  <img decoding="async" src="/images/about-image.jpg" alt="" width="" height=""></img>
+                  <img decoding="async" src="/images/about-image.jpg" alt="" width="" height="" />
               </div>
               <div className="content">
                   <div className="desc">
+                  
                       <h3>Brad Pitt</h3>
                       <span className="title">Owner/Operator</span></div>
                   <p>
@@ -93,3 +112,13 @@ const About = () => {
 };
 
 export default About;
+
+
+export async function getStaticProps() {
+    const abouts = await getAllAbouts();
+    return {
+      props: {
+        abouts,
+      },
+    };
+  }
