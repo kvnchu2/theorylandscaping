@@ -13,6 +13,7 @@ import Calendar from '../public/images/calendar-svgrepo-com.svg';
 import Money from '../public/images/money-svgrepo-com.svg';
 import Fitness from '../public/images/fitness.jpg';
 import ProfileWoman from '../public/images/profile-woman.svg';
+import Leaf from '../public/images/leaf.svg';
 
 
 
@@ -50,9 +51,6 @@ export default function Home() {
                       </a>
                   </div>
               </div>
-              {/* <div className="business-casual">
-                <Image decoding="async" src={ryanCaselli} alt="" width="" height=""/>
-              </div> */}
           </div>
       </section>
 
@@ -95,7 +93,9 @@ export default function Home() {
           <span className="topper">Who We Are</span>
           <h2>Making your health a priority. Together.</h2>
           <div aria-hidden="true" className="decoration">
-            <img src="/images/leaf.svg" alt=""></img>
+            <div className="decorationimage">
+                <Image src={Leaf} alt="" width="" height="" />
+            </div>
             <div className="line"></div>
           </div>
           <p>

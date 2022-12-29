@@ -13,7 +13,7 @@ return (
       <div className="container">
           <div className="left-section">
               <div className="footer-logo">
-              <Image src={Kinwithkevin} />
+              <Image src={Kinwithkevin} alt=""/>
               </div>
               <p>
                   Kevin is committed to providing the best form of care for your recovery and ensure he saves you time by being accessible to you at the community center gym or at home.
@@ -40,9 +40,10 @@ return (
               </div>
   
               <div className="buttons">
-                  <a className="button-solid" href="/contact" >
+                  <Link href="/contact"><a className="button-solid" >
                       Book an appointment
                   </a>
+                  </Link>
               </div>
           </div>
       </div>
