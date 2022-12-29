@@ -54,15 +54,15 @@ const Contact = () => {
         <div className="contact-right">
             <div className="info-group">
                 <span className="heading">Location</span>
-                <span className="info">Somewhere, TX</span>
+                <span className="info">Vancouver, BC</span>
             </div>
             <div className="info-group">
                 <span className="heading">Phone</span>
-                <a className="info" href="tel:555-213-9120">(555) 213-9120</a>
+                <a className="info" href="tel:236-512-5182">(236) 512-5182</a>
             </div>
             <div className="info-group">
                 <span className="heading">Email</span>
-                <a className="info" href="mailto:info@email.com">info@email.com</a>
+                <a className="info" href="mailto:info@email.com">kvnchu2@gmail.com</a>
             </div>
             <div className="info-group">
                 <span className="heading">Hours</span>

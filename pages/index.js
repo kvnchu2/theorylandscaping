@@ -12,6 +12,8 @@ import Car from '../public/images/car-svgrepo-com.svg';
 import Calendar from '../public/images/calendar-svgrepo-com.svg';
 import Money from '../public/images/money-svgrepo-com.svg';
 import Fitness from '../public/images/fitness.jpg';
+import ProfileWoman from '../public/images/profile-woman.svg';
+
 
 
 
@@ -43,7 +45,7 @@ export default function Home() {
                           </div>
                           <div className="group">
                               <span className="text">Call Now</span>
-                              <span className="number">(555) 213-9120</span>
+                              <span className="number">(236) 512-5182</span>
                           </div>
                       </a>
                   </div>
@@ -53,31 +55,6 @@ export default function Home() {
               </div> */}
           </div>
       </section>
-
-    {/* <section id="services" className="section">
-        <div className="service">
-            <h2>This is a main<span> service you do</span></h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi odio dui, fermentum id augue.
-            </p>
-            <a href="/contact.html" className="button-solid">Get in Touch</a>
-        </div>
-        <div className="service">
-            <h2>This is THE main<span> service you do</span></h2>
-            <p>
-                Notice how this one is bigger and darker, this is your main service you provide.
-            </p>
-            <a href="/contact.html" className="button-solid">Get in Touch</a>
-        </div>
-        <div className="service">
-            <h2>This is a main<span> service you do</span></h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi odio dui, fermentum id augue .
-            </p>
-            <a href="/contact.html" className="button-solid">Get in Touch</a>
-        </div>
-    </section> */}
-
 
     <section id="services" className="services">
         
@@ -157,15 +134,15 @@ Working with you, I will build a plan that will address rehabilitation exercise,
                 
                 <li className="cs-item">
                     <div className="cs-item-img">
-                    <Image className="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile-4.png" alt="profile picture" width="80" height="80"/>
+                    <Image className="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src={ProfileWoman} alt="profile picture" width="80" height="80"/>
                     </div>
                     
                     <p className="cs-item-p">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
+                    I found Kevin to be an excellent teacher.  He was consistently supportive and encouraging. He recognized the difficulty that older persons have in establishing a new behaviour pattern and found opportunities to compliment me on incremental (sometimes pretty minimal) progress.
                     </p>
                     <span className="cs-reviewer">
-                        Jane Doe
-                        <span className="cs-desc">Homeowner</span>
+                        Dr. Carol Herbert
+                        <span className="cs-desc">Family Physician</span>
                     </span>
                     <div className="cs-item-stars">
                         <Image aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16" />

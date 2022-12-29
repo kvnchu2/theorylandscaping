@@ -1,6 +1,9 @@
 import Link from "next/link";
 import Kinwithkevin from "../public/images/kinesiology-with-kevin-high-resolution-logo-color-on-transparent-background.png";
 import Image from "next/image";
+import Pin from "../public/images/pin.svg";
+import FooterPhone from "../public/images/footer-phone.svg";
+import Email from "../public/images/email.svg";
 
 export default function footer() {
 
@@ -13,7 +16,7 @@ return (
               <Image src={Kinwithkevin} />
               </div>
               <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, aut. Molestias delectus rem nihil distinctio nemo assumenda laudantium. Veritatis, natus.
+                  Kevin is committed to providing the best form of care for your recovery and ensure he saves you time by being accessible to you at the community center gym or at home.
               </p>
           </div>
           <div className="right-section">
@@ -22,7 +25,7 @@ return (
                       <li><h2>Company</h2></li>
                       <li><Link href="/"><a>Home</a></Link></li>
                       <li><Link href="/about"><a>About Us</a></Link></li>
-                      <li><Link href="/contact"><a>Services</a></Link></li>
+                      <li><Link href="/testimonials"><a>Testimonials</a></Link></li>
                   </ul>
                   <ul>
                       <li><h2>Support</h2></li>
@@ -30,15 +33,15 @@ return (
                   </ul>
                   <ul>
                       <li><h2>Get in Touch</h2></li>
-                      <li><img loading="lazy" decoding="async" src="/images/pin.svg" alt="" width="24" height="24"></img><a href="" target="_blank">Somewhere, Tx</a></li>
-                      <li><img loading="lazy" decoding="async" src="/images/footer-phone.svg" alt="" width="24" height="24"></img><a href="tel:555-213-9120">(555) 213-9120</a></li>
-                      <li><img loading="lazy" decoding="async" src="/images/email.svg" alt="" width="24" height="24"></img><a href="mailto:info@email.com">info@email.com</a></li>
+                      <li><div className="footer-icon"><Image loading="lazy" decoding="async" src={Pin} alt="" width="24" height="24" /></div><a href="" target="_blank">Vancouver, BC</a></li>
+                      <li><div className="footer-icon"><Image loading="lazy" decoding="async" src={FooterPhone} alt="" width="24" height="24" /></div><a href="tel:555-213-9120">(236) 512-5182</a></li>
+                      <li><div className="footer-icon"><Image loading="lazy" decoding="async" src={Email} alt="" width="24" height="24" /></div><a href="mailto:info@email.com">kvnchu2@gmail.com</a></li>
                   </ul>
               </div>
   
               <div className="buttons">
-                  <a className="button-solid" href="/contact.html" >
-                      Call to action button
+                  <a className="button-solid" href="/contact" >
+                      Book an appointment
                   </a>
               </div>
           </div>
