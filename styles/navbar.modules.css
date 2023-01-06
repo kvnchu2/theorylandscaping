@@ -109,7 +109,7 @@ nav{
     color: white;
   }
   
-  .active-underscore {
+  /* .active-underscore {
     content: '';
     position: relative;
     width: 100%;
@@ -123,7 +123,7 @@ nav{
   .inactive-underscore {
     display: none;
     background-color: white;
-  }
+  } */
   .nav__menu-bar{
     display: none;
   }
@@ -134,8 +134,12 @@ nav{
     width: fit-content;
     column-gap: 24px;
     align-items: center;
+
+    position: relative;
+    left: 0;
+    top: 20px;
   }
-  .nav__link::before{
+  /* .nav__link::before{
     content: '';
     position: absolute;
     width: 0%;
@@ -148,5 +152,16 @@ nav{
   
   .nav__link:hover:before{
    width: 100%;
+  } */
+
+ 
+
+  .navbar-right {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -25px;
+    right: 0;
   }
+  
 }

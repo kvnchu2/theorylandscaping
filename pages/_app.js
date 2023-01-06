@@ -7,6 +7,7 @@ import "../styles/about.modules.css";
 import "../styles/contact.modules.css";
 import "../styles/testimonials.modules.css";
 import "../styles/reviews.modules.css";
+import "../styles/dropdown.modules.css";
 
 function MyApp({ Component, pageProps }) {
   return (

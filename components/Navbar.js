@@ -12,7 +12,6 @@ const MENU_LIST = [
 ];
 const Navbar = () => {
   const [navActive, setNavActive] = useState(null);
-  const [activeIdx, setActiveIdx] = useState(-1);
 
   return (
     <header>
@@ -33,20 +32,68 @@ const Navbar = () => {
             <div></div>
             <div></div>
           </div>
-          <div className={`${navActive ? "active" : ""} nav__menu-list`}>
-            {MENU_LIST.map((menu, idx) => (
+          <div className="navbar-right">
+            <div className={`${navActive ? "active" : ""} nav__menu-list`}>
+              {/* {MENU_LIST.map((menu, idx) => (
+                <div
+                  onClick={() => {
+                    setActiveIdx(idx);
+                    setNavActive(false);
+                  }}
+                  key={menu.text}
+                >
+                  <NavItem active={activeIdx === idx} {...menu} />
+                </div>
+              ))} */}
               <div
-                onClick={() => {
-                  setActiveIdx(idx);
-                  setNavActive(false);
-                }}
-                key={menu.text}
-              >
-                <NavItem active={activeIdx === idx} {...menu} />
+                  onClick={() => {
+                    
+                    setNavActive(false);
+                  }}
+                  key="Home"
+                >
+                  <NavItem text="Home" href="/"  />
               </div>
-            ))}
+              <div
+                  onClick={() => {
+                    
+                    setNavActive(false);
+                  }}
+                  key="About"
+                >
+                  <NavItem text="About Us" href="/about"  />
+              </div>
+
+
+              <div className="dropdown">
+                <button className="dropbtn">Dropdown 
+                  <i className="fa fa-caret-down"></i>
+                </button>
+                <div className="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+
+
+              <div
+                  onClick={() => {
+                    
+                    setNavActive(false);
+                  }}
+                  key="Contact"
+                >
+                  <NavItem text="Contact" href="/contact"  />
+              </div>
+
+
+            </div>
+
+            
           </div>
         </div>
+
       </nav>
     </header>
   );
