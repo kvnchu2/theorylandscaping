@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Logo from "./Logo";
 import NavItem from "./NavItem";
 import Kinwithkevin from "../public/images/kinesiology-with-kevin-high-resolution-logo-color-on-transparent-background.png";
+
 const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "About Us", href: "/about" },
@@ -70,7 +71,7 @@ const Navbar = () => {
                   <i className="fa fa-caret-down"></i>
                 </button>
                 <div className="dropdown-content">
-                  <a href="#">Link 1</a>
+                  <Link href="/icbcactiverehabilitation"><a href="#">ICBC Active Rehabilitation</a></Link>
                   <a href="#">Link 2</a>
                   <a href="#">Link 3</a>
                 </div>
