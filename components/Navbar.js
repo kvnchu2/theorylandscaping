@@ -67,13 +67,13 @@ const Navbar = () => {
 
 
               <div className="dropdown">
-                <button className="dropbtn">Services 
+                <button className="dropbtn">Services
                   <i className="fa fa-caret-down"></i>
                 </button>
                 <div className="dropdown-content">
-                  <Link href="/icbcactiverehabilitation"><a href="#">ICBC Active Rehabilitation</a></Link>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
+                  <Link href="/services/icbcactiverehabilitation"><a href="#">ICBC Active Rehabilitation</a></Link>
+                  <Link href="/services/privatekinesiology"><a href="#">Private Kinesiology</a></Link>
+                  <Link href="/services/pricing"><a href="#">Pricing</a></Link>
                 </div>
               </div>
 
