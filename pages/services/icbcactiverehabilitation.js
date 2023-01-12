@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import Cabinets2 from "../../public/images2/cabinets2.jpg";
 import Construction from "../../public/images2/construction.jpg";
 import ProfileWoman from '../../public/images/profile-woman.svg';
@@ -68,6 +69,14 @@ const IcbcActiveRehabilitation = () => {
                     <h2>
                         $0
                     </h2>
+
+                    <p>
+                    Did you recently get into a car accident? Book an initial 60-minute session to begin your recovery.
+                    </p>
+
+                    <Link href="/contact"><a className="button-solid" >
+                      Book your first visit
+                    </a></Link>
                     
                 </li>
                 
@@ -87,6 +96,14 @@ const IcbcActiveRehabilitation = () => {
                     <h2>
                         $0
                     </h2>
+
+                    <p>
+                    Continue with treatment sessions so you can return to life pain-free as quickly as possible.
+                    </p>
+
+                    <Link href="/contact"><a className="button-solid" >
+                      Book now
+                    </a></Link>
                     
                     
                 </li>

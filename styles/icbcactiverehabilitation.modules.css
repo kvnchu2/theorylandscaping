@@ -78,6 +78,18 @@
   #activerehab .cs-item h2 {
     padding-top: 1.5rem;
   }
+
+  #activerehab .cs-item .button-solid {
+    margin-top: 3rem;
+    width: 15rem;
+  }
+
+  #activerehab .cs-item p {
+    text-align: center;
+    padding-top: 2rem;
+    color: #767676;
+  }
+
   #activerehab .cs-item:last-of-type {
     margin-bottom: 0;
   }

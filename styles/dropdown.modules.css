@@ -52,3 +52,25 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+
+@media screen and (max-width: 600px) {
+  
+  .dropdown {float: none;}
+  .dropdown-content {
+    position: relative;
+    background-color: #0e817c;
+    box-shadow: none;
+    color: white;
+
+  }
+  .dropdown-content a {
+    color: white;
+  }
+  .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
