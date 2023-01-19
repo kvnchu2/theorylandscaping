@@ -9,7 +9,8 @@ import "../styles/testimonials.modules.css";
 import "../styles/reviews.modules.css";
 import "../styles/dropdown.modules.css";
 import "../styles/sidebyside.modules.css";
-import "../styles/icbcactiverehabilitation.modules.css";
+import "../styles/icbcactiverehabilitation/icbcactiverehabilitation.modules.css";
+import "../styles/icbcactiverehabilitation/activerehabilitationcontent.modules.css";
 
 function MyApp({ Component, pageProps }) {
   return (

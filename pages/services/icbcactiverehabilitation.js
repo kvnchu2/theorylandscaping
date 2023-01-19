@@ -4,6 +4,8 @@ import Link from "next/link";
 import Cabinets2 from "../../public/images2/cabinets2.jpg";
 import Construction from "../../public/images2/construction.jpg";
 import ProfileWoman from '../../public/images/profile-woman.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
 
 const IcbcActiveRehabilitation = () => {
@@ -34,25 +36,43 @@ const IcbcActiveRehabilitation = () => {
             </div>
             {/* right content section */}
             <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
+                <span class="cs-topper">ICBC Active Rehabilitation</span>
+                <h2 class="cs-title">Learn more</h2>
                 <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
+                Car accidents can be frustrating and have a negative impact on your health and well-being. This is the reason I develop active rehab programs designed to help you recover from injury quickly and return to your pre-accident function barrier free.
+
+                
                 </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <div class="cs-flex-group">
+                
+                {/* <div class="cs-flex-group">
                     <p class="cs-flex-p">
                         In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
                     </p>
                     <span class="cs-name">Justin Time</span>
                     <span class="cs-job">CEO-Founder</span>
                     <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77"></img>
-                </div>
+                </div> */}
                 
             </div>
         </div>
+    </section>
+
+    <section id="activerehab-content">
+        
+        <p>
+            Here are some injuries I commonly treat with active rehab:
+
+            <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> Whiplash/Neck injuries
+
+            <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> Wrist, elbow, and shoulder soft-tissue injuries
+
+            <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> Hip, knee, and ankle soft-tissue injuries
+
+            <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> Fractures and broken bones post-healing.
+
+            <br/><br/>Beginning treatment with a kinesiologist as soon as possible after an accident is important to reaching your rehabilitation goals. With ICBC, you are pre-approved for 12 early access treatments within 12 weeks of your accident. Your appointments are 100% covered so you can direct your attention to recovery and start feeling like your best self.
+        </p>
+        
     </section>
 
 

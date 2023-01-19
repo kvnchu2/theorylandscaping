@@ -25,7 +25,8 @@ return (
                       <li><h2>Company</h2></li>
                       <li><Link href="/"><a>Home</a></Link></li>
                       <li><Link href="/about"><a>About Us</a></Link></li>
-                      <li><Link href="/testimonials"><a>Testimonials</a></Link></li>
+                      {/* <li><Link href="/testimonials"><a>Testimonials</a></Link></li> */}
+                      <li><Link href="/services/icbcactiverehabilitation"><a>Services</a></Link></li>
                   </ul>
                   <ul>
                       <li><h2>Support</h2></li>

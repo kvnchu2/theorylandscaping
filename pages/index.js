@@ -13,6 +13,7 @@ import Calendar from '../public/images/calendar-svgrepo-com.svg';
 import Money from '../public/images/money-svgrepo-com.svg';
 import Fitness from '../public/images/fitness.jpg';
 import ProfileWoman from '../public/images/profile-woman.svg';
+import Profile from '../public/images/profile.svg';
 import Leaf from '../public/images/leaf.svg';
 
 
@@ -80,7 +81,7 @@ export default function Home() {
             </picture>
             <h2>Direct Billing</h2>
             <p>
-            Insurance-covered services billed directly to ICBC, WSBC, MSP and major insurance providers.
+            Insurance-covered services billed directly to ICBC and major insurance providers.
             </p>
         </div>
     </section>
@@ -115,22 +116,6 @@ Working with you, I will build a plan that will address rehabilitation exercise,
                 
             </p>
             <ul className="cs-card-group">
-               
-                <li className="cs-item">
-                    <div className="cs-item-img">
-                        <Image className="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png" alt="profile picture" width="80" height="80"/>
-                    </div>
-                    <p className="cs-item-p">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
-                    </p>
-                    <span className="cs-reviewer">
-                        Jon Doe
-                        <span className="cs-desc">Homeowner</span>
-                    </span>
-                    <div className="cs-item-stars">
-                        <Image aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16"/>
-                    </div>
-                </li>
                 
                 <li className="cs-item">
                     <div className="cs-item-img">
@@ -146,6 +131,22 @@ Working with you, I will build a plan that will address rehabilitation exercise,
                     </span>
                     <div className="cs-item-stars">
                         <Image aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16" />
+                    </div>
+                </li>
+
+                <li className="cs-item">
+                    <div className="cs-item-img">
+                        <Image className="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src={Profile} alt="profile picture" width="80" height="80"/>
+                    </div>
+                    <p className="cs-item-p">
+                        Coming soon!
+                    </p>
+                    <span className="cs-reviewer">
+                        
+                        <span className="cs-desc"> </span>
+                    </span>
+                    <div className="cs-item-stars">
+                        <Image aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16"/>
                     </div>
                 </li>
             </ul>
