@@ -16,17 +16,17 @@ const IcbcActiveRehabilitation = () => {
     </section>
 
     <section id="sbs">
-        <div class="cs-container">
+        <div className="cs-container">
             {/* left image section */}
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1" >
+            <div className="cs-left">
+                <picture className="cs-picture cs-picture1" >
                     <source media="(max-width: 600px)" srcSet="../public/images2/cabinets2-m.webp"></source>
                     <source media="(min-width: 601px)" srcSet="../public/images2/cabinets2.jpg"></source>
                     <div className="cs-picture11">
                         <Image loading="lazy" decoding="async" src={Cabinets2} alt="house" width="522" height="581" />
                     </div>
                 </picture>
-                <picture class="cs-picture cs-picture2">
+                <picture className="cs-picture cs-picture2">
                     <source media="(max-width: 600px)" srcSet="../public/images/construction.jpg"></source>
                     <source media="(min-width: 601px)" srcSet="../public/images/construction.jpg"></source>
                     <div className="cs-picture22">
@@ -35,10 +35,10 @@ const IcbcActiveRehabilitation = () => {
                 </picture>
             </div>
             {/* right content section */}
-            <div class="cs-right">
-                <span class="cs-topper">ICBC Active Rehabilitation</span>
-                <h2 class="cs-title">Learn more</h2>
-                <p class="cs-text">
+            <div className="cs-right">
+                <span className="cs-topper">ICBC Active Rehabilitation</span>
+                <h2 className="cs-title">Learn more</h2>
+                <p className="cs-text">
                 Car accidents can be frustrating and have a negative impact on your health and well-being. This is the reason I develop active rehab programs designed to help you recover from injury quickly and return to your pre-accident function barrier free.
 
                 
