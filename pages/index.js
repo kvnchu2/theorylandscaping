@@ -92,7 +92,7 @@ export default function Home() {
         </div>
         <div className="content">
           <span className="topper">Who We Are</span>
-          <h2>Making your health a priority. Together.</h2>
+          <h2>Have you worked with a Kinesiologist yet?</h2>
           <div aria-hidden="true" className="decoration">
             <div className="decorationimage">
                 <Image src={Leaf} alt="" width="" height="" />
@@ -100,9 +100,11 @@ export default function Home() {
             <div className="line"></div>
           </div>
           <p>
-          Your active rehab plan is an important step in your path to recovery and ensuring your long term health and fitness. That's why we're here to support you through every step of that journey.
+            Kinesiologists are university-educated health professionals that apply exercise and movement science to promote health and manage injury or illness.
 
-Working with you, I will build a plan that will address rehabilitation exercise, basic strength training, stress management, lifestyle habits, and more.
+            <br></br><br></br>As a Kinesiologist with years of experience, I provide the highest quality personal training and exercise rehabilitation. Work with me to get the body you've dreamed of, or to get back to activities after an injury.
+
+            {/* Working with you, I will build a plan that will address rehabilitation exercise, basic strength training, stress management, lifestyle habits, and more. */}
           </p>
         </div>
       </div>

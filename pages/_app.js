@@ -7,8 +7,8 @@ import "../styles/about.modules.css";
 import "../styles/contact.modules.css";
 import "../styles/testimonials.modules.css";
 import "../styles/reviews.modules.css";
-import "../styles/dropdown.modules.css";
-import "../styles/sidebyside.modules.css";
+import "../styles/components/dropdown.modules.css";
+import "../styles/components/sidebyside.modules.css";
 import "../styles/icbcactiverehabilitation/icbcactiverehabilitation.modules.css";
 import "../styles/icbcactiverehabilitation/activerehabilitationcontent.modules.css";
 

@@ -37,7 +37,7 @@ const IcbcActiveRehabilitation = () => {
             {/* right content section */}
             <div className="cs-right">
                 <span className="cs-topper">ICBC Active Rehabilitation</span>
-                <h2 className="cs-title">Learn more</h2>
+                <h2 className="cs-title">Healing through movement</h2>
                 <p className="cs-text">
                 Car accidents can be frustrating and have a negative impact on your health and well-being. This is the reason I develop active rehab programs designed to help you recover from injury quickly and return to your pre-accident function barrier free.
 
