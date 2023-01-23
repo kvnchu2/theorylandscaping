@@ -110,6 +110,19 @@ export default function Home() {
       </div>
     </section>
 
+    <section id="services-table">
+        <div className="services-container">
+            <div className="services-item">Hello</div>
+            <div className="services-item">Hello</div>
+            <div className="services-item">Hello</div>
+            <div className="services-item">Hello</div>
+            <div className="services-item">Hello</div>
+            <div className="services-item">Hello</div>
+            <div className="services-item">Hello</div>
+            <div className="services-item">Hello</div>
+        </div>
+    </section>
+
     <section id="reviews-home">
         <div className="cs-container">
             <span className="cs-topper">Our Reviews</span>
