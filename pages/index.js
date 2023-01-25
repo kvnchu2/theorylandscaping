@@ -15,6 +15,11 @@ import Fitness from '../public/images/fitness.jpg';
 import ProfileWoman from '../public/images/profile-woman.svg';
 import Profile from '../public/images/profile.svg';
 import Leaf from '../public/images/leaf.svg';
+import PersonalTraining from '../public/images/personal-training.jpg';
+import Acupuncture from '../public/images/acupuncture.jpg';
+import ElderCare from '../public/images/elder-care.jpg';
+import KinesioTaping from '../public/images/kinesio-taping.jpg';
+import Physiotherapy from '../public/images/physiotherapy.jpg';
 
 
 
@@ -112,14 +117,54 @@ export default function Home() {
 
     <section id="services-table">
         <div className="services-container">
-            <div className="services-item">Hello</div>
-            <div className="services-item">Hello</div>
-            <div className="services-item">Hello</div>
-            <div className="services-item">Hello</div>
-            <div className="services-item">Hello</div>
-            <div className="services-item">Hello</div>
-            <div className="services-item">Hello</div>
-            <div className="services-item">Hello</div>
+            <div className="services-table-item">
+                <div className="personaltraining-image">
+                    <Image src={PersonalTraining} layout="fill" objectFit="cover"></Image>
+                </div>
+                <h3>Active Rehabilitation</h3>
+                <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
+            </div>
+            <div className="services-table-item">
+                <div className="personaltraining-image">
+                    <Image src={Physiotherapy} layout="fill" objectFit="cover"></Image>
+                </div>
+                <h3>Physiotherapy</h3>
+                <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
+            </div>
+
+            <div className="services-table-item">
+                <div className="personaltraining-image">
+                    <Image src={Acupuncture} layout="fill" objectFit="cover"></Image>
+                </div>
+                <h3>Acupuncture/Dry Needling</h3>
+                <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
+            </div>
+
+            <div className="services-table-item">
+                <div className="personaltraining-image">
+                    <Image src={ElderCare} layout="fill" objectFit="cover"></Image>
+                </div>
+                <h3>Elder Care</h3>
+                <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
+            </div>
+
+            <div className="services-table-item">
+                <div className="personaltraining-image">
+                    <Image src={KinesioTaping} layout="fill" objectFit="cover"></Image>
+                </div>
+                <h3>KinesioTaping</h3>
+                <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
+            </div>
+
+
+            <div className="services-table-item">
+                <div className="personaltraining-image">
+                    <Image src={PersonalTraining} layout="fill" objectFit="cover"></Image>
+                </div>
+                <h3>Hello</h3>
+                <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
+            </div>
+            
         </div>
     </section>
 

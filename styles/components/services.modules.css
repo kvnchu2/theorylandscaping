@@ -1,26 +1,22 @@
 /*mobile*/
 @media only screen and (min-width: 0em) {
-  #services-table {
-    background-color: green;
-    
-
-  }
 
   .services-container {
     max-width: 57.2em;
     margin: auto;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
   }
 
-  .services-item {
+  .services-table-item {
     text-align: left;
     list-style: none;
     width: 100%;
-    max-width: 33.875rem;
+    max-width: 18em;
     margin: 0 auto 4rem;
     /* Padding L & R - 16px - 32px */
-    padding: 3.75rem clamp(1rem, 3.2vw, 2rem) 0;
+    /* padding: 3.75rem clamp(1rem, 3.2vw, 2rem) 0; */
+    padding-top: 1em;
     /* 32px - 40px */
     padding-bottom: clamp(2rem, 5.4vw, 2.5rem);
     box-shadow: 0px 20px 39px 0px rgba(0, 0, 0, 0.05);
@@ -28,12 +24,82 @@
     background: #fff;
     position: relative;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     /* Prevents padding from affecting height & width */
     box-sizing: border-box;
   }
 
+  .personaltraining-image > span{
+    height: 150px !important;
+    width: 280px !important;
+    position: relative !important;
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    width: 95%;
+  }
 
+
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64em) {
+
+  #services-table {
+    background-color: green;
+  }
+
+  .services-container {
+    max-width: 57.2em;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 0.1rem;
+  }
+
+  .services-table-item {
+    text-align: left;
+    list-style: none;
+    width: 100%;
+    max-width: 18em;
+    margin: 0 auto 4rem;
+    /* Padding L & R - 16px - 32px */
+    /* padding: 3.75rem clamp(1rem, 3.2vw, 2rem) 0; */
+    padding-top: 1em;
+    /* 32px - 40px */
+    padding-bottom: clamp(2rem, 5.4vw, 2.5rem);
+    box-shadow: 0px 20px 39px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 0.25rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    /* Prevents padding from affecting height & width */
+    box-sizing: border-box;
+  }
+
+  .personaltraining-image > span{
+    height: 150px !important;
+    width: 280px !important;
+    position: relative !important;
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    width: 95%;
+  }
+
+  .services-table-item p {
+    width: 280px;
+  }
+
+  /* .personaltraining-image > img {
+    height: 50px !important;
+    width: 50px !important;
+  } */
 }
