@@ -20,6 +20,7 @@ import Acupuncture from '../public/images/acupuncture.jpg';
 import ElderCare from '../public/images/elder-care.jpg';
 import KinesioTaping from '../public/images/kinesio-taping.jpg';
 import Physiotherapy from '../public/images/physiotherapy.jpg';
+import Cupping from '../public/images/cupping.jpg';
 
 
 
@@ -159,9 +160,9 @@ export default function Home() {
 
             <div className="services-table-item">
                 <div className="personaltraining-image">
-                    <Image src={PersonalTraining} layout="fill" objectFit="cover"></Image>
+                    <Image src={Cupping} layout="fill" objectFit="cover"></Image>
                 </div>
-                <h3>Hello</h3>
+                <h3>Cupping</h3>
                 <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
             </div>
             
