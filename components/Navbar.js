@@ -72,8 +72,8 @@ const Navbar = () => {
                 </button>
                 <div className="dropdown-content">
                   <Link href="/services/icbcactiverehabilitation"><a href="#">ICBC Active Rehabilitation</a></Link>
-                  {/* <Link href="/services/privatekinesiology"><a href="#">Private Kinesiology</a></Link>
-                  <Link href="/services/pricing"><a href="#">Pricing</a></Link> */}
+                  <Link href="/services/privatepersonaltraining"><a href="#">Private Personal Training</a></Link>
+                  <Link href="/services/workconditioning"><a href="#">Work Conditioning</a></Link>
                 </div>
               </div>
 

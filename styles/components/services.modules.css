@@ -1,6 +1,29 @@
 /*mobile*/
 @media only screen and (min-width: 0em) {
 
+  #services-table .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  #services-table .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: center;
+    max-width: 43.75rem;
+    margin: 0 auto 1rem;
+    color: var(--headerColor);
+    position: relative;
+  }
+
   .services-container {
     max-width: 57.2em;
     margin: auto;
@@ -47,10 +70,6 @@
 
 /* Desktop - 1024px */
 @media only screen and (min-width: 64em) {
-
-  #services-table {
-    background-color: green;
-  }
 
   .services-container {
     max-width: 57.2em;

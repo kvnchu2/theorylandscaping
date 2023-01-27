@@ -117,19 +117,21 @@ export default function Home() {
     </section>
 
     <section id="services-table">
+        <span className="cs-topper">Our Reviews</span>
+        <h2 className="cs-title">Words From Our Clients</h2>
         <div className="services-container">
             <div className="services-table-item">
                 <div className="personaltraining-image">
                     <Image src={PersonalTraining} layout="fill" objectFit="cover"></Image>
                 </div>
-                <h3>Active Rehabilitation</h3>
+                <h3>ICBC Active Rehabilitation</h3>
                 <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
             </div>
             <div className="services-table-item">
                 <div className="personaltraining-image">
                     <Image src={Physiotherapy} layout="fill" objectFit="cover"></Image>
                 </div>
-                <h3>Physiotherapy</h3>
+                <h3>Private Personal Training</h3>
                 <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
             </div>
 
@@ -137,15 +139,15 @@ export default function Home() {
                 <div className="personaltraining-image">
                     <Image src={Acupuncture} layout="fill" objectFit="cover"></Image>
                 </div>
-                <h3>Acupuncture/Dry Needling</h3>
+                <h3>Online/Telerehab</h3>
                 <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
             </div>
 
-            <div className="services-table-item">
+            {/* <div className="services-table-item">
                 <div className="personaltraining-image">
                     <Image src={ElderCare} layout="fill" objectFit="cover"></Image>
                 </div>
-                <h3>Elder Care</h3>
+                <h3>Telerehab</h3>
                 <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
             </div>
 
@@ -153,7 +155,7 @@ export default function Home() {
                 <div className="personaltraining-image">
                     <Image src={KinesioTaping} layout="fill" objectFit="cover"></Image>
                 </div>
-                <h3>KinesioTaping</h3>
+                <h3>Work Conditioning</h3>
                 <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
             </div>
 
@@ -162,9 +164,9 @@ export default function Home() {
                 <div className="personaltraining-image">
                     <Image src={Cupping} layout="fill" objectFit="cover"></Image>
                 </div>
-                <h3>Cupping</h3>
+                <h3>Ergonomics</h3>
                 <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
-            </div>
+            </div> */}
             
         </div>
     </section>
