@@ -21,6 +21,7 @@ import ElderCare from '../public/images/elder-care.jpg';
 import KinesioTaping from '../public/images/kinesio-taping.jpg';
 import Physiotherapy from '../public/images/physiotherapy.jpg';
 import Cupping from '../public/images/cupping.jpg';
+import Online from '../public/images/online.jpg';
 
 
 
@@ -122,22 +123,22 @@ export default function Home() {
         <div className="services-container">
             <div className="services-table-item">
                 <div className="personaltraining-image">
-                    <Image src={PersonalTraining} layout="fill" objectFit="cover"></Image>
+                    <Image src={Physiotherapy} layout="fill" objectFit="cover"></Image>
                 </div>
                 <h3>ICBC Active Rehabilitation</h3>
                 <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
             </div>
             <div className="services-table-item">
                 <div className="personaltraining-image">
-                    <Image src={Physiotherapy} layout="fill" objectFit="cover"></Image>
+                    <Image src={PersonalTraining} layout="fill" objectFit="cover"></Image>
                 </div>
-                <h3>Private Personal Training</h3>
+                <h3>Private Kinesiology</h3>
                 <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
             </div>
 
             <div className="services-table-item">
                 <div className="personaltraining-image">
-                    <Image src={Acupuncture} layout="fill" objectFit="cover"></Image>
+                    <Image src={Online} layout="fill" objectFit="cover"></Image>
                 </div>
                 <h3>Online/Telerehab</h3>
                 <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>

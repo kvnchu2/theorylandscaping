@@ -1,18 +1,18 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
-  #activerehab {
+  #onlinetelerehab {
     /* Centers the button */
     text-align: center;
     padding: var(--sectionPadding);
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
-  #activerehab .cs-container {
+  #onlinetelerehab .cs-container {
     width: 100%;
     max-width: 69rem;
     margin: auto;
   }
-  #activerehab .cs-topper {
+  #onlinetelerehab .cs-topper {
     font-size: var(--topperFontSize);
     line-height: 1.2em;
     text-transform: uppercase;
@@ -23,7 +23,7 @@
     margin-bottom: 1rem;
     display: block;
   }
-  #activerehab .cs-title {
+  #onlinetelerehab .cs-title {
     font-size: var(--headerFontSize);
     font-weight: 900;
     line-height: 1.2em;
@@ -33,7 +33,7 @@
     color: var(--headerColor);
     position: relative;
   }
-  #activerehab .cs-text {
+  #onlinetelerehab .cs-text {
     font-size: var(--bodyFontSize);
     line-height: 1.5rem;
     text-align: center;
@@ -44,12 +44,12 @@
     margin-bottom: clamp(5.5em, 10.2vw, 6.5em);
     color: var(--bodyTextColor);
   }
-  #activerehab .cs-card-group {
+  #onlinetelerehab .cs-card-group {
     padding: 0;
     /* 48px - 64px */
     margin: 0 auto clamp(3rem, 5vw, 4rem);
   }
-  #activerehab .cs-item {
+  #onlinetelerehab .cs-item {
     text-align: left;
     list-style: none;
     width: 100%;
@@ -72,31 +72,31 @@
     flex-direction: column;
   }
 
-  #activerehab .cs-item h2 {
+  #onlinetelerehab .cs-item h2 {
     padding-top: 1.5rem;
   }
 
-  #activerehab .cs-item .button-solid {
+  #onlinetelerehab .cs-item .button-solid {
     margin-top: 3rem;
     width: 15rem;
   }
 
-  #activerehab .cs-item p {
+  #onlinetelerehab .cs-item p {
     text-align: center;
     padding-top: 2rem;
     color: #767676;
   }
 
-  #activerehab .cs-item:last-of-type {
+  #onlinetelerehab .cs-item:last-of-type {
     margin-bottom: 0;
   }
-  #activerehab .cs-item-img {
+  #onlinetelerehab .cs-item-img {
     width: 5rem;
     height: 5rem;
     position: absolute;
     top: -2.5rem;
   }
-  #activerehab .cs-item-p {
+  #onlinetelerehab .cs-item-p {
     font-size: 1rem;
     line-height: 1.5em;
     margin: 0 0 1.25rem;
@@ -104,7 +104,7 @@
     color: var(--bodyTextColor);
     border-bottom: 1px solid #E8E9EC;
   }
-  #activerehab .cs-reviewer {
+  #onlinetelerehab .cs-reviewer {
     font-size: 1rem;
     line-height: 1.5em;
     font-weight: 700;
@@ -113,42 +113,42 @@
     display: block;
     color: var(--headerColor);
   }
-  #activerehab .cs-desc {
+  #onlinetelerehab .cs-desc {
     font-size: 0.875rem;
     font-weight: 400;
     color: var(--label);
     display: block;
   }
-  #activerehab .cs-item-stars {
+  #onlinetelerehab .cs-item-stars {
     width: 6rem;
     height: 1rem;
   }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48em) {
-  #activerehab .cs-card-group {
+  #onlinetelerehab .cs-card-group {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
   }
-  #activerehab .cs-item {
+  #onlinetelerehab .cs-item {
     /* reset margin so it won't interfere with flexbox */
     margin: 0;
   }
 }
 /* Dark Mode */
 @media only screen and (min-width: 0em) {
-  body.dark-mode #activerehab .cs-title,
-  body.dark-mode #activerehab .cs-text,
-  body.dark-mode #activerehab .cs-item-p,
-  body.dark-mode #activerehab .cs-reviewer {
+  body.dark-mode #onlinetelerehab .cs-title,
+  body.dark-mode #onlinetelerehab .cs-text,
+  body.dark-mode #onlinetelerehab .cs-item-p,
+  body.dark-mode #onlinetelerehab .cs-reviewer {
     color: var(--bodyTextColorWhite);
   }
-  body.dark-mode #activerehab .cs-item {
+  body.dark-mode #onlinetelerehab .cs-item {
     background: var(--medium);
   }
-  body.dark-mode #activerehab .cs-desc {
+  body.dark-mode #onlinetelerehab .cs-desc {
     color: var(--primaryLight);
   }
 }

@@ -11,6 +11,8 @@ import "../styles/components/dropdown.modules.css";
 import "../styles/components/sidebyside.modules.css";
 import "../styles/icbcactiverehabilitation/icbcactiverehabilitation.modules.css";
 import "../styles/icbcactiverehabilitation/activerehabilitationcontent.modules.css";
+import "../styles/onlinetelerehab/onlinetelerehabcontent.modules.css";
+import "../styles/onlinetelerehab/onlinetelerehab.modules.css";
 import "../styles/reviews-home.modules.css";
 import "../styles/components/services.modules.css";
 
