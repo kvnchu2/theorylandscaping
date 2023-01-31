@@ -118,22 +118,26 @@ export default function Home() {
     </section>
 
     <section id="services-table">
-        <span className="cs-topper">Our Reviews</span>
-        <h2 className="cs-title">Words From Our Clients</h2>
+        <span className="cs-topper">Services Offered</span>
+        <h2 className="cs-title">Ways I help improve your health and fitness</h2>
         <div className="services-container">
             <div className="services-table-item">
                 <div className="personaltraining-image">
                     <Image src={Physiotherapy} layout="fill" objectFit="cover"></Image>
                 </div>
                 <h3>ICBC Active Rehabilitation</h3>
-                <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
+                <p>If you suffered an injury from a motor vehicle accident, contact our ICBC approved Kinesiologist for more information about the programs we offer that will help you get back to your regular daily activities.</p>
             </div>
             <div className="services-table-item">
                 <div className="personaltraining-image">
                     <Image src={PersonalTraining} layout="fill" objectFit="cover"></Image>
                 </div>
-                <h3>Private Kinesiology</h3>
-                <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
+                    
+                        <h3>Private Exercise Therapy</h3>
+                    
+                    
+                        <p>Looking to manage or prevent a chronic condition using exercise? Learn how an exercise therapy program can benefit your current health status and at the same time, improve your overall fitness.</p>
+                    
             </div>
 
             <div className="services-table-item">
@@ -141,7 +145,7 @@ export default function Home() {
                     <Image src={Online} layout="fill" objectFit="cover"></Image>
                 </div>
                 <h3>Online/Telerehab</h3>
-                <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
+                <p>Experience our professional telehealth services from the comfort of your home. Our kinesiologist will teach you exercises remotely over a video conferencing platform.</p>
             </div>
 
             {/* <div className="services-table-item">

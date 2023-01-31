@@ -65,6 +65,11 @@
     width: 95%;
   }
 
+  .services-table-item p {
+    width: 17rem;
+    text-align: center;
+  }
+
 
 }
 
@@ -84,6 +89,7 @@
     list-style: none;
     width: 100%;
     max-width: 18em;
+    height: 30rem;
     margin: 0 auto 4rem;
     /* Padding L & R - 16px - 32px */
     /* padding: 3.75rem clamp(1rem, 3.2vw, 2rem) 0; */
@@ -103,6 +109,24 @@
     box-sizing: border-box;
   }
 
+  .services-table-item h3 {
+    padding-top: 1rem;
+    position: absolute;
+    top: 10rem;
+  }
+
+  .services-table-item p {
+    width: 280px;
+    padding-top: 1rem;
+    position: absolute;
+    top: 13rem;
+  }
+
+  .personaltraining-image {
+    position: absolute;
+    top: 0;
+  }
+
   .personaltraining-image > span{
     height: 150px !important;
     width: 280px !important;
@@ -113,9 +137,6 @@
     width: 95%;
   }
 
-  .services-table-item p {
-    width: 280px;
-  }
 
   /* .personaltraining-image > img {
     height: 50px !important;

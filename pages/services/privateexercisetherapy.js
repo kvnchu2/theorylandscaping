@@ -7,11 +7,11 @@ import ProfileWoman from '../../public/images/profile-woman.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
-const PrivateKinesiology = () => {
+const PrivateExerciseTherapy = () => {
   return (
   <>
     <section id="int-hero">
-      <h1 id="home-h">Private Kinesiology</h1>
+      <h1 id="home-h">Private Exercise Therapy</h1>
     </section>
 
     <section id="sbs">
@@ -35,7 +35,7 @@ const PrivateKinesiology = () => {
             </div>
             {/* right content section */}
             <div className="cs-right">
-                <span className="cs-topper">ICBC Active Rehabilitation</span>
+                <span className="cs-topper">Private Exercise Therapy</span>
                 <h2 className="cs-title">Healing through movement</h2>
                 <p className="cs-text">
                 Kinesiologists are movement specialists who use evidence-informed techniques to help you meet your health-related goals and support your movement needs.
