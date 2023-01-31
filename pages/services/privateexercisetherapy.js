@@ -136,4 +136,4 @@ const PrivateExerciseTherapy = () => {
   );
 };
 
-export default PrivateKinesiology;
+export default PrivateExerciseTherapy;

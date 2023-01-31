@@ -126,18 +126,14 @@ export default function Home() {
                     <Image src={Physiotherapy} layout="fill" objectFit="cover"></Image>
                 </div>
                 <h3>ICBC Active Rehabilitation</h3>
-                <p>If you suffered an injury from a motor vehicle accident, contact our ICBC approved Kinesiologist for more information about the programs we offer that will help you get back to your regular daily activities.</p>
+                <p>If you recently got into a car accident, contact our ICBC approved Kinesiologist for details on the programs we offer to help you get back to your regular daily activities.</p>
             </div>
             <div className="services-table-item">
                 <div className="personaltraining-image">
                     <Image src={PersonalTraining} layout="fill" objectFit="cover"></Image>
                 </div>
-                    
-                        <h3>Private Exercise Therapy</h3>
-                    
-                    
-                        <p>Looking to manage or prevent a chronic condition using exercise? Learn how an exercise therapy program can benefit your current health status and at the same time, improve your overall fitness.</p>
-                    
+                    <h3>Private Exercise Therapy</h3>
+                    <p>Learn how exercise therapy can manage or prevent health conditions, and at the same time, improve your overall fitness.</p>
             </div>
 
             <div className="services-table-item">
@@ -145,7 +141,7 @@ export default function Home() {
                     <Image src={Online} layout="fill" objectFit="cover"></Image>
                 </div>
                 <h3>Online/Telerehab</h3>
-                <p>Experience our professional telehealth services from the comfort of your home. Our kinesiologist will teach you exercises remotely over a video conferencing platform.</p>
+                <p>Experience professional active rehabilitation services from the comfort of your home. Our Kinesiologist will teach your exercise program remotely over a video platform.</p>
             </div>
 
             {/* <div className="services-table-item">
