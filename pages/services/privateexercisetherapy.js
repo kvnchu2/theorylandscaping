@@ -38,11 +38,19 @@ const PrivateExerciseTherapy = () => {
                 <span className="cs-topper">Private Exercise Therapy</span>
                 <h2 className="cs-title">Healing through movement</h2>
                 <p className="cs-text">
-                Kinesiologists are movement specialists who use evidence-informed techniques to help you meet your health-related goals and support your movement needs.
+                Kinesiologists are exercise specialists who use evidence-based techniques to help you reach your health and fitness goals.
 
-                Following thorough assessment, I design personalized active rehabilitation programs to guide you towards your unique goals. I work within a range of modalities, including corrective exercises, postural education, and breathwork, helping you to improve function and deepen your mind-body connection. Through physical activity you can build trust and confidence in your body and rise to the challenges of daily life.
+                After a detailed assessment, I create customized active rehabilitation programs to guide you towards your unique needs. 
 
-                I work with clients of all ages and abilities to help them move and feel their best. I will empower you with the tools and knowledge to make lasting positive changes in your life.
+                <br></br><br></br>Exercise-based therapy is effective for:
+
+                <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> prevent and recover from nagging injuries
+
+                <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> manage pre-existing health conditions
+
+                <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> prepare for return to work or daily activities
+
+                <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> improve overall fitness and quality of life
                 </p>
                 
                 {/* <div class="cs-flex-group">
@@ -56,24 +64,6 @@ const PrivateExerciseTherapy = () => {
                 
             </div>
         </div>
-    </section>
-
-    <section id="activerehab-content">
-        
-        <p>
-            Exercise-based therapy is an effective approach to:
-
-            <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> prevent and recover from injury
-
-            <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> manage chronic pain and illness
-
-            <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> prepare for return to work or your favorite activity
-
-            <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> improve health, function, and quality of life
-
-            
-        </p>
-        
     </section>
 
 
