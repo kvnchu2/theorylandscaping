@@ -38,19 +38,15 @@ const OnlineTelerehab = () => {
                 <span className="cs-topper">Online/Telerehab</span>
                 <h2 className="cs-title">Exercise from the comfort of your own home</h2>
                 <p className="cs-text">
-                Online Telerehab is for individuals who have been involved in a motor vehicle accident and have an active ICBC claim.  These at-home sessions via Zoom video meetings include an assessment to identify areas of weakness and impediments, a personalized exercise prescription, and ongoing education regarding all aspects of your recovery journey. 
+                Online Telerehab is for those who have been in a motor vehicle accident and have an active ICBC claim.  These Zoom video meetings that can take place at home include an assessment to identify rehabilitation goals, a customized exercise program, and education regarding all areas of your recovery journey.
 
  
 
-                The goal of these sessions is to return the injured client to their regular activities of daily living through education on active rehabilitation (strengthening and stretching exercises).
+                <br></br><br></br>The goal of these sessions is to return you back to your activities of daily living through active rehabilitation (a comprehensive exercise program).
 
  
 
-                Telehealth Active rehabilitation is a one-on-one session with a Kinesiologist and takes place in the comfort of your own home, using the equipment you have on hand.
-
- 
-
-                Sessions are fully covered by ICBC and can be delivered in-person, through Telehealth, or a combination of both.
+                Telehealth Active rehabilitation is led by our Kinesiologist and takes place in your own home, using equipment you have available to you around the house.
 
                 
                 </p>

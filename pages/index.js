@@ -123,24 +123,24 @@ export default function Home() {
         <div className="services-container">
             <div className="services-table-item">
                 <div className="personaltraining-image">
-                    <Image src={Physiotherapy} layout="fill" objectFit="cover"></Image>
+                    <Link href="/services/icbcactiverehabilitation"><Image src={Physiotherapy} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                <h3>ICBC Active Rehabilitation</h3>
-                <p>If you recently got into a car accident, contact our ICBC approved Kinesiologist for details on the programs we offer to help you get back to your regular daily activities.</p>
+                    <Link href="/services/icbcactiverehabilitation"><h3 className="services-title">ICBC Active Rehabilitation</h3></Link>
+                    <p>If you recently got into a car accident, contact our ICBC approved Kinesiologist for details on the programs we offer to help you get back to your regular daily activities.</p>
             </div>
             <div className="services-table-item">
                 <div className="personaltraining-image">
-                    <Image src={PersonalTraining} layout="fill" objectFit="cover"></Image>
+                    <Link href="/services/icbcactiverehabilitation"><Image src={PersonalTraining} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                    <h3>Private Exercise Therapy</h3>
+                    <Link href="/services/privateexercisetherapy"><h3 className="services-title">Private Exercise Therapy</h3></Link>
                     <p>Learn how exercise therapy can manage or prevent health conditions, and at the same time, improve your overall fitness.</p>
             </div>
 
             <div className="services-table-item">
                 <div className="personaltraining-image">
-                    <Image src={Online} layout="fill" objectFit="cover"></Image>
+                    <Link href="/services/icbcactiverehabilitation"><Image src={Online} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                <h3>Online/Telerehab</h3>
+                <Link href="/services/onlinetelerehab"><h3 className="services-title">Online/Telerehab</h3></Link>
                 <p>Experience professional active rehabilitation services from the comfort of your home. Our Kinesiologist will teach your exercise program remotely over a video platform.</p>
             </div>
 
