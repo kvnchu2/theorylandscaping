@@ -75,7 +75,6 @@ const IcbcActiveRehabilitation = () => {
         
     </section>
 
-
     <section id="activerehab">
         <div className="cs-container">
             <ul className="cs-card-group">
@@ -131,6 +130,7 @@ const IcbcActiveRehabilitation = () => {
             
         </div>
     </section>
+    
   </>
   );
 };

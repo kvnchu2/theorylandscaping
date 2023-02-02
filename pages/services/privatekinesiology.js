@@ -7,11 +7,11 @@ import ProfileWoman from '../../public/images/profile-woman.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
-const PrivateExerciseTherapy = () => {
+const PrivateKinesiology = () => {
   return (
   <>
     <section id="int-hero">
-      <h1 id="home-h">Private Exercise Therapy</h1>
+      <h1 id="home-h">Private Kinesiology</h1>
     </section>
 
     <section id="sbs">
@@ -35,7 +35,7 @@ const PrivateExerciseTherapy = () => {
             </div>
             {/* right content section */}
             <div className="cs-right">
-                <span className="cs-topper">Private Exercise Therapy</span>
+                <span className="cs-topper">Private Kinesiology</span>
                 <h2 className="cs-title">Healing through movement</h2>
                 <p className="cs-text">
                 Kinesiologists are exercise specialists who use evidence-based techniques to help you reach your health and fitness goals.
@@ -74,15 +74,15 @@ const PrivateExerciseTherapy = () => {
                 <li className="cs-item">
 
                     <h2>
-                        New Client ICBC Active Rehab
+                        New Client Private Kinesiology
                     </h2>
 
                     <h2>
-                        $0
+                        $110
                     </h2>
 
                     <p>
-                    Did you recently get into a car accident? Book an initial 60-minute session to begin your recovery.
+                    First time trying Kinesiology? Book an initial 60-minute session to begin your recovery.
                     </p>
 
                     <Link href="/contact"><a className="button-solid" >
@@ -97,7 +97,7 @@ const PrivateExerciseTherapy = () => {
                     </p> */}
 
                     <h2>
-                        45-Minute ICBC Active Rehab
+                        45-Minute Private Kinesiology
                     </h2>
                     
                     {/* <p className="cs-item-p">
@@ -105,7 +105,7 @@ const PrivateExerciseTherapy = () => {
                     </p> */}
 
                     <h2>
-                        $0
+                        $90
                     </h2>
 
                     <p>
@@ -126,4 +126,4 @@ const PrivateExerciseTherapy = () => {
   );
 };
 
-export default PrivateExerciseTherapy;
+export default PrivateKinesiology;

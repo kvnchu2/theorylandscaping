@@ -132,8 +132,8 @@ export default function Home() {
                 <div className="personaltraining-image">
                     <Link href="/services/icbcactiverehabilitation"><Image src={PersonalTraining} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                    <Link href="/services/privateexercisetherapy"><h3 className="services-title">Private Exercise Therapy</h3></Link>
-                    <p>Learn how exercise therapy can manage or prevent health conditions, and at the same time, improve your overall fitness.</p>
+                    <Link href="/services/privatekinesiology"><h3 className="services-title">Private Kinesiology</h3></Link>
+                    <p>Learn how kinesiology can manage or prevent health conditions, and at the same time, improve your overall fitness.</p>
             </div>
 
             <div className="services-table-item">
