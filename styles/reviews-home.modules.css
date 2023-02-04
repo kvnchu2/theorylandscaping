@@ -7,7 +7,7 @@
     /* Centers the button */
     text-align: center;
     padding: var(--sectionPadding);
-    padding-top: 4rem;
+    /* padding-top: 4rem; */
     padding-bottom: 4rem;
   }
   #reviews-home .cs-container {
