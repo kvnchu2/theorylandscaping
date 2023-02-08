@@ -46,6 +46,8 @@ nav{
   flex-direction: column;
   row-gap: 6px;
   cursor: pointer;
+  position: absolute;
+  right: 2rem;
 }
 .nav__menu-bar div{
   width: 40px;
@@ -95,9 +97,9 @@ nav{
 
 .logo{
   color: white;
-  width: 50%;
-  height: 50%;
-  margin-left: -0.03rem;
+  width: 100%;
+  height: 100%;
+  margin-left: -1rem;
   max-height: none;
   max-width: none;
 }
@@ -153,7 +155,14 @@ nav{
   .nav__link:hover:before{
    width: 100%;
   } */
-
+  .logo{
+    color: white;
+    width: 50%;
+    height: 50%;
+    margin-left: -0.03rem;
+    max-height: none;
+    max-width: none;
+  }
  
 
   .navbar-right {

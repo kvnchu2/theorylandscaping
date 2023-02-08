@@ -64,7 +64,7 @@
 @media only screen and (min-width: 64em) {
   #int-hero {
     min-height: 15em;
-    height: 15em;
+    height: 20em;
     /* margin-top: 7.4em; */
     background-attachment: fixed;
     background-position: center 80%;
