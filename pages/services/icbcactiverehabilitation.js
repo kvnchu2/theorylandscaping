@@ -6,7 +6,7 @@ import Construction from "../../public/images2/construction.jpg";
 import ProfileWoman from '../../public/images/profile-woman.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
-import GluteBridge from '../../public/images/glute-bridge.jpg';
+import SidePlank from '../../public/images/side-plank.jpg';
 import PersonalTraining from '../../public/images/personal-training.jpg';
 
 
@@ -25,16 +25,16 @@ const IcbcActiveRehabilitation = () => {
                     <source media="(max-width: 600px)" srcSet="../public/images2/cabinets2-m.webp"></source>
                     <source media="(min-width: 601px)" srcSet="../public/images2/cabinets2.jpg"></source>
                     <div className="cs-picture11">
-                        <Image loading="lazy" decoding="async" src={GluteBridge} alt="house" width="522" height="581" />
+                        <Image loading="lazy" decoding="async" src={SidePlank} alt="house" width="522" height="581" />
                     </div>
                 </picture>
-                <picture className="cs-picture cs-picture2">
+                {/* <picture className="cs-picture cs-picture2">
                     <source media="(max-width: 600px)" srcSet="../public/images/construction.jpg"></source>
                     <source media="(min-width: 601px)" srcSet="../public/images/construction.jpg"></source>
                     <div className="cs-picture22">
                         <Image loading="lazy" decoding="async" src={GluteBridge} alt="house" width="414" height="400" />
                     </div>
-                </picture>
+                </picture> */}
             </div>
             {/* right content section */}
             <div className="cs-right">
