@@ -1,0 +1,47 @@
+@media only screen and (min-width: 0em) {
+
+}
+
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64em) {
+ #faq {
+	 width: 57.2em;
+	 margin: auto;
+	 text-align: center;
+	 display: flex;
+	 flex-direction: column;
+	
+ }
+
+ .faq-section {
+	 text-align: center;
+	 padding-top: 3rem;
+	 /* border-bottom: 0.05rem solid gray; */
+	 width: 40em;
+	 margin: auto;
+	 position: relative;
+ }
+
+ .faq-question {
+	 text-align: left;
+	 display: flex;
+ }
+
+ .faq-question:hover {
+	 cursor: pointer;
+ }
+ .faq-answer {
+	 padding-top: 1.5rem;
+	 text-align: left;
+	 width: 40em;
+	 
+ }
+ .fa-chevron-down {
+	 padding-right: 0.5rem;
+ }
+
+ 
+
+}
+
