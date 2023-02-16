@@ -13,7 +13,6 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles({
     accordionDetails: {
       textAlign: 'left',
-
     },
   });
 
@@ -38,12 +37,11 @@ const Faq = () => {
                 aria-controls="panel1a-content"
                 id="panel1a-header"
                 >
-                <Typography> Lorem ipsum dolor sit amet, consectetur adipiscing elit Suspendisse?</Typography>
+                <Typography>How long is an active rehabilitation session?</Typography>
                 </AccordionSummary>
                 <AccordionDetails className={classes.accordionDetails}>
                 <Typography>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.
+                Active Rehabilitation sessions are typically 45 minutes long but can be shorter or longer depending on your circumstances.
                 </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -53,12 +51,11 @@ const Faq = () => {
                 aria-controls="panel2a-content"
                 id="panel2a-header"
                 >
-                <Typography> Lorem ipsum dolor sit amet, consectetur adipiscing elit Suspendisse?</Typography>
+                <Typography>How many sessions of ICBC Active Rehabilitation am I approved for?</Typography>
                 </AccordionSummary>
                 <AccordionDetails className={classes.accordionDetails}>
                 <Typography>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.
+                With ICBC, you are pre-approved for 12 early access treatments within 12 weeks of your accident. After this pre-approval period has ended, and the Kinesiologist has determined you need more treatment, a treatment plan will be submitted to ICBC to request for more sessions.
                 </Typography>
                 </AccordionDetails>
             </Accordion>

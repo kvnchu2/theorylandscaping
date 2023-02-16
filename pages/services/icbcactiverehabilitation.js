@@ -72,7 +72,7 @@ const IcbcActiveRehabilitation = () => {
 
             <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> Fractures and broken bones post-healing.
 
-            <br/><br/>Beginning treatment with a kinesiologist as soon as possible after an accident is important to reaching your rehabilitation goals. With ICBC, you are pre-approved for 12 early access treatments within 12 weeks of your accident. Your appointments are 100% covered so you can direct your attention to recovery and start feeling like your best self.
+            
         </p>
         
     </section>
