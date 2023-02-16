@@ -9,7 +9,8 @@ const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "About Us", href: "/about" },
   { text: "Testimonials", href: "/testimonials"},
-  { text: "Contact", href: "/contact" }
+  { text: "Contact", href: "/contact" },
+  { text: "FAQ", href: '/faq'}
 ];
 const Navbar = () => {
   const [navActive, setNavActive] = useState(null);
@@ -76,7 +77,16 @@ const Navbar = () => {
                   <Link href="/services/onlinetelerehab"><a href="#">Online/Telerehab</a></Link>
                 </div>
               </div>
-
+              
+              <div
+                  onClick={() => {
+                    
+                    setNavActive(false);
+                  }}
+                  key="FAQ"
+                >
+                  <NavItem text="FAQ" href="/faq"  />
+              </div>
 
               <div
                   onClick={() => {

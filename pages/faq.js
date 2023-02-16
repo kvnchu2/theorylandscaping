@@ -14,6 +14,13 @@ const useStyles = makeStyles({
     accordionDetails: {
       textAlign: 'left',
     },
+    accordionDetailsTypography: {
+      fontSize: 'var(--bodyFontSize)'
+    },
+    accordionSummaryTypography: {
+      fontSize: 'var(--bodyFontSize)',
+      fontWeight: 'bold'
+    }
   });
 
 const Faq = () => {
@@ -27,20 +34,20 @@ const Faq = () => {
 
     <section id="faq">
         <div className="faq-title">
-            <h3>Questions frequently asked by clients</h3>
+            <h2>Questions frequently asked by clients</h2>
         </div>
 
-        <div>
+        <div className="faq-section">
             <Accordion>
                 <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel1a-content"
                 id="panel1a-header"
                 >
-                <Typography>How long is an active rehabilitation session?</Typography>
+                <Typography className={classes.accordionSummaryTypography}>How long is an Active Rehabilitation session?</Typography>
                 </AccordionSummary>
                 <AccordionDetails className={classes.accordionDetails}>
-                <Typography>
+                <Typography className={classes.accordionDetailsTypography}>
                 Active Rehabilitation sessions are typically 45 minutes long but can be shorter or longer depending on your circumstances.
                 </Typography>
                 </AccordionDetails>
@@ -51,10 +58,10 @@ const Faq = () => {
                 aria-controls="panel2a-content"
                 id="panel2a-header"
                 >
-                <Typography>How many sessions of ICBC Active Rehabilitation am I approved for?</Typography>
+                <Typography className={classes.accordionSummaryTypography}>How many sessions of ICBC Active Rehabilitation am I approved for?</Typography>
                 </AccordionSummary>
                 <AccordionDetails className={classes.accordionDetails}>
-                <Typography>
+                <Typography className={classes.accordionDetailsTypography}>
                 With ICBC, you are pre-approved for 12 early access treatments within 12 weeks of your accident. After this pre-approval period has ended, and the Kinesiologist has determined you need more treatment, a treatment plan will be submitted to ICBC to request for more sessions.
                 </Typography>
                 </AccordionDetails>
