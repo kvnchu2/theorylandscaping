@@ -1,12 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Cabinets2 from "../../public/images2/cabinets2.jpg";
-import Construction from "../../public/images2/construction.jpg";
-import ProfileWoman from '../../public/images/profile-woman.svg';
 import OnlineTraining from '../../public/images/online-training.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
 const OnlineTelerehab = () => {
   return (

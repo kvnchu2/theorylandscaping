@@ -1,13 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Cabinets2 from "../../public/images2/cabinets2.jpg";
-import Construction from "../../public/images2/construction.jpg";
-import ProfileWoman from '../../public/images/profile-woman.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import SidePlank from '../../public/images/side-plank.jpg';
-import PersonalTraining from '../../public/images/personal-training.jpg';
 
 
 const IcbcActiveRehabilitation = () => {

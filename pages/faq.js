@@ -1,7 +1,4 @@
 import React from "react";
-import { useState} from "react";
-import Image from "next/image";
-
 
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
