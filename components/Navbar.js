@@ -18,13 +18,13 @@ const Navbar = () => {
     <header>
       <nav className={`nav`}>
         <div className="nav-div">
-          <Link href={"/"}>
+          {/* <Link href={"/"}>
             <a>
               <div className="logo">
                 <Image src={Kinwithkevin} alt="kinesiologywithkevin"/>
               </div>
             </a>
-          </Link>
+          </Link> */}
           <div
             onClick={() => setNavActive(!navActive)}
             className={`nav__menu-bar`}
