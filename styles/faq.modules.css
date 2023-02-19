@@ -20,12 +20,21 @@
 	 width: 40em;
 	 margin: auto;
 	 position: relative;
+	 box-shadow: 0px 20px 39px 0px rgba(0, 0, 0, 0.05);
+   border-radius: 0.25rem;
+	 box-sizing: border-box;
  }
 
  .faq-question {
 	 text-align: left;
 	 display: flex;
  }
+
+ .faq-question p {
+	text-align: left;
+	display: flex;
+	font-weight: 700;
+	}
 
  .faq-question:hover {
 	 cursor: pointer;

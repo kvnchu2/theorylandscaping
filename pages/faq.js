@@ -1,28 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { makeStyles } from '@material-ui/core/styles';
-
-const useStyles = makeStyles({
-    accordionDetails: {
-      textAlign: 'left',
-    },
-    accordionDetailsTypography: {
-      fontSize: 'var(--bodyFontSize)'
-    },
-    accordionSummaryTypography: {
-      fontSize: 'var(--bodyFontSize)',
-      fontWeight: 'bold'
-    }
-  });
 
 const Faq = () => {
 
-    const classes = useStyles();
+  const [ faqAnswerOne, setFaqAnswerOne ] = useState(false);
+  const [ faqAnswerTwo, setFaqAnswerTwo ] = useState(false);
   return (
   <>
     <section id="int-hero">
@@ -33,38 +17,28 @@ const Faq = () => {
         <div className="faq-title">
             <h2>Questions frequently asked by clients</h2>
         </div>
+    
+    <div className="faq-section">
+      <div className="faq-question" onClick={() => setFaqAnswerOne(!faqAnswerOne)}>
+        <FontAwesomeIcon className="fa-chevron-down" icon={faChevronDown} />
+        <p>How long is an Active Rehabilitation session?</p>
+      </div>
+      {faqAnswerOne ? <div className="faq-answer">
+        <p>Active Rehabilitation sessions are typically 45 minutes long but can be shorter or longer depending on your circumstances.</p>
+      </div> : ""}
+    </div>
 
-        <div className="faq-section">
-            <Accordion>
-                <AccordionSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls="panel1a-content"
-                id="panel1a-header"
-                >
-                <Typography className={classes.accordionSummaryTypography}>How long is an Active Rehabilitation session?</Typography>
-                </AccordionSummary>
-                <AccordionDetails className={classes.accordionDetails}>
-                <Typography className={classes.accordionDetailsTypography}>
-                Active Rehabilitation sessions are typically 45 minutes long but can be shorter or longer depending on your circumstances.
-                </Typography>
-                </AccordionDetails>
-            </Accordion>
-            <Accordion>
-                <AccordionSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls="panel2a-content"
-                id="panel2a-header"
-                >
-                <Typography className={classes.accordionSummaryTypography}>How many sessions of ICBC Active Rehabilitation am I approved for?</Typography>
-                </AccordionSummary>
-                <AccordionDetails className={classes.accordionDetails}>
-                <Typography className={classes.accordionDetailsTypography}>
-                With ICBC, you are pre-approved for 12 early access treatments within 12 weeks of your accident. After this pre-approval period has ended, and the Kinesiologist has determined you need more treatment, a treatment plan will be submitted to ICBC to request for more sessions.
-                </Typography>
-                </AccordionDetails>
-            </Accordion>
-      
-        </div>
+    <div className="faq-section">
+      <div className="faq-question" onClick={() => setFaqAnswerTwo(!faqAnswerTwo)}>
+        <FontAwesomeIcon className="fa-chevron-down" icon={faChevronDown} />
+        <p>How many sessions of Active Rehabilitation am I approved for?</p>
+      </div>
+      {faqAnswerTwo ? <div className="faq-answer">
+        <p>With ICBC, you are pre-approved for 12 early access treatments within 12 weeks of your accident. After this pre-approval period has ended, and the Kinesiologist has determined you need more treatment, a treatment plan will be submitted to ICBC to request for more sessions.</p>
+      </div> : ""}
+    </div>
+        
+    
     </section>
   </>
   );
