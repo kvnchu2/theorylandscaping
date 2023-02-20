@@ -24,13 +24,6 @@ const IcbcActiveRehabilitation = () => {
                         <Image loading="lazy" decoding="async" src={SidePlank} alt="house" width="522" height="581" />
                     </div>
                 </picture>
-                {/* <picture className="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcSet="../public/images/construction.jpg"></source>
-                    <source media="(min-width: 601px)" srcSet="../public/images/construction.jpg"></source>
-                    <div className="cs-picture22">
-                        <Image loading="lazy" decoding="async" src={GluteBridge} alt="house" width="414" height="400" />
-                    </div>
-                </picture> */}
             </div>
             {/* right content section */}
             <div className="cs-right">
@@ -42,15 +35,34 @@ const IcbcActiveRehabilitation = () => {
                 
                 </p>
                 
-                {/* <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77"></img>
-                </div> */}
                 
+            </div>
+        </div>
+    </section>
+
+    <section id="reverse-sbs">
+        <div className="reverse-cs-container">
+            {/* left image section */}
+            {/* right content section */}
+            <div className="reverse-cs-right">
+                <span className="reverse-cs-topper">ICBC Active Rehabilitation</span>
+                <h2 className="reverse-cs-title">Regain your function</h2>
+                <p className="reverse-cs-text">
+                Car accidents can be frustrating and have a negative impact on your health and well-being. This is the reason I develop active rehab programs designed to help you recover from injury quickly and return to your pre-accident function barrier free.
+
+                
+                </p>
+                
+                
+            </div>
+            <div className="reverse-cs-left">
+                <picture className="reverse-cs-picture reverse-cs-picture1" >
+                    <source media="(max-width: 600px)" srcSet="../public/images2/cabinets2-m.webp"></source>
+                    <source media="(min-width: 601px)" srcSet="../public/images2/cabinets2.jpg"></source>
+                    <div className="reverse-cs-picture11">
+                        <Image className="reverse-cs-picture-image" loading="lazy" decoding="async" src={SidePlank} alt="house" width="522" height="581"/>
+                    </div>
+                </picture>
             </div>
         </div>
     </section>
