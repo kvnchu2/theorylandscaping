@@ -26,6 +26,7 @@
     width: 39.4375em;
     height: 39.75em;
     position: relative;
+    margin-left: 5em;
   }
   #sbs .cs-picture {
     border-radius: 1.5em;
@@ -70,7 +71,7 @@
   }
   #sbs .cs-right {
     margin: auto;
-    max-width: 33.875rem;
+    max-width: 22rem;
   }
   #sbs .cs-topper {
     font-size: var(--topperFontSize);
@@ -158,10 +159,16 @@
   #sbs .cs-left {
     /* font-size: min(1.2vw, 1em); */
     flex: none;
+    margin: 0;
   }
   #sbs .cs-right {
     margin: 0;
     /* margin-top: 5.5em; */
+  }
+
+  #sbs .cs-right {
+    margin: 0;
+    max-width: 33.875rem;
   }
 }
 /* Dark Mode */
