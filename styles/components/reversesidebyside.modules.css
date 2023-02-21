@@ -16,6 +16,8 @@
     justify-content: center;
     align-items: center;
     row-gap: 2.5rem;
+    display: flex;
+    flex-direction: column-reverse;
   }
   #reverse-sbs .reverse-cs-left {
     /* scaling the font size with the view width */
@@ -77,8 +79,8 @@
   }
   #reverse-sbs .reverse-cs-right {
     margin: auto;
-    max-width: 33.875rem;
-    margin-right: 8em;
+    max-width: 22rem;
+   
   }
   #reverse-sbs .reverse-cs-topper {
     font-size: var(--topperFontSize);
@@ -158,17 +160,20 @@
 }
 /* Desktop - 1024px */
 @media only screen and (min-width: 64em) {
-  #reverse-sbs .cs-container {
+  #reverse-sbs .reverse-cs-container {
     flex-flow: row;
     justify-content: space-between;
     gap: 3.25rem;
+    display: flex;
+    flex-direction: row;
   }
   #reverse-sbs .cs-left {
     /* font-size: min(1.2vw, 1em); */
     flex: none;
   }
-  #reverse-sbs .cs-right {
+  #reverse-sbs .reverse-cs-right {
     margin: 0;
+    max-width: 33.875rem;
     /* margin-top: 5.5em; */
   }
 }
