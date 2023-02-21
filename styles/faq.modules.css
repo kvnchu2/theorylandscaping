@@ -1,5 +1,32 @@
 @media only screen and (min-width: 0em) {
+	.faq-section {
+		padding-bottom: 1.5rem;
+	}
+	.faq-question {
+		display: flex;
+		flex-direction: row;
+	}
 
+	.faq-title {
+		padding-bottom: 1rem;
+		padding-top: 1rem;
+		text-align: center;
+	}
+
+	.faq-question p{
+		font-weight: 700;
+		width: 22rem;
+	}
+
+	.fa-chevron-down {
+		padding-right: 0.5rem;
+	}
+
+	.faq-answer {
+		padding-left: 1.5rem;
+		padding-top: 1rem;
+		width: 22rem;
+	}
 }
 
 
@@ -34,6 +61,7 @@
 	text-align: left;
 	display: flex;
 	font-weight: 700;
+	width: 40rem;
 	}
 
  .faq-question:hover {
@@ -42,7 +70,7 @@
  .faq-answer {
 	 padding-top: 1.5rem;
 	 text-align: left;
-	 width: 40em;
+	 width: 38em;
 	 
  }
  .fa-chevron-down {

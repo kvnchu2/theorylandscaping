@@ -45,10 +45,22 @@ const IcbcActiveRehabilitation = () => {
             {/* left image section */}
             {/* right content section */}
             <div className="reverse-cs-right">
-                <span className="reverse-cs-topper">ICBC Active Rehabilitation</span>
-                <h2 className="reverse-cs-title">Regain your function</h2>
+                {/* <span className="reverse-cs-topper">Medical conditions treated by active rehabilitation</span> */}
+                <h2 className="reverse-cs-title">Medical conditions treated by active rehabilitation</h2>
                 <p className="reverse-cs-text">
-                Car accidents can be frustrating and have a negative impact on your health and well-being. This is the reason I develop active rehab programs designed to help you recover from injury quickly and return to your pre-accident function barrier free.
+                <p>
+            
+
+            <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> Whiplash/Neck injuries
+
+            <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> Wrist, elbow, and shoulder soft-tissue injuries
+
+            <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> Hip, knee, and ankle soft-tissue injuries
+
+            <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> Fractures and broken bones post-healing.
+
+            
+        </p>
 
                 
                 </p>
@@ -65,24 +77,6 @@ const IcbcActiveRehabilitation = () => {
                 </picture>
             </div>
         </div>
-    </section>
-
-    <section id="activerehab-content">
-        
-        <p>
-            Here are some injuries I commonly treat with active rehab:
-
-            <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> Whiplash/Neck injuries
-
-            <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> Wrist, elbow, and shoulder soft-tissue injuries
-
-            <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> Hip, knee, and ankle soft-tissue injuries
-
-            <br/><br/><FontAwesomeIcon className="angle-right-icon" icon={faAngleRight} /> Fractures and broken bones post-healing.
-
-            
-        </p>
-        
     </section>
 
     <section id="activerehab">

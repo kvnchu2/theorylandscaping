@@ -21,10 +21,10 @@
     /* scaling the font size with the view width */
     font-size: min(2.31vw, .7em);
     /* using ems so we can use font size to scale the whole section */
-    width: 39.4375em;
+    width: 35em;
     height: 39.75em;
     position: relative;
-    margin-left: 8em;
+    margin-left: 2em;
   }
   #reverse-sbs .reverse-cs-picture {
     border-radius: 1.5em;
@@ -78,6 +78,7 @@
   #reverse-sbs .reverse-cs-right {
     margin: auto;
     max-width: 33.875rem;
+    margin-right: 8em;
   }
   #reverse-sbs .reverse-cs-topper {
     font-size: var(--topperFontSize);
