@@ -4,7 +4,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import SidePlank from '../../public/images/side-plank.jpg';
-
+import CarAccident from '../../public/images/car-accident.jpg';
 
 const IcbcActiveRehabilitation = () => {
   return (
@@ -21,7 +21,7 @@ const IcbcActiveRehabilitation = () => {
                     <source media="(max-width: 600px)" srcSet="../public/images2/cabinets2-m.webp"></source>
                     <source media="(min-width: 601px)" srcSet="../public/images2/cabinets2.jpg"></source>
                     <div className="cs-picture11">
-                        <Image loading="lazy" decoding="async" src={SidePlank} alt="house" width="522" height="581" />
+                        <Image loading="lazy" decoding="async" src={CarAccident} alt="house" width="522" height="581" />
                     </div>
                 </picture>
             </div>

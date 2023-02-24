@@ -25,12 +25,14 @@ return (
                       <li><h2>Company</h2></li>
                       <li><Link href="/"><a>Home</a></Link></li>
                       <li><Link href="/about"><a>About Us</a></Link></li>
-                      {/* <li><Link href="/testimonials"><a>Testimonials</a></Link></li> */}
-                      <li><Link href="/services/icbcactiverehabilitation"><a>Services</a></Link></li>
+                      <li><Link href="/faq">FAQ</Link></li>
+                      <li><Link href="/contact"><a>Contact</a></Link></li>
                   </ul>
                   <ul>
-                      <li><h2>Support</h2></li>
-                      <li><Link href="/contact"><a>Contact Us</a></Link></li>
+                      <li><h2>Services</h2></li>
+                      <li><Link href="/services/icbcactiverehabilitation"><a>Active Rehabilitation</a></Link></li>
+                      <li><Link href="/services/onlinetelerehab"><a>Online Telerehab</a></Link></li>
+                      <li><Link href="/services/privatekinesiology"><a>Private Kinesiology</a></Link></li>
                   </ul>
                   <ul>
                       <li><h2>Get in Touch</h2></li>
