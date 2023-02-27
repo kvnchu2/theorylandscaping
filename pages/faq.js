@@ -61,7 +61,7 @@ const Faq = () => {
 
     
     <div className="accordion-container">
-      <h1>React Accordion</h1>
+      <h3>Questions frequently asked by clients</h3>
       <dl className="accordion">
          <Accordion title={"title One"} onClick={() => toggleOne()} expand={blockOne} />
          <Accordion title={"title Two"} onClick={() => toggleTwo()} expand={blockTwo} />
