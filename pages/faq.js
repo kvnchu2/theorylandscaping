@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import Accordion from './components/Accordion.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
@@ -7,13 +8,27 @@ const Faq = () => {
 
   const [ faqAnswerOne, setFaqAnswerOne ] = useState(false);
   const [ faqAnswerTwo, setFaqAnswerTwo ] = useState(false);
+
+  const [ state, setState] = useState({
+    block1: true,
+    block2: false,
+    block3: false
+  });
+
+  const toggle = (block) => {
+    setState({ [block]: ![block] });
+    console.log(block);
+    console.log(state);
+  };
+
+  const accordionList = [{ block: 'block1', title: 'First Accordion' }, { block: 'block2', title: 'Second Accordion' }, { block: 'block3', title: 'Third Accordion' }];
   return (
   <>
     <section id="int-hero">
       <h1 id="home-h">Frequently Asked Questions</h1>
     </section>
 
-    <section id="faq">
+    {/* <section id="faq">
         <div className="faq-title">
             <h3>Questions frequently asked by clients</h3>
         </div>
@@ -39,7 +54,19 @@ const Faq = () => {
     </div>
         
     
-    </section>
+    </section> */}
+
+    
+    <div className="accordion-container">
+      <h1>React Accordion</h1>
+      <dl className="accordion">
+        {
+          accordionList.map((item) => (
+            <Accordion title={item.title} onClick={() => toggle(item.block)} expand={state[item.block]} />
+          ))
+        }
+      </dl>
+    </div>;
   </>
   );
 };
