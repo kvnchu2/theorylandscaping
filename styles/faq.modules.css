@@ -150,6 +150,7 @@
 	 margin: 0;
 	 opacity: 0;
 	 transition: 0.5s;
+	 text-align: left;
 }
  .accordion .content.is-expanded {
 	 max-height: 500px;
