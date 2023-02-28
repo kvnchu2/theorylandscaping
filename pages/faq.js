@@ -1,7 +1,5 @@
 import React, {useState, useEffect} from "react";
 import Accordion from '../components/Accordion.js';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import {getAllFaqs} from "../lib/contentful";
 
 
@@ -14,7 +12,7 @@ const Faq = ({faqs}) => {
       setState({...state, [faq.block] : false});
     });
       
-  }, []);
+  }, [faqs]);
 
   const toggle = (block) => {
     setState({...state, [block]:!state[block] });
