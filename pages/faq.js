@@ -9,10 +9,10 @@ const Faq = ({faqs}) => {
 
   useEffect(() => {
     faqs.map((faq)=> {
-      setState({...state, [faq.block] : false});
+      setState(state => ({...state, [faq.block] : false}));
     });
       
-  }, [faqs]);
+  }, []);
 
   const toggle = (block) => {
     setState({...state, [block]:!state[block] });
