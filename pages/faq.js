@@ -28,7 +28,7 @@ const Faq = ({faqs}) => {
       <h3>Questions frequently asked by clients</h3>
       <dl className="accordion">
         {faqs.map(faq => (
-          <div>
+          <div key={faq.block}>
             <Accordion question={faq.question} answer={faq.answer} onClick={() => toggle(faq.block)} expand={state[faq.block]} />
           </div>
         ))
