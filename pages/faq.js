@@ -12,7 +12,7 @@ const Faq = ({faqs}) => {
       setState(state => ({...state, [faq.block] : false}));
     });
       
-  }, []);
+  }, [faqs]);
 
   const toggle = (block) => {
     setState({...state, [block]:!state[block] });
