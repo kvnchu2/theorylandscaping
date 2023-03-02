@@ -1,89 +1,5 @@
 @media only screen and (min-width: 0em) {
-	.faq-section {
-		padding-bottom: 1.5rem;
-	}
-	.faq-question {
-		display: flex;
-		flex-direction: row;
-	}
-
-	.faq-title {
-		padding-bottom: 1rem;
-		padding-top: 1rem;
-		text-align: center;
-	}
-
-	.faq-question p{
-		font-weight: 700;
-		width: 22rem;
-	}
-
-	.fa-chevron-down {
-		padding-right: 0.5rem;
-	}
-
-	.faq-answer {
-		padding-left: 1.5rem;
-		padding-top: 1rem;
-		width: 22rem;
-	}
-}
-
-
-/* Desktop - 1024px */
-@media only screen and (min-width: 64em) {
- #faq {
-	 width: 57.2em;
-	 margin: auto;
-	 text-align: center;
-	 display: flex;
-	 flex-direction: column;
- }
-
- .faq-section {
-	 text-align: center;
-	 padding-top: 3rem;
-	 /* border-bottom: 0.05rem solid gray; */
-	 width: 40em;
-	 margin: auto;
-	 position: relative;
-	 box-shadow: 0px 20px 39px 0px rgba(0, 0, 0, 0.05);
-   border-radius: 0.25rem;
-	 box-sizing: border-box;
- }
-
- .faq-question {
-	 text-align: left;
-	 display: flex;
- }
-
- .faq-question p {
-	text-align: left;
-	display: flex;
-	font-weight: 700;
-	width: 40rem;
-	}
-
- .faq-question:hover {
-	 cursor: pointer;
- }
- .faq-answer {
-	 padding-top: 1.5rem;
-	 text-align: left;
-	 width: 38em;
-	 
- }
- .fa-chevron-down {
-	 padding-right: 0.5rem;
- }
-
- 
-
-}
-
-
-
-@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+	@import url("https://fonts.googleapis.com/css?family=PT+Sans");
  /* html, body, #app {
 	 height: 100%;
 } */
@@ -92,7 +8,7 @@
 	 padding: 30px;
 	 font-family: "Roboto", sans-serif;;
 	 text-align: center;
-	 width: 57.2em;
+	 width: 100%;
 	 margin: auto;
 }
  .accordion-container h3 {
@@ -110,13 +26,19 @@
 	 padding: 30px 30px;
 	 cursor: pointer;
 	 transform: translate3d(0, 0, 0);
-	 color: white;
 	 position: relative;
-	 font-size: 20px;
 	 background: #0e817c;
 	 margin-bottom: -1px;
 	 border-bottom: 1px solid #0e4671;
-	 text-align: left;
+	 display: flex;
+	 align-items: center;
+}
+
+.accordion .title p {
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	width: 85%;
 }
  .accordion .title::after {
 	 content: "+";
@@ -167,4 +89,100 @@
 	 background: #0e4671;
 	 content: "";
 }
+}
+
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64em) {
+	@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+	/* html, body, #app {
+		height: 100%;
+ } */
+	.accordion-container {
+		min-height: 100%;
+		padding: 30px;
+		font-family: "Roboto", sans-serif;;
+		text-align: center;
+		width: 57.2em;
+		margin: auto;
+ }
+	.accordion-container h3 {
+		text-align: center;
+		color: black;
+		padding-top: 2em;
+ }
+ 
+	.accordion {
+		margin: 0 auto;
+		width: 100%;
+		padding-top: 2em;
+ }
+	.accordion .title {
+		padding: 30px 30px;
+		cursor: pointer;
+		transform: translate3d(0, 0, 0);
+		color: white;
+		position: relative;
+		font-size: 20px;
+		background: #0e817c;
+		margin-bottom: -1px;
+		border-bottom: 1px solid #0e4671;
+		text-align: left;
+ }
+	.accordion .title::after {
+		content: "+";
+		font-size: 18px;
+		color: white;
+		transition: transform 0.5s ease-in-out;
+		position: absolute;
+		right: 30px;
+		font-family: monospace;
+ }
+	.accordion .title.is-expanded {
+		transition: background 0.5s;
+		background: #0e817c;
+ }
+	.accordion .title.is-expanded::after {
+		content: "-";
+		transform: rotate(-360deg);
+ }
+	.accordion .content {
+		overflow: hidden;
+		max-height: 0;
+		transition: max-height 0.5s;
+		margin: 0;
+		padding: 0 30px;
+		border: solid 1px #eee;
+		border-top: 0;
+		background: #e8f4fc;
+ }
+	.accordion .content p {
+		padding: 30px 0;
+		margin: 0;
+		opacity: 0;
+		transition: 0.5s;
+		text-align: left;
+ }
+	.accordion .content.is-expanded {
+		max-height: 500px;
+		overflow: hidden;
+ }
+	.accordion .content.is-expanded p {
+		opacity: 1;
+		text-align: left;
+ }
+	.accordion:after {
+		width: 100%;
+		height: 10px;
+		display: block;
+		background: #0e4671;
+		content: "";
+ }
+ 
+
+}
+
+
+
+
  

@@ -5,7 +5,9 @@ const Accordion = ({question, answer, expand, onClick}) => {
   <>
       <div>
         <dt className={expand ? 'title is-expanded' : 'title'} onClick={onClick}>
+          <p>
           {question}
+          </p>
         </dt>
         <dd className={expand ? 'content is-expanded' : 'content'} onClick={onClick}>
           <p>
