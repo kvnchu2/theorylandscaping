@@ -18,6 +18,7 @@ import "../styles/onlinetelerehab/onlinetelerehab.modules.css";
 import "../styles/reviews-home.modules.css";
 import "../styles/components/services.modules.css";
 import "../styles/faq.modules.css";
+import "../styles/home-services.modules.css";
 
 
 function MyApp({ Component, pageProps }) {

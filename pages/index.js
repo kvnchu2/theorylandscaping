@@ -121,54 +121,59 @@ export default function Home() {
         <span className="cs-topper">Services Offered</span>
         <h2 className="cs-title">Ways I help improve your health and fitness</h2>
         <div className="services-container">
-            <div className="services-table-item">
-                <div className="personaltraining-image">
-                    <Link href="/services/icbcactiverehabilitation"><Image src={Physiotherapy} layout="fill" objectFit="cover"></Image></Link>
-                </div>
-                    <Link href="/services/icbcactiverehabilitation"><h3 className="services-title">ICBC Active Rehabilitation</h3></Link>
-                    <p>If you recently got into a car accident, contact our ICBC approved Kinesiologist for details on the programs we offer to help you get back to your regular daily activities.</p>
-            </div>
-            <div className="services-table-item">
-                <div className="personaltraining-image">
-                    <Link href="/services/icbcactiverehabilitation"><Image src={PersonalTraining} layout="fill" objectFit="cover"></Image></Link>
-                </div>
-                    <Link href="/services/privatekinesiology"><h3 className="services-title">Private Kinesiology</h3></Link>
-                    <p>Learn how kinesiology can manage or prevent health conditions, and at the same time, improve your overall fitness.</p>
-            </div>
-
-            <div className="services-table-item">
-                <div className="personaltraining-image">
-                    <Link href="/services/icbcactiverehabilitation"><Image src={Online} layout="fill" objectFit="cover"></Image></Link>
-                </div>
-                <Link href="/services/onlinetelerehab"><h3 className="services-title">Online/Telerehab</h3></Link>
-                <p>Experience professional active rehabilitation services from the comfort of your home. Our Kinesiologist will teach your exercise program remotely over a video platform.</p>
-            </div>
-
-            {/* <div className="services-table-item">
-                <div className="personaltraining-image">
-                    <Image src={ElderCare} layout="fill" objectFit="cover"></Image>
-                </div>
-                <h3>Telerehab</h3>
-                <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
-            </div>
-
-            <div className="services-table-item">
-                <div className="personaltraining-image">
-                    <Image src={KinesioTaping} layout="fill" objectFit="cover"></Image>
-                </div>
-                <h3>Work Conditioning</h3>
-                <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
-            </div>
-
-
-            <div className="services-table-item">
-                <div className="personaltraining-image">
-                    <Image src={Cupping} layout="fill" objectFit="cover"></Image>
-                </div>
-                <h3>Ergonomics</h3>
-                <p>A physiotherapy service for those patients and insurers who are having trouble returning to their pre-injury levels of function or post-operative patients who want to return to their pre-operative activity levels.</p>
-            </div> */}
             
+        <div class="card">
+            <picture class="right">
+                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                </picture>
+                <h3>Exterior Work &amp; Repairs</h3>
+                <p>
+                The exterior of your property is the first thing that everyone sees. It projects your image to other people; it's what tells them if you take care of your home or not. The Copper Top contractors are here to build you a beautiful exterior environment for your home, along with any repairs needed. With a full range of exterior work and repairs, we can help to make sure that water doesn't leak into your home along with other problems that may arise.
+            </p>
+            <a href="/contact">Call Now →</a>
+        </div>
+
+        <div class="card">
+            <picture class="right">
+                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                </picture>
+                <h3>Exterior Work &amp; Repairs</h3>
+                <p>
+                The exterior of your property is the first thing that everyone sees. It projects your image to other people; it's what tells them if you take care of your home or not. The Copper Top contractors are here to build you a beautiful exterior environment for your home, along with any repairs needed. With a full range of exterior work and repairs, we can help to make sure that water doesn't leak into your home along with other problems that may arise.
+            </p>
+            <a href="/contact">Call Now →</a>
+        </div>
+
+        <div class="card">
+            <picture class="right">
+                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                </picture>
+                <h3>Exterior Work &amp; Repairs</h3>
+                <p>
+                The exterior of your property is the first thing that everyone sees. It projects your image to other people; it's what tells them if you take care of your home or not. The Copper Top contractors are here to build you a beautiful exterior environment for your home, along with any repairs needed. With a full range of exterior work and repairs, we can help to make sure that water doesn't leak into your home along with other problems that may arise.
+            </p>
+            <a href="/contact">Call Now →</a>
+        </div>
+
+        <div class="card">
+            <picture class="right">
+                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                </picture>
+                <h3>Exterior Work &amp; Repairs</h3>
+                <p>
+                The exterior of your property is the first thing that everyone sees. It projects your image to other people; it's what tells them if you take care of your home or not. The Copper Top contractors are here to build you a beautiful exterior environment for your home, along with any repairs needed. With a full range of exterior work and repairs, we can help to make sure that water doesn't leak into your home along with other problems that may arise.
+            </p>
+            <a href="/contact">Call Now →</a>
+        </div>
+
         </div>
     </section>
 
@@ -187,7 +192,7 @@ export default function Home() {
                     </div>
                     
                     <p className="cs-item-p">
-                    I found Kevin to be an excellent teacher.  He was consistently supportive and encouraging. He recognized the difficulty that older persons have in establishing a new behaviour pattern and found opportunities to compliment me on incremental (sometimes pretty minimal) progress.
+                    I found Kevin to be an excellent teacher.  He was consistently supportive and encouraging. He recognized the difficulty that older persons have in establishing a new behaviour pattern!
                     </p>
                     <span className="cs-reviewer">
                         Dr. Carol Herbert
