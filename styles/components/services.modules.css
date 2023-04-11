@@ -1,7 +1,7 @@
 /*mobile*/
 @media only screen and (min-width: 0em) {
 
-  #services-table .cs-topper {
+  /* #services-table .cs-topper {
     font-size: var(--topperFontSize);
     line-height: 1.2em;
     text-transform: uppercase;
@@ -22,6 +22,43 @@
     margin: 0 auto 1rem;
     color: var(--headerColor);
     position: relative;
+  } */
+
+  #services-table .title {
+    --primary: #FFB599;
+    --darkPrimary: #FFB599;
+    --tint: #996d5c;
+    --shade: #49b5b0;
+    --accessible: #c25327;
+    --dark: #121212;
+    --medium: #292929;
+    --light: #3c3c3c;
+    font-family: "Lato", Arial, sans-serif;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: 900;
+    font-size: min(9vw, 2.4em);
+    line-height: 1.20833333;
+    color: #1A1A1A;
+    position: relative;
+    margin-bottom: 1.91666667em;
+    text-align: center;
+    height: 100%;
+  }
+
+  #services-table .title:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 0.0825em;
+    width: 1.515625em;
+    background: #EEBE76;
+    opacity: 1;
+    bottom: -0.390625em;
+    left: 50%;
+    transform: translateX(-50%);
+
   }
 
   .services-container {

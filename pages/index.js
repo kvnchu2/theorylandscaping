@@ -112,8 +112,7 @@ export default function Home() {
     </section>
 
     <section id="services-table">
-        <span className="cs-topper">Services Offered</span>
-        <h2 className="cs-title">Ways I help improve your health and fitness</h2>
+        <h2 className="title">Services Offered</h2>
         <div className="services-container">
             
         <div class="card">

@@ -10,10 +10,9 @@
   font-family: "Lato", Arial, sans-serif;
   font-size: 20px;
   box-sizing: border-box;
-  padding: 5em 0.5em;
+  padding: 3em 0.5em;
   width: 100%;
   margin: auto;
-  padding-top: 25vw;
   padding-left: 0.5em;
   padding-right: 0.5em;
   display: flex;
@@ -22,7 +21,7 @@
   -webkit-box-pack: center;
   justify-content: center;
   flex-direction: row;
-  max-width: 69.55em;
+  max-width: 57.2em;
   -webkit-box-align: start;
   align-items: flex-start;
 }
@@ -70,6 +69,21 @@
   position: relative;
   margin-bottom: 1.91666667em;
   text-align: left;
+  height: 100%;
+}
+
+.sidebyside .left .title:before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 0.0625em;
+  width: 1.515625em;
+  background: #EEBE76;
+  opacity: 1;
+  bottom: -0.390625em;
+  font-size: inherit;
+  transform: none;
+  left: 0;
 }
 
 #about .left p {
