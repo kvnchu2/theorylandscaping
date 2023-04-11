@@ -92,29 +92,23 @@ export default function Home() {
             </p>
         </div>
     </section>
-    <section id="about-content-home" className="section">
-      <div className="container">
-        <div className="image">
-          <Image className="fitness" decoding="async" src={Fitness} alt="" width="" height="" />
-        </div>
-        <div className="content">
-          <span className="topper">Who We Are</span>
-          <h2>Have you worked with a Kinesiologist yet?</h2>
-          <div aria-hidden="true" className="decoration">
-            <div className="decorationimage">
-                <Image src={Leaf} alt="" width="" height="" />
+
+    <section id="about" className="sidebyside">
+            <div className="left">
+                <h2 className="title">Whidbey Island Home Construction Specialists</h2>
+                 <p>
+                    A home is the most significant investment you can make, providing a place of solace and comfort. At Coppertop Construction, we know just how important your home is to you, and it's our mission to ensure that everything we do complements your personal taste and needs.
+                 </p>
+                 <p>
+                    We offer a range of services for all your home construction needs, including excavating, grading, septic, and water system installation services. If you're looking for a complete home renovation for your kitchen, bathroom, or any other area of the house, we can help with that as well!
+                 </p>
+                 <a className="button-solid" href="/contact">Contact Us</a>
             </div>
-            <div className="line"></div>
-          </div>
-          <p>
-            Kinesiologists are university-educated health professionals that apply exercise and movement science to promote health and manage injury or illness.
-
-            <br></br><br></br>As a Kinesiologist with years of experience, I provide the highest quality personal training and exercise rehabilitation. Work with me to get the body you've dreamed of, or to get back to activities after an injury.
-
-            {/* Working with you, I will build a plan that will address rehabilitation exercise, basic strength training, stress management, lifestyle habits, and more. */}
-          </p>
-        </div>
-      </div>
+            <picture className="right">
+                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/d0ffbfdeb07c04903e25b30344e05b3d12b36c78/ac363/images/construction-m.webp"></source>
+                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/90112a64c159404c3a6aa6f128af4f902e4fa7d6/4535e/images/construction.jpg"></source>
+                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/90112a64c159404c3a6aa6f128af4f902e4fa7d6/4535e/images/construction.jpg" alt="house" width="611" height="861"></img>
+             </picture>
     </section>
 
     <section id="services-table">
@@ -122,6 +116,84 @@ export default function Home() {
         <h2 className="cs-title">Ways I help improve your health and fitness</h2>
         <div className="services-container">
             
+        <div class="card">
+            <picture class="right">
+                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                </picture>
+                <h3>Exterior Work &amp; Repairs</h3>
+                <p>
+                The exterior of your property is the first thing that everyone sees. It projects your image to other people; it's what tells them if you take care of your home or not. The Copper Top contractors are here to build you a beautiful exterior environment for your home, along with any repairs needed. With a full range of exterior work and repairs, we can help to make sure that water doesn't leak into your home along with other problems that may arise.
+            </p>
+            <a href="/contact">Call Now →</a>
+        </div>
+
+        <div class="card">
+            <picture class="right">
+                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                </picture>
+                <h3>Exterior Work &amp; Repairs</h3>
+                <p>
+                The exterior of your property is the first thing that everyone sees. It projects your image to other people; it's what tells them if you take care of your home or not. The Copper Top contractors are here to build you a beautiful exterior environment for your home, along with any repairs needed. With a full range of exterior work and repairs, we can help to make sure that water doesn't leak into your home along with other problems that may arise.
+            </p>
+            <a href="/contact">Call Now →</a>
+        </div>
+
+        <div class="card">
+            <picture class="right">
+                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                </picture>
+                <h3>Exterior Work &amp; Repairs</h3>
+                <p>
+                The exterior of your property is the first thing that everyone sees. It projects your image to other people; it's what tells them if you take care of your home or not. The Copper Top contractors are here to build you a beautiful exterior environment for your home, along with any repairs needed. With a full range of exterior work and repairs, we can help to make sure that water doesn't leak into your home along with other problems that may arise.
+            </p>
+            <a href="/contact">Call Now →</a>
+        </div>
+
+        <div class="card">
+            <picture class="right">
+                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                </picture>
+                <h3>Exterior Work &amp; Repairs</h3>
+                <p>
+                The exterior of your property is the first thing that everyone sees. It projects your image to other people; it's what tells them if you take care of your home or not. The Copper Top contractors are here to build you a beautiful exterior environment for your home, along with any repairs needed. With a full range of exterior work and repairs, we can help to make sure that water doesn't leak into your home along with other problems that may arise.
+            </p>
+            <a href="/contact">Call Now →</a>
+        </div>
+
+        <div class="card">
+            <picture class="right">
+                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                </picture>
+                <h3>Exterior Work &amp; Repairs</h3>
+                <p>
+                The exterior of your property is the first thing that everyone sees. It projects your image to other people; it's what tells them if you take care of your home or not. The Copper Top contractors are here to build you a beautiful exterior environment for your home, along with any repairs needed. With a full range of exterior work and repairs, we can help to make sure that water doesn't leak into your home along with other problems that may arise.
+            </p>
+            <a href="/contact">Call Now →</a>
+        </div>
+
+        <div class="card">
+            <picture class="right">
+                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                </picture>
+                <h3>Exterior Work &amp; Repairs</h3>
+                <p>
+                The exterior of your property is the first thing that everyone sees. It projects your image to other people; it's what tells them if you take care of your home or not. The Copper Top contractors are here to build you a beautiful exterior environment for your home, along with any repairs needed. With a full range of exterior work and repairs, we can help to make sure that water doesn't leak into your home along with other problems that may arise.
+            </p>
+            <a href="/contact">Call Now →</a>
+        </div>
+
         <div class="card">
             <picture class="right">
                 <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>

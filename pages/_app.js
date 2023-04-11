@@ -11,6 +11,7 @@ import "../styles/reviews.modules.css";
 import "../styles/components/dropdown.modules.css";
 import "../styles/components/sidebyside.modules.css";
 import "../styles/components/reversesidebyside.modules.css";
+import "../styles/components/about-sidebyside.modules.css";
 import "../styles/icbcactiverehabilitation/icbcactiverehabilitation.modules.css";
 import "../styles/icbcactiverehabilitation/activerehabilitationcontent.modules.css";
 import "../styles/onlinetelerehab/onlinetelerehabcontent.modules.css";
@@ -18,7 +19,7 @@ import "../styles/onlinetelerehab/onlinetelerehab.modules.css";
 import "../styles/reviews-home.modules.css";
 import "../styles/components/services.modules.css";
 import "../styles/faq.modules.css";
-import "../styles/home-services.modules.css";
+import "../styles/components/home-services.modules.css";
 
 
 function MyApp({ Component, pageProps }) {
