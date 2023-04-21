@@ -248,52 +248,20 @@ export default function Home() {
         </div>
     </section>
 
-    <section id="reviews-home">
-        <div className="cs-container">
-            <span className="cs-topper">Our Reviews</span>
-            <h2 className="cs-title">Words From Our Clients</h2>
-            <p className="cs-text">
-                
-            </p>
-            <ul className="cs-card-group">
-                
-                <li className="cs-item">
-                    <div className="cs-item-img">
-                    <Image className="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src={ProfileWoman} alt="profile picture" width="80" height="80"/>
-                    </div>
-                    
-                    <p className="cs-item-p">
-                    I found Kevin to be an excellent teacher.  He was consistently supportive and encouraging. He recognized the difficulty that older persons have in establishing a new behaviour pattern!
-                    </p>
-                    <span className="cs-reviewer">
-                        Dr. Carol Herbert
-                        <span className="cs-desc">Family Physician</span>
-                    </span>
-                    <div className="cs-item-stars">
-                        <Image aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16" />
-                    </div>
-                </li>
-
-                <li className="cs-item">
-                    <div className="cs-item-img">
-                        <Image className="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src={Profile} alt="profile picture" width="80" height="80"/>
-                    </div>
-                    <p className="cs-item-p">
-                        Coming soon!
-                    </p>
-                    <span className="cs-reviewer">
-                        
-                        <span className="cs-desc"> </span>
-                    </span>
-                    <div className="cs-item-stars">
-                        <Image aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16"/>
-                    </div>
-                </li>
-            </ul>
-            <a aria-label="read more reviews" href="/reviews" className="button-solid">Read More</a>
-        </div>
+    <section id="cta">
+            <div class="container">
+                <h2 class="title">Get it done with us today</h2>
+                <p>
+                    With years of experience, our team is here to provide you with exceptional customer service and top-of-the-line results, every single time.
+                </p>
+                <a class="button-solid" href="/contact">Get a Free Estimate Now</a>
+            </div>
+            <picture>
+                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/a73be843f2d49486e5cbb5739863be86633ff240/9b240/images/cabinets2-m.webp"></source>
+                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/c41665bf721aba3fae2cbac32b7f418f0d197fb9/36c1a/images/cabinets2.jpg"></source>
+                <img aria-hidden="true" loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/c41665bf721aba3fae2cbac32b7f418f0d197fb9/36c1a/images/cabinets2.jpg" alt="kitchen cabinets" width="1920" height="1280"></img>
+            </picture>
     </section>
-    
     </>
   );
 }
