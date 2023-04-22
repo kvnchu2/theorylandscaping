@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
 import NavItem from "./NavItem";
-import Kinwithkevin from "../public/images/kinesiology-with-kevin-high-resolution-logo-color-on-transparent-background.png";
+import TheoryLogo from "../public/images/theory-logo.png";
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
@@ -21,7 +21,7 @@ const Navbar = () => {
           <Link href={"/"}>
             <a>
               <div className="logo">
-                <Image src={Kinwithkevin} alt="kinesiologywithkevin"/>
+                <Image src={TheoryLogo} alt="kinesiologywithkevin"/>
               </div>
             </a>
           </Link>
@@ -54,37 +54,6 @@ const Navbar = () => {
                   key="Home"
                 >
                   <NavItem text="Home" href="/"  />
-              </div>
-              <div
-                  onClick={() => {
-                    
-                    setNavActive(false);
-                  }}
-                  key="About"
-                >
-                  <NavItem text="About Us" href="/about"  />
-              </div>
-
-
-              <div className="dropdown">
-                <button className="dropbtn">Services
-                  <i className="fa fa-caret-down"></i>
-                </button>
-                <div className="dropdown-content">
-                  <Link href="/services/icbcactiverehabilitation"><a href="#">ICBC Active Rehabilitation</a></Link>
-                  <Link href="/services/privatekinesiology"><a href="#">Private Kinesiology</a></Link>
-                  <Link href="/services/onlinetelerehab"><a href="#">Online/Telerehab</a></Link>
-                </div>
-              </div>
-              
-              <div
-                  onClick={() => {
-                    
-                    setNavActive(false);
-                  }}
-                  key="FAQ"
-                >
-                  <NavItem text="FAQ" href="/faq"  />
               </div>
 
               <div

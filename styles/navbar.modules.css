@@ -22,7 +22,7 @@ nav{
   padding: 16px;
   justify-content: center;
   align-items: center;
-  background-color: #0e817c;
+  background-color: #10625e;
   width: 100%;
 }
 
@@ -31,7 +31,7 @@ nav{
   padding: 16px;
   justify-content: space-between;
   align-items: center;
-  background-color: #0e817c;
+  background-color: #10625e;
   max-width: 59em;
   width: 100%;
   height: 5em;
@@ -66,7 +66,7 @@ nav{
   padding: 24px 16px;
   transition: all 0.2s;
   min-height: calc(100vh - 60px);
-  background-color: #0e817c;
+  background-color: #10625e;
 }
 .nav__menu-list.active{
   right: 0;
@@ -142,7 +142,7 @@ nav{
   } */
   .logo{
     color: white;
-    width: 50%;
+    width: 33%;
     height: 50%;
     margin-left: -0.03rem;
     max-height: none;
