@@ -19,6 +19,7 @@ import PressureWasher from '../public/images/pressure-washer.jpg';
 import Fall from '../public/images/fall.jpg';
 import Snow from '../public/images/snow.jpg';
 import Junk from '../public/images/junk.jpg';
+import Cta from '../public/images/cta.jpg';
 
 
 export default function Home() {
@@ -274,7 +275,7 @@ export default function Home() {
             <picture>
                 <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/a73be843f2d49486e5cbb5739863be86633ff240/9b240/images/cabinets2-m.webp"></source>
                 <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/c41665bf721aba3fae2cbac32b7f418f0d197fb9/36c1a/images/cabinets2.jpg"></source>
-                <img aria-hidden="true" loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/c41665bf721aba3fae2cbac32b7f418f0d197fb9/36c1a/images/cabinets2.jpg" alt="kitchen cabinets" width="1920" height="1280"></img>
+                <Image aria-hidden="true" loading="lazy" decoding="async" src={Cta} alt="kitchen cabinets" width="1920" height="1280"></Image>
             </picture>
     </section>
     </>
