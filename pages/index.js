@@ -4,27 +4,21 @@ import Image from "next/image";
 import Link from "next/link";
 import phone from '../public/images/phone.svg';
 import phoneDark from '../public/images/phone-dark.svg';
-import ryanCaselli from '../public/images/ryan-caselli.png';
-import Service1 from '../public/images/service11.svg';
-import Service2 from '../public/images/service22.svg';
-import Service3 from '../public/images/service33.svg';
 import Car from '../public/images/car-svgrepo-com.svg';
 import Calendar from '../public/images/calendar-svgrepo-com.svg';
 import Money from '../public/images/money-svgrepo-com.svg';
-import Fitness from '../public/images/fitness.jpg';
-import ProfileWoman from '../public/images/profile-woman.svg';
-import Profile from '../public/images/profile.svg';
-import Leaf from '../public/images/leaf.svg';
-import PersonalTraining from '../public/images/personal-training.jpg';
-import Acupuncture from '../public/images/acupuncture.jpg';
-import ElderCare from '../public/images/elder-care.jpg';
-import KinesioTaping from '../public/images/kinesio-taping.jpg';
-import Physiotherapy from '../public/images/physiotherapy.jpg';
-import Cupping from '../public/images/cupping.jpg';
-import Online from '../public/images/online.jpg';
-
-
-
+import Landscaping from '../public/images/landscaping.png';
+import Lawnmower from '../public/images/lawnmower.png';
+import Gardening from '../public/images/gardening.png';
+import Hedge from '../public/images/hedge.jpg';
+import PowerRaking from '../public/images/powerraking.jpg';
+import Spring from '../public/images/spring.jpg';
+import Aeration from '../public/images/aeration.jpg';
+import Pruning from '../public/images/pruning.jpg';
+import PressureWasher from '../public/images/pressure-washer.jpg';
+import Fall from '../public/images/fall.jpg';
+import Snow from '../public/images/snow.jpg';
+import Junk from '../public/images/junk.jpg';
 
 
 export default function Home() {
@@ -66,29 +60,29 @@ export default function Home() {
         
         <div className="card">
             <picture className="picture">
-                <Image src={Car} alt="appliance" width="48" height="48" />
+                <Image src={Landscaping} alt="appliance" width="48" height="48" />
             </picture>
-            <h2>Mobile</h2>
+            <h2>Landscaping</h2>
             <p>
-                No need to visit a clinic! Sessions take place at your home, community center gym, or pool.
+            At Theory Landscaping we specialize in hardscaping, landscape design and landscape installation.
             </p>
         </div>
         <div className="card">
             <picture>
-                <Image aria-hidden="true" decoding="async" src={Calendar} alt="appliance" width="48" height="48" />
+                <Image aria-hidden="true" decoding="async" src={Lawnmower} alt="appliance" width="48" height="48" />
             </picture>
-            <h2>Flexible</h2>
+            <h2>Lawn Care</h2>
             <p>
-                Scheduling is convenient to accommodate your availability.
+            Mowing your lawn regularly keeps your property looking clean, tidy, well-maintained and welcoming.
             </p>
         </div>
         <div className="card">
             <picture>
-                <Image aria-hidden="true" decoding="async" src={Money} alt="appliance" width="48" height="48" />
+                <Image aria-hidden="true" decoding="async" src={Gardening} alt="appliance" width="48" height="48" />
             </picture>
-            <h2>Direct Billing</h2>
+            <h2>Garden Maintenance</h2>
             <p>
-            Insurance-covered services billed directly to ICBC and major insurance providers.
+            Our local experts tailor their services to meet your gardening needs.
             </p>
         </div>
     </section>
@@ -119,8 +113,10 @@ export default function Home() {
             <picture class="right">
                 <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
                 <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
-                </picture>
+                <div className="card-image">    
+                    <Image loading="lazy" decoding="async" src={Hedge} alt="" width="553" height="383"></Image>
+                </div>
+            </picture>
                 <h3>Hedge Maintenance Services</h3>
                 <p>
                 Hedges grow beautifully and offer plenty of privacy! Whether you’re designing a new yard for your house or you’re looking to refresh your current look, hedges are a beautiful accent that will surely raise the aesthetic and property value of your home. But it can also be challenging to maintain and care for them.
@@ -132,7 +128,9 @@ export default function Home() {
             <picture class="right">
                 <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
                 <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                <div className="card-image">
+                    <Image loading="lazy" decoding="async" src={PowerRaking} alt="" width="553" height="383"></Image>
+                </div>
                 </picture>
                 <h3>Power Raking</h3>
                 <p>
@@ -145,7 +143,10 @@ export default function Home() {
             <picture class="right">
                 <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
                 <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                
+                <div className="card-image">
+                    <Image loading="lazy" decoding="async" src={Spring} alt="" width="553" height="383"></Image>
+                </div>
                 </picture>
                 <h3>Spring Clean Up</h3>
                 <p>
@@ -158,7 +159,9 @@ export default function Home() {
             <picture class="right">
                 <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
                 <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                <div className="card-image">
+                    <Image loading="lazy" decoding="async" src={Aeration} alt="" width="553" height="383"></Image>
+                </div>
                 </picture>
                 <h3>Aeration</h3>
                 <p>
@@ -171,7 +174,9 @@ export default function Home() {
             <picture class="right">
                 <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
                 <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                <div className="card-image">
+                    <Image loading="lazy" decoding="async" src={Pruning} alt="" width="553" height="383"></Image>
+                </div>
                 </picture>
                 <h3>Pruning</h3>
                 <p>
@@ -184,7 +189,9 @@ export default function Home() {
             <picture class="right">
                 <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
                 <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                <div className="card-image">
+                    <Image loading="lazy" decoding="async" src={PressureWasher} alt="" width="553" height="383"></Image>
+                </div>
                 </picture>
                 <h3>Pressure Washing Services</h3>
                 <p>
@@ -197,7 +204,9 @@ export default function Home() {
             <picture class="right">
                 <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
                 <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                <div className="card-image">
+                    <Image loading="lazy" decoding="async" src={Fall} alt="" width="553" height="383"></Image>
+                </div>
                 </picture>
                 <h3>Fall Cleanup</h3>
                 <p>
@@ -210,7 +219,9 @@ export default function Home() {
             <picture class="right">
                 <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
                 <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                <div className="card-image">
+                    <Image loading="lazy" decoding="async" src={Snow} alt="" width="553" height="383"></Image>
+                </div>
                 </picture>
                 <h3>Snow Removal and Ice Control</h3>
                 <p>
@@ -223,7 +234,9 @@ export default function Home() {
             <picture class="right">
                 <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
                 <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                <div className="card-image">
+                    <Image loading="lazy" decoding="async" src={Junk} alt="" width="553" height="383"></Image>
+                </div>
                 </picture>
                 <h3>Junk and Green Waste Removal</h3>
                 <p>
@@ -236,7 +249,9 @@ export default function Home() {
             <picture class="right">
                 <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
                 <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg" alt="" width="553" height="383"></img>
+                <div className="card-image">
+                <Image loading="lazy" decoding="async" src={Junk} alt="" width="553" height="383"></Image>
+                </div>
                 </picture>
                 <h3>Exterior Work &amp; Repairs</h3>
                 <p>
@@ -254,7 +269,7 @@ export default function Home() {
                 <p>
                     With years of experience, our team is here to provide you with exceptional customer service and top-of-the-line results, every single time.
                 </p>
-                <a class="button-solid" href="/contact">Get a Free Estimate Now</a>
+                <a class="cta-button-solid" href="/contact">Get a Free Estimate Now</a>
             </div>
             <picture>
                 <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/a73be843f2d49486e5cbb5739863be86633ff240/9b240/images/cabinets2-m.webp"></source>

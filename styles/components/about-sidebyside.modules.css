@@ -109,7 +109,7 @@
     margin: auto;
     text-align: center;
     text-decoration: none;
-    background: linear-gradient(90deg, #f49e4e 0%, #f4764e 100%), linear-gradient(90deg, #f49e4e 0%, #f4764e 100%);
+    background: #0e817c;
     padding: 0 0.8em;
     line-height: 2.45;
     min-width: 8.1em;
@@ -165,7 +165,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    box-shadow: -5rem -20px red;
+    box-shadow: -5rem -20px #FFB599;
   }
 
 }
@@ -331,7 +331,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    box-shadow: -5rem -20px red;
+    box-shadow: -5rem -20px #FFB599;
   }
 
 }

@@ -307,4 +307,8 @@
   width: 5.35em;
   margin-top: auto;
   }
+
+  .card-image > span {
+      position: unset !important;
+  }
 }

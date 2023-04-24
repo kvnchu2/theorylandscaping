@@ -135,6 +135,26 @@
     object-fit: cover;
   }
 
+  .cta-button-solid {
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    background: #0e817c;
+    line-height: 2.65;
+    width: 14em;
+    border-radius: 0.16666667em;
+    font-size: 0.9em;
+    font-family: "Roboto", sans-serif;
+    transition: .2s ease;
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+  }
 
 }
 
@@ -286,6 +306,27 @@
   left: 0;
   height: 100%;
   width: 100%;
+}
+
+.cta-button-solid {
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  color: #fff;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  background: #0e817c;
+  line-height: 2.65;
+  width: 14em;
+  border-radius: 0.16666667em;
+  font-size: 0.9em;
+  font-family: "Roboto", sans-serif;
+  transition: .2s ease;
+  display: inline-block;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
 }
 
 }
