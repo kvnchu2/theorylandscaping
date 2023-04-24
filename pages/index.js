@@ -97,7 +97,7 @@ export default function Home() {
                  <p>
                  At Theory Landscaping, we work with you to build a successful business relationship and make sure you get the most out of our services. Communication and involvement are key, so feel free to let us know how we can accommodate your needs.
                  </p>
-                 <a className="button-solid" href="/contact">Contact Us</a>
+                 <Link href="/contact"><a className="button-solid">Contact Us</a></Link>
             </div>
             <picture className="right">
                 <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/d0ffbfdeb07c04903e25b30344e05b3d12b36c78/ac363/images/construction-m.webp"></source>
@@ -110,11 +110,11 @@ export default function Home() {
         <h2 className="title">Services Offered</h2>
         <div className="services-container">
             
-        <div class="card">
+        <div className="card">
             <picture className="right">
                 <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
                 <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <div classNameName="card-image">
+                <div className="card-image">
                     <Image loading="lazy" decoding="async" src={Hedge} alt="" width="553" height="383"></Image>
                 </div>
             </picture>
@@ -122,14 +122,14 @@ export default function Home() {
                 <p>
                 Hedges grow beautifully and offer plenty of privacy! Whether you’re designing a new yard for your house or you’re looking to refresh your current look, hedges are a beautiful accent that will surely raise the aesthetic and property value of your home. But it can also be challenging to maintain and care for them.
             </p>
-            <a href="/contact">Call Now →</a>
+            <Link href="/contact"><a>Call Now →</a></Link>
         </div>
 
         <div className="card">
             <picture className="right">
                 <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
                 <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <div classNameName="card-image">
+                <div className="card-image">
                     <Image loading="lazy" decoding="async" src={PowerRaking} alt="" width="553" height="383"></Image>
                 </div>
                 </picture>
@@ -137,7 +137,7 @@ export default function Home() {
                 <p>
                 Keep your property in tip-top shape with one of the most recommended solutions to help your lawn fight the various problems that can arise, like the destructive chafer beetle or thick lawn-choking moss, is a power rake. Power raking is an essential step that will help the long term health of your lawn. Read on to find out if a power rake is the right solution for you!
             </p>
-            <a href="/contact">Call Now →</a>
+            <Link href="/contact"><a>Call Now →</a></Link>
         </div>
 
         <div className="card">
@@ -153,7 +153,7 @@ export default function Home() {
                 <p>
                 Keep your property in tip-top shape with our spring clean up services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results, and to get your garden ready for the season.
             </p>
-            <a href="/contact">Call Now →</a>
+            <Link href="/contact"><a>Call Now →</a></Link>
         </div>
 
         <div className="card">
@@ -168,7 +168,7 @@ export default function Home() {
                 <p>
                 If you notice your lawn is pooling in certain areas, as is common in B.C , this is a clear sign that your lawn wants an aeration. When the soil is very compact, water can’t penetrate it and this is what causes the pooling. When you aerate , it loosens up the compacted soil and will eliminate the pooling over time. Aside from this, you should aerate your lawn simply because it gives optimal access to nutrients, air and water for your turf’s roots.
             </p>
-            <a href="/contact">Call Now →</a>
+            <Link href="/contact"><a>Call Now →</a></Link>
         </div>
 
         <div className="card">
@@ -183,7 +183,7 @@ export default function Home() {
                 <p>
                 As with most landscaping services in B.C, the obvious reasons for proper garden care is the proper health of your plants, and to elevate the look of your gardens and your property. Overgrown plants, and trees can become an eye sore as they grow into, and over, each other.
             </p>
-            <a href="/contact">Call Now →</a>
+            <Link href="/contact"><a>Call Now →</a></Link>
         </div>
 
         <div className="card">
@@ -198,7 +198,7 @@ export default function Home() {
                 <p>
                 Power washing, or pressure washing, is something that we would recommend doing for your home at least once a year. Without frequent pressure washing, the buildup of dirt, dust or grime can become too much for a single pressure wash, or to clean at all. So to prevent non-removable grime, you should make this a part of your home care checklist.
             </p>
-            <a href="/contact">Call Now →</a>
+            <Link href="/contact"><a>Call Now →</a></Link>
         </div>
 
         <div className="card">
@@ -213,7 +213,7 @@ export default function Home() {
                 <p>
                 By now, the weather is getting chillier, the season’s colors are showing, and you’re stuck wondering what you are supposed to do about your yard. Have no fear because Theory Landscaping has you covered. A fall cleanup is a great way to ensure the long term health of your garden and lawn.
             </p>
-            <a href="/contact">Call Now →</a>
+            <Link href="/contact"><a>Call Now →</a></Link>
         </div>
 
         <div className="card">
@@ -228,7 +228,7 @@ export default function Home() {
                 <p>
                 We specialize in seasonal services, at Theory Landscaping here in B.C we will get snow at some point during the winter let us help you take care of it. We do all types of properties from residential to strata and commercial property.
             </p>
-            <a href="/contact">Call Now →</a>
+            <Link href="/contact"><a>Call Now →</a></Link>
         </div>
 
         <div className="card">
@@ -243,7 +243,7 @@ export default function Home() {
                 <p>
                 Do you have some clutter around your property you need cleaned up? Do you have an overwhelming amount of leaves? At Theory Landscaping we do various clean up jobs from big to small to new construction and green waste removal.
             </p>
-            <a href="/contact">Call Now →</a>
+            <Link href="/contact"><a>Call Now →</a></Link>
         </div>
 
         <div className="card">
@@ -258,7 +258,7 @@ export default function Home() {
                 <p>
                 The exterior of your property is the first thing that everyone sees. It projects your image to other people; it's what tells them if you take care of your home or not. The Copper Top contractors are here to build you a beautiful exterior environment for your home, along with any repairs needed. With a full range of exterior work and repairs, we can help to make sure that water doesn't leak into your home along with other problems that may arise.
             </p>
-            <a href="/contact">Call Now →</a>
+            <Link href="/contact"><a>Call Now →</a></Link>
         </div>
 
         </div>
@@ -270,7 +270,7 @@ export default function Home() {
                 <p>
                     With years of experience, our team is here to provide you with exceptional customer service and top-of-the-line results, every single time.
                 </p>
-                <a className="cta-button-solid" href="/contact">Get a Free Estimate Now</a>
+                <Link href="/contact"><a className="cta-button-solid">Get a Free Estimate Now</a></Link>
             </div>
             <picture>
                 <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/a73be843f2d49486e5cbb5739863be86633ff240/9b240/images/cabinets2-m.webp"></source>
