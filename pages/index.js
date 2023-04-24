@@ -111,10 +111,10 @@ export default function Home() {
         <div className="services-container">
             
         <div class="card">
-            <picture class="right">
-                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <div className="card-image">    
+            <picture className="right">
+                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+                <div classNameName="card-image">
                     <Image loading="lazy" decoding="async" src={Hedge} alt="" width="553" height="383"></Image>
                 </div>
             </picture>
@@ -125,11 +125,11 @@ export default function Home() {
             <a href="/contact">Call Now →</a>
         </div>
 
-        <div class="card">
-            <picture class="right">
-                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <div className="card-image">
+        <div className="card">
+            <picture className="right">
+                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+                <div classNameName="card-image">
                     <Image loading="lazy" decoding="async" src={PowerRaking} alt="" width="553" height="383"></Image>
                 </div>
                 </picture>
@@ -140,10 +140,10 @@ export default function Home() {
             <a href="/contact">Call Now →</a>
         </div>
 
-        <div class="card">
-            <picture class="right">
-                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+        <div className="card">
+            <picture className="right">
+                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
                 
                 <div className="card-image">
                     <Image loading="lazy" decoding="async" src={Spring} alt="" width="553" height="383"></Image>
@@ -156,10 +156,10 @@ export default function Home() {
             <a href="/contact">Call Now →</a>
         </div>
 
-        <div class="card">
-            <picture class="right">
-                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+        <div className="card">
+            <picture className="right">
+                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
                 <div className="card-image">
                     <Image loading="lazy" decoding="async" src={Aeration} alt="" width="553" height="383"></Image>
                 </div>
@@ -171,10 +171,10 @@ export default function Home() {
             <a href="/contact">Call Now →</a>
         </div>
 
-        <div class="card">
-            <picture class="right">
-                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+        <div className="card">
+            <picture className="right">
+                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
                 <div className="card-image">
                     <Image loading="lazy" decoding="async" src={Pruning} alt="" width="553" height="383"></Image>
                 </div>
@@ -186,10 +186,10 @@ export default function Home() {
             <a href="/contact">Call Now →</a>
         </div>
 
-        <div class="card">
-            <picture class="right">
-                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+        <div className="card">
+            <picture className="right">
+                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
                 <div className="card-image">
                     <Image loading="lazy" decoding="async" src={PressureWasher} alt="" width="553" height="383"></Image>
                 </div>
@@ -201,10 +201,10 @@ export default function Home() {
             <a href="/contact">Call Now →</a>
         </div>
 
-        <div class="card">
-            <picture class="right">
-                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+        <div className="card">
+            <picture className="right">
+                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
                 <div className="card-image">
                     <Image loading="lazy" decoding="async" src={Fall} alt="" width="553" height="383"></Image>
                 </div>
@@ -216,10 +216,10 @@ export default function Home() {
             <a href="/contact">Call Now →</a>
         </div>
 
-        <div class="card">
-            <picture class="right">
-                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+        <div className="card">
+            <picture className="right">
+                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
                 <div className="card-image">
                     <Image loading="lazy" decoding="async" src={Snow} alt="" width="553" height="383"></Image>
                 </div>
@@ -231,10 +231,10 @@ export default function Home() {
             <a href="/contact">Call Now →</a>
         </div>
 
-        <div class="card">
-            <picture class="right">
-                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+        <div className="card">
+            <picture className="right">
+                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
                 <div className="card-image">
                     <Image loading="lazy" decoding="async" src={Junk} alt="" width="553" height="383"></Image>
                 </div>
@@ -246,10 +246,10 @@ export default function Home() {
             <a href="/contact">Call Now →</a>
         </div>
 
-        <div class="card">
-            <picture class="right">
-                <source media="(max-width: 600px)" srcset="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcset="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+        <div className="card">
+            <picture className="right">
+                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
+                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
                 <div className="card-image">
                 <Image loading="lazy" decoding="async" src={Junk} alt="" width="553" height="383"></Image>
                 </div>
@@ -265,17 +265,19 @@ export default function Home() {
     </section>
 
     <section id="cta">
-            <div class="container">
-                <h2 class="title">Get it done with us today</h2>
+            <div className="container">
+                <h2 className="title">Get it done with us today</h2>
                 <p>
                     With years of experience, our team is here to provide you with exceptional customer service and top-of-the-line results, every single time.
                 </p>
-                <a class="cta-button-solid" href="/contact">Get a Free Estimate Now</a>
+                <a className="cta-button-solid" href="/contact">Get a Free Estimate Now</a>
             </div>
             <picture>
                 <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/a73be843f2d49486e5cbb5739863be86633ff240/9b240/images/cabinets2-m.webp"></source>
                 <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/c41665bf721aba3fae2cbac32b7f418f0d197fb9/36c1a/images/cabinets2.jpg"></source>
-                <Image aria-hidden="true" loading="lazy" decoding="async" src={Cta} alt="kitchen cabinets" width="1920" height="1280"></Image>
+                <div className="">
+                    <Image aria-hidden="true" loading="lazy" decoding="async" src={Cta} alt="kitchen cabinets" width="1920" height="1280"></Image>
+                </div>
             </picture>
     </section>
     </>
