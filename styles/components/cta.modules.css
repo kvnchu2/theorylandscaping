@@ -156,6 +156,10 @@
     z-index: 1;
   }
 
+  .cta-image > span {
+    position: unset !important;
+  }
+
 }
 
 /* Desktop - 1024px */
@@ -327,6 +331,10 @@
   font-weight: bold;
   position: relative;
   z-index: 1;
+}
+
+.cta-image > span {
+  position: unset !important;
 }
 
 }
