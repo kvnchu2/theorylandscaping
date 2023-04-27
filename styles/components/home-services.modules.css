@@ -130,7 +130,11 @@
   }
 
   .services-container .card:nth-of-type(10) {
-    visibility: hidden;
+    display: none
+  }
+
+  .services-container .card:last-of-type {
+    margin-bottom: 0;
   }
 
 
