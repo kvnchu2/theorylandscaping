@@ -215,6 +215,7 @@
 
   .services-container .card:nth-of-type(10) {
     visibility: hidden;
+    display: inline;
   }
 
   .services-container .card:last-of-type {
