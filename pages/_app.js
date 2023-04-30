@@ -12,6 +12,7 @@ import "../styles/components/dropdown.modules.css";
 import "../styles/components/sidebyside.modules.css";
 import "../styles/components/reversesidebyside.modules.css";
 import "../styles/components/about-sidebyside.modules.css";
+import "../styles/components/services-sidebyside.modules.css";
 import "../styles/components/services.modules.css";
 import "../styles/components/cta.modules.css";
 

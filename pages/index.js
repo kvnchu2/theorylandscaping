@@ -12,7 +12,6 @@ import Spring from '../public/images/spring.jpg';
 import Aeration from '../public/images/aeration.png';
 import Pruning from '../public/images/pruning.jpg';
 import PressureWasher from '../public/images/pressure-washer.jpg';
-import Fall from '../public/images/fall.jpg';
 import Snow from '../public/images/snow.jpg';
 import Junk from '../public/images/junk.jpg';
 import Cta from '../public/images/cta.jpg';
@@ -53,7 +52,7 @@ export default function Home() {
           </div>
       </section>
 
-    <section id="services" className="services">
+    <section className="services-top">
         
         <div className="card">
             <picture className="picture">
@@ -103,69 +102,67 @@ export default function Home() {
     </section>
 
     <section id="services-table">
-        <span className="cs-topper">Services Offered</span>
-        <h2 className="cs-title">Ways I help improve your health and fitness</h2>
+        <h2 className="title">Services Offered</h2>
         <div className="services-container">
             <div className="services-table-item">
                 <div className="personaltraining-image">
-                    <Link href="/services/icbcactiverehabilitation"><Image src={Hedge} layout="fill" objectFit="cover"></Image></Link>
+                    <Link href="/services/HedgeMaintenance"><Image src={Hedge} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                    <Link href="/services/icbcactiverehabilitation"><h3 className="services-title">Hedge Maintenance</h3></Link>
+                    <Link href="/services/HedgeMaintenance"><h3 className="services-title">Hedge Maintenance</h3></Link>
                    
             </div>
             <div className="services-table-item">
                 <div className="personaltraining-image">
-                    <Link href="/services/icbcactiverehabilitation"><Image src={PowerRaking} layout="fill" objectFit="cover"></Image></Link>
+                    <Link href="/services/PowerRaking"><Image src={PowerRaking} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                    <Link href="/services/privatekinesiology"><h3 className="services-title">Power Raking</h3></Link>
+                    <Link href="/services/PowerRaking"><h3 className="services-title">Power Raking</h3></Link>
                     
             </div>
 
             <div className="services-table-item">
                 <div className="personaltraining-image">
-                    <Link href="/services/icbcactiverehabilitation"><Image src={Spring} layout="fill" objectFit="cover"></Image></Link>
+                    <Link href="/services/FallSpringCleanup"><Image src={Spring} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                <Link href="/services/onlinetelerehab"><h3 className="services-title">Fall/Spring Cleanup</h3></Link>
+                <Link href="/services/FallSpringCleanup"><h3 className="services-title">Fall/Spring Cleanup</h3></Link>
                 
             </div>
 
             <div className="services-table-item">
                 <div className="personaltraining-image">
-                    <Link href="/services/icbcactiverehabilitation"><Image src={Aeration} layout="fill" objectFit="cover"></Image></Link>
+                    <Link href="/services/Aeration"><Image src={Aeration} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                <Link href="/services/onlinetelerehab"><h3 className="services-title">Aeration</h3></Link>
+                <Link href="/services/Aeration"><h3 className="services-title">Aeration</h3></Link>
                 
             </div>
 
             <div className="services-table-item">
                 <div className="personaltraining-image">
-                    <Link href="/services/icbcactiverehabilitation"><Image src={Pruning} layout="fill" objectFit="cover"></Image></Link>
+                    <Link href="/services/Pruning"><Image src={Pruning} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                    <Link href="/services/icbcactiverehabilitation"><h3 className="services-title">Pruning</h3></Link>
+                    <Link href="/services/Pruning"><h3 className="services-title">Pruning</h3></Link>
                    
             </div>
             <div className="services-table-item">
                 <div className="personaltraining-image">
-                    <Link href="/services/icbcactiverehabilitation"><Image src={PressureWasher} layout="fill" objectFit="cover"></Image></Link>
+                    <Link href="/services/PressureWashing"><Image src={PressureWasher} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                    <Link href="/services/privatekinesiology"><h3 className="services-title">Pressure Washing</h3></Link>
+                    <Link href="/services/PressureWashing"><h3 className="services-title">Pressure Washing</h3></Link>
                     
             </div>
 
             <div className="services-table-item">
                 <div className="personaltraining-image">
-                    <Link href="/services/icbcactiverehabilitation"><Image src={Snow} layout="fill" objectFit="cover"></Image></Link>
+                    <Link href="/services/SnowRemoval"><Image src={Snow} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                <Link href="/services/onlinetelerehab"><h3 className="services-title">Snow Removal and Ice Control</h3></Link>
+                <Link href="/services/SnowRemoval"><h3 className="services-title">Snow Removal and Ice Control</h3></Link>
                 
             </div>
 
             <div className="services-table-item">
                 <div className="personaltraining-image">
-                    <Link href="/services/icbcactiverehabilitation"><Image src={Junk} layout="fill" objectFit="cover"></Image></Link>
+                    <Link href="/services/JunkGreenWasteRemoval"><Image src={Junk} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                <Link href="/services/onlinetelerehab"><h3 className="services-title">Junk and Green Waste Removal</h3></Link>
-                
+                <Link href="/services/JunkGreenWasteRemoval"><h3 className="services-title">Junk and Green Waste Removal</h3></Link>            
             </div>
             
         </div>

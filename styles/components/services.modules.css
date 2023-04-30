@@ -67,7 +67,6 @@
     margin: auto;
     display: grid;
     grid-template-columns: auto;
-    padding-top: 5rem;
   }
 
   .services-table-item {
@@ -125,7 +124,6 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     column-gap: 0.5em;
-    padding-top: 5rem;
   }
 
   .services-table-item {

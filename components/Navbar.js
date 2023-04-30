@@ -55,7 +55,21 @@ const Navbar = () => {
                 >
                   <NavItem text="Home" href="/"  />
               </div>
-
+              <div className="dropdown">
+                <button className="dropbtn">Services
+                  <i className="fa fa-caret-down"></i>
+                </button>
+                <div className="dropdown-content">
+                  <Link href="/services/Aeration"><a href="#">Aeration</a></Link>
+                  <Link href="/services/FallSpringCleanup"><a href="#">Fall/Spring Cleanup</a></Link>
+                  <Link href="/services/HedgeMaintenance"><a href="#">Hedge Maintenance</a></Link>
+                  <Link href="/services/JunkGreenWasteRemoval"><a href="#">Junk and Green Waste Removal</a></Link>
+                  <Link href="/services/PowerRaking"><a href="#">Power Raking</a></Link>
+                  <Link href="/services/PressureWashing"><a href="#">Pressure Washing</a></Link>
+                  <Link href="/services/Pruning"><a href="#">Pruning</a></Link>
+                  <Link href="/services/SnowRemoval"><a href="#">Snow Removal and Ice Control</a></Link>
+                </div>
+              </div>
               <div
                   onClick={() => {
                     

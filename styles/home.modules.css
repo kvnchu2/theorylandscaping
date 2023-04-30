@@ -391,7 +391,7 @@ main {
 <--- -------------------------- -*/
 /* Mobile */
 @media only screen and (min-width: 0em) {
-  .services {
+  .services-top {
     border-radius: 0.3125em;
     margin: auto;
     margin-top: -5.4375em;
@@ -405,7 +405,7 @@ main {
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
     margin-bottom: 3.125em;
   }
-  .services .card {
+  .services-top .card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -414,10 +414,10 @@ main {
     margin: auto;
     margin-bottom: 3.125em;
   }
-  .services .card:last-of-type {
+  .services-top .card:last-of-type {
     margin-bottom: 0;
   }
-  .services .card picture {
+  .services-top .card picture {
     background: #015e41;
     width: 4.4em;
     height: 4.4em;
@@ -428,11 +428,11 @@ main {
     margin-bottom: 1.4375em;
     border-radius: 50%;
   }
-  .services .card picture img {
+  .services-top .card picture img {
     width: 3.5em;
     height: 3.5em;
   }
-  .services .card h2 {
+  .services-top .card h2 {
     text-align: center;
     font-size: 1.5em;
     line-height: 1.35em;
@@ -440,7 +440,7 @@ main {
     color: #1a1a1a;
     margin-bottom: 0.65em;
   }
-  .services .card p {
+  .services-top .card p {
     text-align: center;
     line-height: 1.33333333em;
     width: 70%;
@@ -449,14 +449,14 @@ main {
 }
 /* Inbetween */
 @media only screen and (min-width: 768px) {
-  .services {
+  .services-top {
     font-size: min(1.8vw, 1em);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     width: 98%;
   }
-  .services .card {
+  .services-top .card {
     margin: 0;
     max-width: 20.3125em;
     display: flex;
@@ -470,7 +470,7 @@ main {
   /* .services {
     padding: 3.125em 5em;
   } */
-  .services .card {
+  .services-top .card {
     max-width: 22.3125em;
   }
 }
