@@ -103,160 +103,71 @@ export default function Home() {
     </section>
 
     <section id="services-table">
-        <h2 className="title">Services Offered</h2>
+        <span className="cs-topper">Services Offered</span>
+        <h2 className="cs-title">Ways I help improve your health and fitness</h2>
         <div className="services-container">
-            
-        <div className="card">
-            <picture className="right">
-                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <div className="card-image">
-                    <Image loading="lazy" decoding="async" src={Hedge} alt="" width="553" height="383"></Image>
+            <div className="services-table-item">
+                <div className="personaltraining-image">
+                    <Link href="/services/icbcactiverehabilitation"><Image src={Hedge} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-            </picture>
-                <h3>Hedge Maintenance Services</h3>
-                <p>
-                Hedges grow beautifully and offer plenty of privacy! Whether you’re designing a new yard for your house or you’re looking to refresh your current look, hedges are a beautiful accent that will surely raise the aesthetic and property value of your home. But it can also be challenging to maintain and care for them.
-            </p>
-            <Link href="/contact"><a>Call Now →</a></Link>
-        </div>
-
-        <div className="card">
-            <picture className="right">
-                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <div className="card-image">
-                    <Image loading="lazy" decoding="async" src={PowerRaking} alt="" width="553" height="383"></Image>
+                    <Link href="/services/icbcactiverehabilitation"><h3 className="services-title">Hedge Maintenance</h3></Link>
+                   
+            </div>
+            <div className="services-table-item">
+                <div className="personaltraining-image">
+                    <Link href="/services/icbcactiverehabilitation"><Image src={PowerRaking} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                </picture>
-                <h3>Power Raking</h3>
-                <p>
-                Keep your property in tip-top shape with one of the most recommended solutions to help your lawn fight the various problems that can arise, like the destructive chafer beetle or thick lawn-choking moss, is a power rake. Power raking is an essential step that will help the long term health of your lawn. Read on to find out if a power rake is the right solution for you!
-            </p>
-            <Link href="/contact"><a>Call Now →</a></Link>
-        </div>
+                    <Link href="/services/privatekinesiology"><h3 className="services-title">Power Raking</h3></Link>
+                    
+            </div>
 
-        <div className="card">
-            <picture className="right">
-                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
+            <div className="services-table-item">
+                <div className="personaltraining-image">
+                    <Link href="/services/icbcactiverehabilitation"><Image src={Spring} layout="fill" objectFit="cover"></Image></Link>
+                </div>
+                <Link href="/services/onlinetelerehab"><h3 className="services-title">Fall/Spring Cleanup</h3></Link>
                 
-                <div className="card-image">
-                    <Image loading="lazy" decoding="async" src={Spring} alt="" width="553" height="383"></Image>
-                </div>
-                </picture>
-                <h3>Spring Clean Up</h3>
-                <p>
-                Keep your property in tip-top shape with our spring clean up services. Our team does it all, and is ready to provide complete attention to your every need. You can count on us to make sure you’re satisfied with the results, and to get your garden ready for the season.
-            </p>
-            <Link href="/contact"><a>Call Now →</a></Link>
-        </div>
+            </div>
 
-        <div className="card">
-            <picture className="right">
-                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <div className="card-image">
-                    <Image loading="lazy" decoding="async" src={Aeration} alt="" width="553" height="383"></Image>
+            <div className="services-table-item">
+                <div className="personaltraining-image">
+                    <Link href="/services/icbcactiverehabilitation"><Image src={Aeration} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                </picture>
-                <h3>Aeration</h3>
-                <p>
-                If you notice your lawn is pooling in certain areas, as is common in B.C , this is a clear sign that your lawn wants an aeration. When the soil is very compact, water can’t penetrate it and this is what causes the pooling. When you aerate , it loosens up the compacted soil and will eliminate the pooling over time. Aside from this, you should aerate your lawn simply because it gives optimal access to nutrients, air and water for your turf’s roots.
-            </p>
-            <Link href="/contact"><a>Call Now →</a></Link>
-        </div>
+                <Link href="/services/onlinetelerehab"><h3 className="services-title">Aeration</h3></Link>
+                
+            </div>
 
-        <div className="card">
-            <picture className="right">
-                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <div className="card-image">
-                    <Image loading="lazy" decoding="async" src={Pruning} alt="" width="553" height="383"></Image>
+            <div className="services-table-item">
+                <div className="personaltraining-image">
+                    <Link href="/services/icbcactiverehabilitation"><Image src={Pruning} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                </picture>
-                <h3>Pruning</h3>
-                <p>
-                As with most landscaping services in B.C, the obvious reasons for proper garden care is the proper health of your plants, and to elevate the look of your gardens and your property. Overgrown plants, and trees can become an eye sore as they grow into, and over, each other.
-            </p>
-            <Link href="/contact"><a>Call Now →</a></Link>
-        </div>
-
-        <div className="card">
-            <picture className="right">
-                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <div className="card-image">
-                    <Image loading="lazy" decoding="async" src={PressureWasher} alt="" width="553" height="383"></Image>
+                    <Link href="/services/icbcactiverehabilitation"><h3 className="services-title">Pruning</h3></Link>
+                   
+            </div>
+            <div className="services-table-item">
+                <div className="personaltraining-image">
+                    <Link href="/services/icbcactiverehabilitation"><Image src={PressureWasher} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                </picture>
-                <h3>Pressure Washing Services</h3>
-                <p>
-                Power washing, or pressure washing, is something that we would recommend doing for your home at least once a year. Without frequent pressure washing, the buildup of dirt, dust or grime can become too much for a single pressure wash, or to clean at all. So to prevent non-removable grime, you should make this a part of your home care checklist.
-            </p>
-            <Link href="/contact"><a>Call Now →</a></Link>
-        </div>
+                    <Link href="/services/privatekinesiology"><h3 className="services-title">Pressure Washing</h3></Link>
+                    
+            </div>
 
-        <div className="card">
-            <picture className="right">
-                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <div className="card-image">
-                    <Image loading="lazy" decoding="async" src={Fall} alt="" width="553" height="383"></Image>
+            <div className="services-table-item">
+                <div className="personaltraining-image">
+                    <Link href="/services/icbcactiverehabilitation"><Image src={Snow} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                </picture>
-                <h3>Fall Cleanup</h3>
-                <p>
-                By now, the weather is getting chillier, the season’s colors are showing, and you’re stuck wondering what you are supposed to do about your yard. Have no fear because Theory Landscaping has you covered. A fall cleanup is a great way to ensure the long term health of your garden and lawn.
-            </p>
-            <Link href="/contact"><a>Call Now →</a></Link>
-        </div>
+                <Link href="/services/onlinetelerehab"><h3 className="services-title">Snow Removal and Ice Control</h3></Link>
+                
+            </div>
 
-        <div className="card">
-            <picture className="right">
-                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <div className="card-image">
-                    <Image loading="lazy" decoding="async" src={Snow} alt="" width="553" height="383"></Image>
+            <div className="services-table-item">
+                <div className="personaltraining-image">
+                    <Link href="/services/icbcactiverehabilitation"><Image src={Junk} layout="fill" objectFit="cover"></Image></Link>
                 </div>
-                </picture>
-                <h3>Snow Removal and Ice Control</h3>
-                <p>
-                We specialize in seasonal services, at Theory Landscaping here in B.C we will get snow at some point during the winter let us help you take care of it. We do all types of properties from residential to strata and commercial property.
-            </p>
-            <Link href="/contact"><a>Call Now →</a></Link>
-        </div>
-
-        <div className="card">
-            <picture className="right">
-                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <div className="card-image">
-                    <Image loading="lazy" decoding="async" src={Junk} alt="" width="553" height="383"></Image>
-                </div>
-                </picture>
-                <h3>Junk and Green Waste Removal</h3>
-                <p>
-                Do you have some clutter around your property you need cleaned up? Do you have an overwhelming amount of leaves? At Theory Landscaping we do various clean up jobs from big to small to new construction and green waste removal.
-            </p>
-            <Link href="/contact"><a>Call Now →</a></Link>
-        </div>
-
-        <div className="card">
-            <picture className="right">
-                <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/2a395f871d7c40a13a2c65da126baac73b1dc3d4/1e722/images/ex-services2-m.jpg"></source>
-                <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/caf02f0e4a27738c81a32176cd29f0511513a548/b76c9/images/ex-services2.jpg"></source>
-                <div className="card-image">
-                <Image loading="lazy" decoding="async" src={Junk} alt="" width="553" height="383"></Image>
-                </div>
-                </picture>
-                <h3>Exterior Work &amp; Repairs</h3>
-                <p>
-                The exterior of your property is the first thing that everyone sees. It projects your image to other people; it's what tells them if you take care of your home or not. The Copper Top contractors are here to build you a beautiful exterior environment for your home, along with any repairs needed. With a full range of exterior work and repairs, we can help to make sure that water doesn't leak into your home along with other problems that may arise.
-            </p>
-            <Link href="/contact"><a>Call Now →</a></Link>
-        </div>
-
+                <Link href="/services/onlinetelerehab"><h3 className="services-title">Junk and Green Waste Removal</h3></Link>
+                
+            </div>
+            
         </div>
     </section>
 

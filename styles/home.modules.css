@@ -12,7 +12,7 @@ main {
     padding-top: 5em;
     position: relative;
     z-index: 1;
-    /* background: url("../public/images/infinite-wellness-background.jpg"); */
+    background: url("../public/images/lawn.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -1,7 +1,7 @@
 /*mobile*/
 @media only screen and (min-width: 0em) {
 
-  /* #services-table .cs-topper {
+  #services-table .cs-topper {
     font-size: var(--topperFontSize);
     line-height: 1.2em;
     text-transform: uppercase;
@@ -22,7 +22,7 @@
     margin: 0 auto 1rem;
     color: var(--headerColor);
     position: relative;
-  } */
+  }
 
   #services-table .title {
     --primary: #FFB599;
@@ -123,8 +123,8 @@
     max-width: 57.2em;
     margin: auto;
     display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 0.1rem;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 0.5em;
     padding-top: 5rem;
   }
 
@@ -133,7 +133,7 @@
     list-style: none;
     width: 100%;
     max-width: 18em;
-    height: 30rem;
+    height: 15rem;
     margin: 0 auto 4rem;
     /* Padding L & R - 16px - 32px */
     /* padding: 3.75rem clamp(1rem, 3.2vw, 2rem) 0; */
@@ -154,9 +154,11 @@
   }
 
   .services-table-item h3 {
-    padding-top: 1rem;
+    padding-top: 0.3rem;
     position: absolute;
     top: 10rem;
+    text-align: center;
+    word-wrap: break-word;
   }
 
   .services-title {
@@ -185,14 +187,6 @@
     cursor: pointer;
   }
 
-  .services-table-item p {
-    width: 17rem;
-    text-align: center;
-    padding-top: 1rem;
-    position: absolute;
-    top: 13rem;
-  }
-
   .personaltraining-image {
     position: absolute;
     top: 0;
@@ -203,8 +197,8 @@
   }
 
   .personaltraining-image > span{
-    height: 150px !important;
-    width: 280px !important;
+    max-height: 121px !important;
+    max-width: 230px !important;
     position: relative !important;
     padding-top: 1em;
     padding-left: 3em;
