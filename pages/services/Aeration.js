@@ -1,9 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import ExerciseGear from '../../public/images/exercise-gear.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import aeration from "../../public/images/aeration.png";
 import Cta from '../../public/images/cta.jpg';
 
 const Aeration = () => {
@@ -28,8 +26,10 @@ const Aeration = () => {
             <picture className="right">
                 <source media="(max-width: 600px)" srcSet="https://d33wubrfki0l68.cloudfront.net/d0ffbfdeb07c04903e25b30344e05b3d12b36c78/ac363/images/construction-m.webp"></source>
                 <source media="(min-width: 601px)" srcSet="https://d33wubrfki0l68.cloudfront.net/90112a64c159404c3a6aa6f128af4f902e4fa7d6/4535e/images/construction.jpg"></source>
-                <img loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/90112a64c159404c3a6aa6f128af4f902e4fa7d6/4535e/images/construction.jpg" alt="house" width="611" height="861"></img>
-             </picture>
+                <div className="services-image">
+                <Image loading="lazy" decoding="async" src={aeration} alt="house" width="611" height="861"></Image>
+                </div>
+            </picture>
     </section>
 
     <section id="cta">

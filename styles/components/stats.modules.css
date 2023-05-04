@@ -1,0 +1,469 @@
+/* Mobile - 360px */
+@media only screen and (min-width: 0em) {
+  #stats {
+    --primary: #7F2923;
+    --primaryLight: #b27f7b;
+    --secondary: #c13c33;
+    --secondaryLight: #7F2923;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+    --dark: #121212;
+    --medium: #282828;
+    --accent: #404040;
+    --bodyTextColorWhite: #FAFBFC;
+    font-size: 100%;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: var(--bodyTextColor);
+    margin: 0;
+    box-sizing: border-box;
+    padding: var(--sectionPadding);
+    background-color: #f7f7f7;
+  }
+
+  .cs-stat-group {
+    --primary: #7F2923;
+    --primaryLight: #b27f7b;
+    --secondary: #c13c33;
+    --secondaryLight: #7F2923;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+    --dark: #121212;
+    --medium: #282828;
+    --accent: #404040;
+    --bodyTextColorWhite: #FAFBFC;
+    font-size: 100%;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: var(--bodyTextColor);
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 37.5em;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .cs-item {
+    --primary: #7F2923;
+    --primaryLight: #b27f7b;
+    --secondary: #c13c33;
+    --secondaryLight: #7F2923;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+    --dark: #121212;
+    --medium: #282828;
+    --accent: #404040;
+    --bodyTextColorWhite: #FAFBFC;
+    font-family: 'Roboto', Arial, sans-serif;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    font-size: 1.125rem;
+    line-height: 1.5em;
+    color: #575757;
+    list-style: none;
+    width: 14.6875rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  .cs-picture {
+    --primary: #7F2923;
+    --primaryLight: #b27f7b;
+    --secondary: #c13c33;
+    --secondaryLight: #7F2923;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+    --dark: #121212;
+    --medium: #282828;
+    --accent: #404040;
+    --bodyTextColorWhite: #FAFBFC;
+    font-family: 'Roboto', Arial, sans-serif;
+    -webkit-box-direction: normal;
+    font-size: 1.125rem;
+    line-height: 1.5em;
+    color: #575757;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 5rem;
+    height: 5rem;
+    margin-right: clamp(0.75rem, 3vw, 1.25rem);
+    border-radius: 50%;
+    border: 1px solid var(--primary);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    flex: none;
+  }
+
+  .cs-flex-group {
+    --primary: #7F2923;
+    --primaryLight: #b27f7b;
+    --secondary: #c13c33;
+    --secondaryLight: #7F2923;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+    --dark: #121212;
+    --medium: #282828;
+    --accent: #404040;
+    --bodyTextColorWhite: #FAFBFC;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5em;
+    color: #575757;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+
+  .cs-number {
+    --primary: #7F2923;
+    --primaryLight: #b27f7b;
+    --secondary: #c13c33;
+    --secondaryLight: #7F2923;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+    --dark: #121212;
+    --medium: #282828;
+    --accent: #404040;
+    --bodyTextColorWhite: #FAFBFC;
+    font-family: 'Roboto', Arial, sans-serif;
+    list-style: none;
+    -webkit-box-direction: normal;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--headerFontSize);
+    color: var(--headerColor);
+    font-weight: 900;
+    line-height: 1.2em;
+    margin: 0;
+    display: block;
+  }
+
+  .cs-stat {
+    --primary: #7F2923;
+    --primaryLight: #b27f7b;
+    --secondary: #c13c33;
+    --secondaryLight: #7F2923;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+    --dark: #121212;
+    --medium: #282828;
+    --accent: #404040;
+    --bodyTextColorWhite: #FAFBFC;
+    font-family: 'Roboto', Arial, sans-serif;
+    list-style: none;
+    -webkit-box-direction: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    color: #6E6E6E;
+    display: block;
+  }
+}
+
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64em) {
+  #stats {
+    --primary: #7F2923;
+    --primaryLight: #b27f7b;
+    --secondary: #c13c33;
+    --secondaryLight: #7F2923;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+    --dark: #121212;
+    --medium: #282828;
+    --accent: #404040;
+    --bodyTextColorWhite: #FAFBFC;
+    font-size: 100%;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: var(--bodyTextColor);
+    margin: 0;
+    box-sizing: border-box;
+    padding: var(--sectionPadding);
+    background-color: #f7f7f7;
+  }
+
+  .cs-stat-group {
+    --primary: #7F2923;
+    --primaryLight: #b27f7b;
+    --secondary: #c13c33;
+    --secondaryLight: #7F2923;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+    --dark: #121212;
+    --medium: #282828;
+    --accent: #404040;
+    --bodyTextColorWhite: #FAFBFC;
+    font-size: 100%;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: var(--bodyTextColor);
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    column-gap: 1.25rem;
+    row-gap: 2rem;
+    max-width: 80rem;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+
+  .cs-item {
+    --primary: #7F2923;
+    --primaryLight: #b27f7b;
+    --secondary: #c13c33;
+    --secondaryLight: #7F2923;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1.3rem;
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+    --dark: #121212;
+    --medium: #282828;
+    --accent: #404040;
+    --bodyTextColorWhite: #FAFBFC;
+    font-family: 'Roboto', Arial, sans-serif;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    font-size: 1.125rem;
+    line-height: 1.5em;
+    color: #575757;
+    list-style: none;
+    width: 17rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  .cs-picture {
+    --primary: #7F2923;
+    --primaryLight: #b27f7b;
+    --secondary: #c13c33;
+    --secondaryLight: #7F2923;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+    --dark: #121212;
+    --medium: #282828;
+    --accent: #404040;
+    --bodyTextColorWhite: #FAFBFC;
+    font-family: 'Roboto', Arial, sans-serif;
+    -webkit-box-direction: normal;
+    font-size: 1.125rem;
+    line-height: 1.5em;
+    color: #575757;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 5rem;
+    height: 5rem;
+    margin-right: clamp(0.75rem, 3vw, 1.25rem);
+    border-radius: 50%;
+    border: 1px solid var(--primary);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    flex: none;
+  }
+
+  .cs-icon {
+    --primary: #7F2923;
+    --primaryLight: #b27f7b;
+    --secondary: #c13c33;
+    --secondaryLight: #7F2923;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4E4B66;
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+    --dark: #121212;
+    --medium: #282828;
+    --accent: #404040;
+    --bodyTextColorWhite: #FAFBFC;
+    font-family: 'Roboto', Arial, sans-serif;
+    -webkit-box-direction: normal;
+    font-size: 1.125rem;
+    line-height: 1.5em;
+    color: #575757;
+    list-style: none;
+    aspect-ratio: auto 35 / 40;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 2.5rem;
+    height: 3.5rem;
+  }
+
+  .cs-flex-group {
+  --primary: #7F2923;
+  --primaryLight: #b27f7b;
+  --secondary: #c13c33;
+  --secondaryLight: #7F2923;
+  --headerColor: #1a1a1a;
+  --bodyTextColor: #4E4B66;
+  --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+  --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+  --bodyFontSize: 1rem;
+  --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+  --dark: #121212;
+  --medium: #282828;
+  --accent: #404040;
+  --bodyTextColorWhite: #FAFBFC;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5em;
+  color: #575757;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  }
+
+  .cs-number {
+  --primary: #7F2923;
+  --primaryLight: #b27f7b;
+  --secondary: #c13c33;
+  --secondaryLight: #7F2923;
+  --headerColor: #1a1a1a;
+  --bodyTextColor: #4E4B66;
+  --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+  --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+  --bodyFontSize: 1rem;
+  --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+  --dark: #121212;
+  --medium: #282828;
+  --accent: #404040;
+  --bodyTextColorWhite: #FAFBFC;
+  font-family: 'Roboto', Arial, sans-serif;
+  list-style: none;
+  -webkit-box-direction: normal;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--headerFontSize);
+  color: var(--headerColor);
+  font-weight: 900;
+  line-height: 1.2em;
+  margin: 0;
+  display: block;
+  }
+
+  .cs-stat {
+  --primary: #7F2923;
+  --primaryLight: #b27f7b;
+  --secondary: #c13c33;
+  --secondaryLight: #7F2923;
+  --headerColor: #1a1a1a;
+  --bodyTextColor: #4E4B66;
+  --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+  --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+  --bodyFontSize: 1.3rem;
+  --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+  --dark: #121212;
+  --medium: #282828;
+  --accent: #404040;
+  --bodyTextColorWhite: #FAFBFC;
+  font-family: 'Roboto', Arial, sans-serif;
+  list-style: none;
+  -webkit-box-direction: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--bodyFontSize);
+  line-height: 1.5em;
+  color: #6E6E6E;
+  display: block;
+  }
+}
