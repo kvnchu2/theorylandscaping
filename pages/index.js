@@ -172,35 +172,35 @@ export default function Home() {
     </section>
 
     <div id="stats">
-        <ul class="cs-stat-group">
-            <li class="cs-item">
-                <picture class="cs-picture" aria-hidden="true">
+        <ul className="cs-stat-group">
+            <li className="cs-item">
+                <picture className="cs-picture" aria-hidden="true">
                     <FontAwesomeIcon class="cs-icon" icon={faStar} style={{color: "#015e41", height: "2.5rem"}} />
                     {/* <Image class="cs-icon" src="https://d33wubrfki0l68.cloudfront.net/7291578fd665838270eef92ea1d57a612b4f2d2a/35d61/assets/images/5-star.svg" alt="icon" width="40" height="35" loading="lazy" decoding="async" /> */}
                 </picture>
-                <div class="cs-flex-group">
-                    <span class="cs-number">5/5</span>
-                    <span class="cs-stat">Google Rating</span>
+                <div className="cs-flex-group">
+                    <span className="cs-number">5/5</span>
+                    <span className="cs-stat">Google Rating</span>
                 </div>
             </li>
-            <li class="cs-item">
-                <picture class="cs-picture" aria-hidden="true">
-                    <FontAwesomeIcon class="cs-icon" icon={faScrewdriverWrench} style={{color: "#015e41", height: "2.5rem"}} />
+            <li className="cs-item">
+                <picture className="cs-picture" aria-hidden="true">
+                    <FontAwesomeIcon className="cs-icon" icon={faScrewdriverWrench} style={{color: "#015e41", height: "2.5rem"}} />
                     {/* <Image class="cs-icon" src="https://d33wubrfki0l68.cloudfront.net/d8becff8cf5b696aa674a6d884a5fb3395d5f33b/5f680/assets/images/tool-box.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" /> */}
                 </picture>
-                <div class="cs-flex-group">
-                    <span class="cs-number">100's</span>
-                    <span class="cs-stat">Complete Projects</span>
+                <div className="cs-flex-group">
+                    <span className="cs-number">100's</span>
+                    <span className="cs-stat">Complete Projects</span>
                 </div>
             </li>
-            <li class="cs-item">
-                <picture class="cs-picture" aria-hidden="true">
-                <FontAwesomeIcon class="cs-icon" icon={faCircleCheck} style={{color: "#015e41", height: "2.5rem"}} />
+            <li className="cs-item">
+                <picture className="cs-picture" aria-hidden="true">
+                <FontAwesomeIcon className="cs-icon" icon={faCircleCheck} style={{color: "#015e41", height: "2.5rem"}} />
                     {/* <Image class="cs-icon" src="https://d33wubrfki0l68.cloudfront.net/d654c645ae514f853a14b6214137a98ecd0509a0/14d3f/assets/images/check-gold.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" /> */}
                 </picture>
-                <div class="cs-flex-group">
-                    <span class="cs-number">100%</span>
-                    <span class="cs-stat">Satisfaction</span>
+                <div className="cs-flex-group">
+                    <span className="cs-number">100%</span>
+                    <span className="cs-stat">Satisfaction</span>
                 </div>
             </li>
         </ul>
