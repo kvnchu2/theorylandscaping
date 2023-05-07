@@ -15,6 +15,8 @@ import PressureWasher from '../public/images/pressure-washer.jpg';
 import Snow from '../public/images/snow.jpg';
 import Junk from '../public/images/junk.jpg';
 import Cta from '../public/images/cta.jpg';
+import Profile from '../public/images/profile.svg';
+import ProfileWoman from '../public/images/profile-woman.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
@@ -205,6 +207,51 @@ export default function Home() {
             </li>
         </ul>
     </div>
+
+    <section id="reviews-home">
+        <div className="cs-container">
+        <h2 className="title">Testimonials</h2>
+            <p className="cs-text">
+                
+            </p>
+            <ul className="cs-card-group">
+                
+                <li className="cs-item">
+                    <div className="cs-item-img">
+                    <Image className="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src={ProfileWoman} alt="profile picture" width="80" height="80"/>
+                    </div>
+                    
+                    <p className="cs-item-p">
+                    The company is very punctual and did an excellent job.
+                    </p>
+                    <span className="cs-reviewer">
+                        Maanvir Brar
+                        <span className="cs-desc">Customer</span>
+                    </span>
+                    <div className="cs-item-stars">
+                        <Image aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16" />
+                    </div>
+                </li>
+
+                <li className="cs-item">
+                    <div className="cs-item-img">
+                        <Image className="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src={Profile} alt="profile picture" width="80" height="80"/>
+                    </div>
+                    <p className="cs-item-p">
+                    Awesome people and awesome work! Grass is greener than ever!!
+                    </p>
+                    <span className="cs-reviewer">
+                        Dame Dot
+                        <span className="cs-desc">Customer</span>
+                    </span>
+                    <div className="cs-item-stars">
+                        <Image aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16"/>
+                    </div>
+                </li>
+            </ul>
+            <a aria-label="read more reviews" href="/reviews" className="button-solid">Read More</a>
+        </div>
+    </section>
 
     <section id="cta">
             <div className="container">

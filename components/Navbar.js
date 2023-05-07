@@ -75,6 +75,15 @@ const Navbar = () => {
                     
                     setNavActive(false);
                   }}
+                  key="Testimonials"
+                >
+                  <NavItem text="Testimonials" href="/testimonials"  />
+              </div>
+              <div
+                  onClick={() => {
+                    
+                    setNavActive(false);
+                  }}
                   key="Contact"
                 >
                   <NavItem text="Contact" href="/contact"  />

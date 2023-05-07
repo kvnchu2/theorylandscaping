@@ -6,6 +6,8 @@ import "../styles/home.modules.css";
 import "../styles/root.modules.css";
 
 import "../styles/contact.modules.css";
+import "../styles/reviews.modules.css";
+import "../styles/reviews-home.modules.css";
 
 
 import "../styles/components/dropdown.modules.css";

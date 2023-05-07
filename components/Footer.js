@@ -24,6 +24,7 @@ return (
                   <ul>
                       <li><h2>Company</h2></li>
                       <li><Link href="/"><a>Home</a></Link></li>
+                      <li><Link href="/testimonials"><a>Testimonials</a></Link></li>
                       <li><Link href="/contact"><a>Contact</a></Link></li>
                   </ul>
                   <ul>
