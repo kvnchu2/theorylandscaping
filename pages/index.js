@@ -249,7 +249,7 @@ export default function Home() {
                     </div>
                 </li>
             </ul>
-            <a aria-label="read more reviews" href="/reviews" className="button-solid">Read More</a>
+            <a aria-label="read more reviews" href="/testimonials" className="button-solid">Read More</a>
         </div>
     </section>
 
