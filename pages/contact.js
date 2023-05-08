@@ -13,7 +13,7 @@ const Contact = () => {
             <h2>Send a Message</h2>
             <p>If you have any questions or concerns please feel free to reach out to us.  We respond to every call and email.</p>
             {/* <form id="contact" name="Contact Form" method="post" data-netlify-recaptcha="true" data-netlify="true"> */}
-            <form id="contact" name="Contact Form" method="post" action="https://formspree.io/f/myyagnzn">
+            <form id="contact" name="Contact Form" method="post" action="https://formspree.io/f/mayzvgoz">
                     <div className="input-group">
                         <label htmlFor="name">Full Name</label>
                         <input id="name" aria-label="name" className="input1" name="name" placeholder="Full Name" type="text" tabIndex="1" required></input>
