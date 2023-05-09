@@ -245,11 +245,11 @@ export default function Home() {
                         <span className="cs-desc">Customer</span>
                     </span>
                     <div className="cs-item-stars">
-                        <Image aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16"/>
+                        <Image loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16"/>
                     </div>
                 </li>
             </ul>
-            <a aria-label="read more reviews" href="/testimonials" className="button-solid">Read More</a>
+            <Link href="/testimonials"><a aria-label="read more reviews" className="button-solid">Read More</a></Link>
         </div>
     </section>
 

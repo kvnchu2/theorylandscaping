@@ -16,7 +16,7 @@ export default function Testimonials() {
     <div className="container">
         <div className="review">
             <picture className="profile">
-                <Image loading="lazy" decoding="async" src={Profile} alt="" width="99" height="99" />
+                <Image loading="lazy" decoding="async" src={Profile} alt="male-profile" width="99" height="99" />
             </picture>
             <p>
                 I was very satisfied with this company’s work. The staff was respectful and easy to communicate with. Their work was done professionally and efficiently. Would definitely work with them again.
@@ -30,7 +30,7 @@ export default function Testimonials() {
         </div>
         <div className="review">
             <picture className="profile">
-                <Image loading="lazy" decoding="async" src={Profile} alt="" width="99" height="99" />
+                <Image loading="lazy" decoding="async" src={Profile} alt="male-profile" width="99" height="99" />
                 </picture>
                 <p>
                 The company is very punctual and did an excellent job.
@@ -44,7 +44,7 @@ export default function Testimonials() {
         </div>
         <div className="review">
             <picture className="profile">
-                <Image loading="lazy" decoding="async" src={Profile} alt="" width="99" height="99" />
+                <Image loading="lazy" decoding="async" src={Profile} alt="male-profile" width="99" height="99" />
                 </picture>
                 <p>
                 Awesome people and awesome work! Grass is greener than ever!!
@@ -58,7 +58,7 @@ export default function Testimonials() {
         </div>
         <div className="review">
             <picture className="profile">
-                <Image loading="lazy" decoding="async" src={ProfileWoman} alt="" width="99" height="99" />
+                <Image loading="lazy" decoding="async" src={ProfileWoman} alt="female-profile" width="99" height="99" />
                 </picture>
                 <p>
                 I have been using these guys for years, highly recommend.
@@ -72,7 +72,7 @@ export default function Testimonials() {
         </div>
         <div className="review">
             <picture className="profile">
-                <Image loading="lazy" decoding="async" src={Profile} alt="" width="99" height="99" />
+                <Image loading="lazy" decoding="async" src={Profile} alt="male-profile" width="99" height="99" />
                 </picture>
                 <p>
                 Did a great job and was very respectful
@@ -86,7 +86,7 @@ export default function Testimonials() {
         </div>
         <div className="review">
             <picture className="profile">
-                <Image loading="lazy" decoding="async" src={Profile} alt="" width="99" height="99" />
+                <Image loading="lazy" decoding="async" src={Profile} alt="male-profile" width="99" height="99" />
                 </picture>
                 <p>
                 
